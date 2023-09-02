@@ -1,0 +1,29 @@
+1693679067566	Sync.SyncScheduler	DEBUG	Next sync in 90000 ms. (why=schedule)
+1693679105601	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693679107189	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1693679107189	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693679107191	Sync.SyncScheduler	DEBUG	Next sync in 90000 ms. (why=schedule)
+1693679107192	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693679110248	Sync.RemoteTabs	INFO	Generating tab list with filter
+1693679110252	Sync.RemoteTabs	DEBUG	Processing client: {"id":"0y6R2P6YqTZM","type":"client","name":"owl’s Firefox on owl","clientType":"desktop","lastModified":1693560489780,"tabs":[]}
+1693679110253	Sync.RemoteTabs	DEBUG	Processing client: {"id":"22Hvkd5BQNOC","type":"client","name":"owl’s Firefox on owl","clientType":"desktop","lastModified":1693616549570,"tabs":[]}
+1693679110253	Sync.RemoteTabs	DEBUG	Processing client: {"id":"4ae8fe694b46c0abb2f32f96c42ba5a0","type":"client","name":"Firefox on samsung SM-S916U","clientType":"phone","lastModified":1693678938530,"tabs":[]}
+1693679110253	Sync.RemoteTabs	DEBUG	Processing client: {"id":"Y20EVs4pguxi","type":"client","name":"Firefox de owl en DESKTOP-8FOTHN9","clientType":"desktop","lastModified":1693504576090,"tabs":[]}
+1693679110253	Sync.RemoteTabs	DEBUG	Processing client: {"id":"d2xPUWWAbHjT","type":"client","name":"owl’s Firefox on owlpc","clientType":"desktop","lastModified":1693102535850,"tabs":[]}
+1693679110253	Sync.RemoteTabs	INFO	Final tab list has 5 clients with 43 tabs.
+1693679112662	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1693679117453	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1693679117453	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1693679117457	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693679117457	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1693679117457	Sync.Service	INFO	Starting sync at 2023-09-02 12:25:17 in browser session n4mAfpq7IG5H
+1693679117457	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693679117458	Sync.Status	INFO	Resetting Status.
+1693679117458	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693679117459	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693679117478	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1693679117478	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1693679117478	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1693679117478	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1693679117479	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1693679117479	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

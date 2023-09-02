@@ -23,9 +23,9 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
             "uiState": {
                 "mode": 1,
-                "x": 22,
+                "x": 967,
                 "y": 22,
-                "width": 1091,
+                "width": 931,
                 "height": 1036
             }
         },
@@ -178,6 +178,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -761,7 +768,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

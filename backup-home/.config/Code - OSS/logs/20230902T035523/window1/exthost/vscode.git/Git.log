@@ -97,3 +97,26 @@
 2023-09-02 04:06:26.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
 2023-09-02 04:06:26.682 [info] > git show --textconv :backup [2ms]
 2023-09-02 04:06:26.682 [info] > git status -z -uall [10ms]
+2023-09-02 12:24:34.395 [warning] ENOENT: no such file or directory, open '/home/owl/config-files/backup-home/.git/HEAD'
+2023-09-02 12:24:34.404 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/owl/config-files/backup-home/.git/config'
+2023-09-02 12:24:34.422 [info] > git config --get commit.template [1ms]
+2023-09-02 12:24:34.422 [info] > git config --get commit.template [11ms]
+2023-09-02 12:24:34.422 [info] > git remote --verbose [19ms]
+2023-09-02 12:24:34.422 [info] > git symbolic-ref --short HEAD [27ms]
+2023-09-02 12:24:34.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-09-02 12:24:34.460 [info] > git ls-files --stage -- /home/owl/config-files/backup [19ms]
+2023-09-02 12:24:34.469 [info] > git status -z -uall [17ms]
+2023-09-02 12:24:34.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-09-02 12:24:34.481 [info] > git cat-file -s 00d7fe4d278c4e470ec8365a4694cd82020497d2 [13ms]
+2023-09-02 12:24:34.492 [info] > git status -z -uall [14ms]
+2023-09-02 12:24:34.494 [info] > git show --textconv :backup [2ms]
+2023-09-02 12:24:39.498 [warning] ENOENT: no such file or directory, open '/home/owl/config-files/backup-home/.git/HEAD'
+2023-09-02 12:24:39.508 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/owl/config-files/backup-home/.git/config'
+2023-09-02 12:24:39.528 [info] > git config --get commit.template [11ms]
+2023-09-02 12:24:39.528 [info] > git remote --verbose [20ms]
+2023-09-02 12:24:39.528 [info] > git symbolic-ref --short HEAD [30ms]
+2023-09-02 12:24:39.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-02 12:24:39.546 [info] > git config --get commit.template [19ms]
+2023-09-02 12:24:39.555 [info] > git status -z -uall [9ms]
+2023-09-02 12:24:39.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-09-02 12:24:39.576 [info] > git status -z -uall [9ms]
