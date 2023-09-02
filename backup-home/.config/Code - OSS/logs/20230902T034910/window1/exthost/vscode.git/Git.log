@@ -1,0 +1,27 @@
+2023-09-02 03:49:12.459 [info] Log level: Info
+2023-09-02 03:49:12.459 [info] Validating found git in: "git"
+2023-09-02 03:49:12.459 [info] Using git "2.42.0" from "git"
+2023-09-02 03:49:12.459 [info] > git rev-parse --show-toplevel [4ms]
+2023-09-02 03:49:12.459 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2023-09-02 03:49:12.459 [info] Open repository: /home/owl/config-files
+2023-09-02 03:49:12.468 [info] > git config --get commit.template [8ms]
+2023-09-02 03:49:12.469 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-02 03:49:12.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-02 03:49:12.518 [info] > git status -z -uall [35ms]
+2023-09-02 03:49:12.540 [info] > git config --get commit.template [1ms]
+2023-09-02 03:49:12.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2023-09-02 03:49:12.622 [info] > git status -z -uall [44ms]
+2023-09-02 03:49:13.098 [info] > git check-ignore -v -z --stdin [3ms]
+2023-09-02 03:49:26.276 [info] > git show --textconv :restore [6ms]
+2023-09-02 03:49:26.277 [info] > git ls-files --stage -- /home/owl/config-files/restore [1ms]
+2023-09-02 03:49:29.474 [info] > git show --textconv :backup [9ms]
+2023-09-02 03:49:29.476 [info] > git ls-files --stage -- /home/owl/config-files/backup [3ms]
+2023-09-02 03:49:29.486 [info] > git cat-file -s d2f2805dc4f370c7b72ce3a2cc37952a234bb0ac [1ms]
+2023-09-02 03:49:32.472 [info] > git show --textconv :restore [10ms]
+2023-09-02 03:49:32.474 [info] > git ls-files --stage -- /home/owl/config-files/restore [3ms]
+2023-09-02 03:50:04.004 [info] > git config --get commit.template [2ms]
+2023-09-02 03:50:04.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-02 03:50:04.057 [info] > git status -z -uall [33ms]
+2023-09-02 03:50:11.880 [info] > git config --get commit.template [1ms]
+2023-09-02 03:50:11.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-02 03:50:11.927 [info] > git status -z -uall [35ms]

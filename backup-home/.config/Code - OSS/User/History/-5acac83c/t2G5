@@ -1,0 +1,59 @@
+#!/bin/bash
+
+#Reset
+rm -r backup-home
+
+mkdir -p backup-home
+
+cd backup-home
+
+
+
+# Copy all configuration folders and files
+cp -ap ~/.config/ .
+
+cp -ap ~/.ssh/ .
+
+# Background and Images
+cp -ap ~/Pictures .
+
+
+cp -ap ~/.bashrc .
+
+
+mkdir -p firefox
+cp -ap ~/.mozilla/firefox/owl.profile ./firefox/
+cp -ap ~/.mozilla/firefox/interact.profile ./firefox/
+
+
+
+
+echo "First Run? first | n (nothing) | default (git add ., git commit -m, git push)"
+read first_run
+if [ "$first_run" = "first" ] ; then
+	echo "running first time"
+
+# Github repo token and password
+# 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
+# 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
+	git init
+	git add .
+	git commit -m "something"
+	git remote add origin https://github.com/BlueOwlet/config-files.git
+fi
+
+if ["$first_run" = "n"]; then
+	echo "running nothing"
+fi
+
+formatted_date=$(date '+%m/%d/%Y %T')
+
+if ["$first_run" = ""]; then
+	git add .
+	git commit -m "auto backup: $formatted_date"
+fi
+
+
+
+echo "final push"
+git push -f origin master

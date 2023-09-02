@@ -1,0 +1,19 @@
+2023-09-02 03:55:24.437 [info] Extension host with pid 32948 started
+2023-09-02 03:55:24.437 [info] Skipping acquiring lock for /home/owl/.config/Code - OSS/User/workspaceStorage/831148750dfe76b08f1dd2ffd5ec88e9.
+2023-09-02 03:55:24.541 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-02 03:55:24.580 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-02 03:55:24.589 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-02 03:55:24.606 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-02 03:55:24.649 [info] Eager extensions activated
+2023-09-02 03:55:24.707 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 03:55:24.709 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 03:55:24.806 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-02 03:56:18.388 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2023-09-02 03:56:59.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2297
+2023-09-02 03:57:04.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2275
+2023-09-02 03:58:14.755 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2297
+2023-09-02 03:59:54.871 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a git repository (or any of the parent directories): .git\n","exitCode":128,"gitErrorCode":"NotAGitRepository","gitCommand":"remote","gitArgs":["remote","--verbose"]}
+2023-09-02 03:59:54.871 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a git repository (or any of the parent directories): .git\n","exitCode":128,"gitErrorCode":"NotAGitRepository","gitCommand":"remote","gitArgs":["remote","--verbose"]}
+2023-09-02 04:01:24.678 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1163
+2023-09-02 04:01:24.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1163
+2023-09-02 04:02:52.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1163

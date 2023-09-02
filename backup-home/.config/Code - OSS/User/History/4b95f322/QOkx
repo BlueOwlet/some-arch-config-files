@@ -1,0 +1,79 @@
+#!/bin/bash
+
+sudo pacman -Syu
+
+
+#Starship theme
+curl -sS https://starship.rs/install.sh | sh
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+
+
+
+
+# Personal system packages
+sudo pacman -S usbutils rsync bat xdg-desktop-portal-hyprland
+# Personal dependencies
+sudo pacman -S firefox git inkscape blender code usbutils rsync
+
+# Policy Kit
+sudo pacman -S gnome-keyring polkit-gnome
+
+# File Manager
+sudo pacman -S nautilus
+
+
+#bluetooth
+sudo pacman -S bluez bluez-utils blueman
+
+sudo pacman -S meson clang
+
+
+#sound -> helvum
+git clone https://gitlab.freedesktop.org/pipewire/helvum.git
+cd helvum
+meson setup build && cd build
+meson compile
+meson install
+
+
+
+
+# App Launcher
+sudo pacman -S wofi
+
+#PARU -> ARCH USER REPOSITORY (AUR) HELPER
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+cd ~
+
+# Background sofwtare
+sudo pacman -S swaybg
+sudo paru -S waypaper-git
+
+
+
+# KVM QEMU virt-manager
+# main package
+sudo pacman -S libvirt
+# main QEMU package
+sudo pacman -S qemu-desktop
+# extra packages for virt-manager QEMU connection
+sudo pacman -S iptables-nft dnsmasq vde2 bridge-utils openbsd-netcat
+# main virt-manager packages
+sudo pacman -S virt-manager virt-viewer
+
+# enable and start libvirt services
+sudo systemctl enable libvirtd.socket
+sudo systemctl start libvirtd.socket
+
+
+# add user to group
+sudo usermod -aG libvirt $USER
+sudo systemctl restart libvirtd.service
+
+#chown $USER:libvirt-qemu /path/to/vm/folder
+
+
+

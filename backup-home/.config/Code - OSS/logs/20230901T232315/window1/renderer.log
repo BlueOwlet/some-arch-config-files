@@ -1,0 +1,4 @@
+2023-09-01 23:23:16.810 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/.config/starship.toml","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-01 23:23:17.245 [info] Started initializing default profile extensions in extensions installation folder. file:///home/owl/.vscode-oss/extensions
+2023-09-01 23:23:17.394 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/owl/.vscode-oss/extensions
+2023-09-01 23:23:20.341 [info] [perf] Render performance baseline is 159ms
