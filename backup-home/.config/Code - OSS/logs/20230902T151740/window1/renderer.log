@@ -1,0 +1,2 @@
+2023-09-02 15:17:41.051 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/.ssh/owl.pub","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-02 15:17:44.715 [info] [perf] Render performance baseline is 159ms

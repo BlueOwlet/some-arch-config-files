@@ -5,7 +5,7 @@
             "file:///home/owl/config-files": "__default__profile__"
         },
         "emptyWindows": {
-            "1693689215752": "__default__profile__"
+            "1693689460388": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -15,19 +15,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1693689215752"
+                "backupFolder": "1693689460388"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693689215752",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693689460388",
             "uiState": {
                 "mode": 1,
-                "x": 22,
-                "y": 22,
-                "width": 1876,
-                "height": 1036
+                "x": 967,
+                "y": 547,
+                "width": 931,
+                "height": 511
             }
         },
         "openedWindows": []
@@ -89,6 +89,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.ssh/owl.pub",
+                                        "path": "/home/owl/.ssh/owl.pub",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.ssh/owl.pub"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -781,7 +792,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -790,7 +802,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
