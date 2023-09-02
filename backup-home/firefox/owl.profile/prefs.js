@@ -195,7 +195,7 @@ user_pref("services.sync.engine.creditcards", true);
 user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.forms.lastSync", "1693648331.10");
 user_pref("services.sync.forms.syncID", "5EbdlajMKVtn");
-user_pref("services.sync.globalScore", 10);
+user_pref("services.sync.globalScore", 14);
 user_pref("services.sync.lastPing", 1693616541);
 user_pref("services.sync.lastSync", "Sat Sep 02 2023 03:57:54 GMT-0600 (Central Standard Time)");
 user_pref("services.sync.lastTabFetch", 1693648331);
