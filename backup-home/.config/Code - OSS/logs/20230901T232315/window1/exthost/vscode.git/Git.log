@@ -1,8 +1,0 @@
-2023-09-01 23:23:29.487 [info] Log level: Info
-2023-09-01 23:23:29.487 [info] Validating found git in: "git"
-2023-09-01 23:23:29.487 [info] Using git "2.42.0" from "git"
-2023-09-01 23:23:32.579 [info] Log level: Info
-2023-09-01 23:23:32.579 [info] Validating found git in: "git"
-2023-09-01 23:23:32.579 [info] Using git "2.42.0" from "git"
-2023-09-01 23:23:36.274 [info] > git rev-parse --show-toplevel [1ms]
-2023-09-01 23:23:36.274 [info] fatal: not a git repository (or any of the parent directories): .git

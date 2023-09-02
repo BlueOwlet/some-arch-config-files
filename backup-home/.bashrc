@@ -16,8 +16,9 @@ PS1='[\u@\h \W]\$ '
 
 # ALIASES
 
-alias cat = bat
-
+alias cat=bat
+alias ls='ls -l'
+alias ll='ls -la'
 
 # Starship startup
 eval "$(starship init bash)"

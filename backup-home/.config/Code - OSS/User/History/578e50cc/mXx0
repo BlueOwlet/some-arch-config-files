@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#Reset
+
+cd backup-home
+
+
+
+# Copy all configuration folders and files
+cp -ap .config ~/
+
+# SSH
+cp -ap .ssh ~/
+chmod u+rwx,go-rwx ~/.ssh
+chmod 700 ~/.ssh
+
+# bashrc
+cp -ap .bashrc ~/ 
+
+
+
+
+# Background and Images
+cp -ap Pictures ~/
+
+# Firefox profiles
+cp -ap ./firefox/owl.profile ~/.mozilla/firefox/
+cp -ap ./firefox/interact.profile ~/.mozilla/firefox/
+
+cd ..
+git remote set-url origin git@github.com:BlueOwlet/config-files.git
+
+
+
+

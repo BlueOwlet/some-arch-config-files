@@ -93,6 +93,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/config-files/restore",
+                                        "path": "/home/owl/config-files/restore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files/restore"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/share/applications/blender.desktop",
+                                        "path": "/usr/share/applications/blender.desktop",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/share/applications/blender.desktop"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/owl/.config/hypr/hyprland.conf",
                                         "path": "/home/owl/.config/hypr/hyprland.conf",
                                         "scheme": "file"
@@ -768,8 +790,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"

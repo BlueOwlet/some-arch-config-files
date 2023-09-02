@@ -1,0 +1,101 @@
+#!/bin/bash
+
+sudo pacman --noconfirm -Syu
+
+# Adding extra users
+create_users(){
+    usernames=("vyda" "interact")
+    for username in "${usernames}"; do
+        if id "$username" &>/dev/null; then
+            echo "User $username already exists."
+        else
+            sudo useradd "$username"
+            echo "User $username created."
+        fi
+    done
+}
+
+create_users
+
+
+
+
+
+#Starship theme
+curl -sS https://starship.rs/install.sh | sh
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+
+
+
+
+# Personal system packages
+sudo pacman --noconfirm -S usbutils rsync bat xdg-desktop-portal-hyprland udiskie
+# Personal dependencies
+sudo pacman --noconfirm -S firefox git inkscape blender code usbutils rsync
+
+# Policy Kit
+sudo pacman --noconfirm -S gnome-keyring polkit-gnome
+
+# File Manager
+sudo pacman --noconfirm -S nautilus
+
+
+#bluetooth
+sudo pacman --noconfirm -S bluez bluez-utils blueman
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
+
+sudo pacman --noconfirm -S meson clang
+
+
+#sound -> helvum
+cd ~
+git clone https://gitlab.freedesktop.org/pipewire/helvum.git
+cd helvum
+meson setup build && cd build
+meson compile
+meson install
+
+
+
+
+# App Launcher
+sudo pacman --noconfirm -S wofi
+
+#PARU -> ARCH USER REPOSITORY (AUR) HELPER
+sudo pacman --noconfirm -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+cd ~
+
+# Background sofwtare
+sudo pacman --noconfirm -S swaybg
+sudo paru -S waypaper-git
+
+
+
+# KVM QEMU virt-manager
+# main package
+sudo pacman --noconfirm -S libvirt
+# main QEMU package
+sudo pacman --noconfirm -S qemu-desktop
+# extra packages for virt-manager QEMU connection
+sudo pacman --noconfirm -S iptables-nft dnsmasq vde2 bridge-utils openbsd-netcat
+# main virt-manager packages
+sudo pacman --noconfirm -S virt-manager virt-viewer
+# enable and start libvirt services
+sudo systemctl enable libvirtd.socket
+sudo systemctl start libvirtd.socket
+# add user to group
+sudo usermod -aG libvirt $USER
+# restart libvirt service
+sudo systemctl restart libvirtd.service
+
+#  IMPORTANT    use this command on the external drive or look online to change virt-namager conf from root to your own user and libvert-qemu group
+# This is applied to the user folder in the media folder, not to the actual drive
+sudo chmod a+x /media/owl/
+
+
+
