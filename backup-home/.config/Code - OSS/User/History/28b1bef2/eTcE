@@ -1,0 +1,27 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+
+
+
+
+
+# ALIASES
+
+alias ls='ls -l --color=auto'
+alias ll='ls -la --color=auto'
+
+# SERVERS
+
+alias sshfsvyda=' sshfs -o IdentityFile=~/.ssh/vyda vyda@vyda.mx:/var/www/vyda-project ~/server/ 2>&1'
+
+
+# Starship startup
+eval "$(starship init bash)"

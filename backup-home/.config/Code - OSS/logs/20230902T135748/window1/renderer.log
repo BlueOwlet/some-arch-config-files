@@ -1,0 +1,2 @@
+2023-09-02 13:57:49.215 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/.bashrc","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-02 13:57:52.752 [info] [perf] Render performance baseline is 156ms
