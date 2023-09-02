@@ -1,4 +1,0 @@
-2023-09-02 13:56:33.501 [info] update#setState disabled
-2023-09-02 13:56:33.503 [info] update#ctor - updates are disabled as there is no update URL
-2023-09-02 13:57:41.997 [info] Extension host with pid 15469 exited with code: 0, signal: unknown.
-2023-09-02 13:57:42.014 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15471]: crashed with code 15 and reason 'killed'

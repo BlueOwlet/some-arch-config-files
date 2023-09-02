@@ -5,3 +5,5 @@
 2023-09-02 15:17:41.603 [info] Eager extensions activated
 2023-09-02 15:17:41.609 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
 2023-09-02 15:17:41.610 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 15:19:41.825 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-02 15:19:41.827 [info] Extension host with pid 33513 exiting with code 0

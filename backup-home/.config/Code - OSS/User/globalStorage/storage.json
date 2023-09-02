@@ -2,32 +2,32 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
+            "file:///home/owl/.config": "__default__profile__",
             "file:///home/owl/config-files": "__default__profile__"
         },
-        "emptyWindows": {
-            "1693689460388": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1693689460388"
+                "folderUri": "file:///home/owl/config-files"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693689460388",
+            "folder": "file:///home/owl/config-files",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
             "uiState": {
                 "mode": 1,
-                "x": 967,
-                "y": 537,
+                "x": 22,
+                "y": 22,
                 "width": 931,
-                "height": 520
+                "height": 1036
             }
         },
         "openedWindows": []
@@ -86,6 +86,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/config-files"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config",
+                                        "path": "/home/owl/.config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -224,6 +235,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -352,6 +370,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -792,8 +814,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -802,8 +823,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1303,6 +1323,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
