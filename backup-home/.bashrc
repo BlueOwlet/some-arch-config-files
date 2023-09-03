@@ -15,7 +15,7 @@ PS1='[\u@\h \W]\$ '
 
 # ALIASES
 
-alias ls='ls -l --color=auto'
+alias ls='ls -S --color=auto'
 alias ll='ls -la --color=auto'
 
 # SERVERS

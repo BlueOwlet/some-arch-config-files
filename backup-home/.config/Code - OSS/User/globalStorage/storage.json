@@ -3,30 +3,32 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/owl/.config": "__default__profile__",
-            "file:///home/owl/config-files": "__default__profile__"
+            "file:///home/owl/config-files": "__default__profile__",
+            "file:///home/owl/server": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1693705660710": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/owl/config-files"
+                "backupFolder": "1693705660710"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/owl/config-files",
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693705660710",
             "uiState": {
                 "mode": 1,
-                "x": 22,
+                "x": 471,
                 "y": 22,
-                "width": 931,
+                "width": 58,
                 "height": 1036
             }
         },
@@ -80,6 +82,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/server",
+                                        "path": "/home/owl/server",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/server"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/owl/config-files",
                                         "path": "/home/owl/config-files",
                                         "scheme": "file"
@@ -100,6 +113,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Videos/Foundation.S02E02.WEB.x264-TORRENTGALAXY%5BTGx%5D/NEW%20upcoming%20releases%20by%20Xclusive.txt",
+                                        "path": "/home/owl/Videos/Foundation.S02E02.WEB.x264-TORRENTGALAXY[TGx]/NEW upcoming releases by Xclusive.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Videos/Foundation.S02E02.WEB.x264-TORRENTGALAXY[TGx]/NEW upcoming releases by Xclusive.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/config-files/post",
+                                        "path": "/home/owl/config-files/post",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files/post"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/server/django-setup.sh",
+                                        "path": "/home/owl/server/django-setup.sh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/server/django-setup.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -168,17 +214,6 @@
                                     "label": "~/.config/hypr/hyprland.conf"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files/post",
-                                        "path": "/home/owl/config-files/post",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files/post"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -234,13 +269,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -370,10 +398,6 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -814,7 +838,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -823,7 +848,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1323,11 +1349,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",

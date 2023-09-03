@@ -1,0 +1,22 @@
+2023-09-02 15:33:18.942 [info] Log level: Info
+2023-09-02 15:33:18.942 [info] Validating found git in: "git"
+2023-09-02 15:33:18.942 [info] Using git "2.42.0" from "git"
+2023-09-02 15:33:19.448 [info] > git rev-parse --show-toplevel [511ms]
+2023-09-02 15:33:19.448 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-02 15:34:49.866 [info] > git rev-parse --show-toplevel [598ms]
+2023-09-02 15:34:49.866 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-02 16:26:48.494 [info] > git rev-parse --show-toplevel [364ms]
+2023-09-02 16:26:48.494 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-02 17:01:25.349 [info] > git rev-parse --show-toplevel [248ms]
+2023-09-02 17:01:25.349 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-02 17:02:01.478 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-02 17:02:09.718 [info] > git rev-parse --show-toplevel [863ms]
+2023-09-02 17:02:09.718 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-02 17:44:30.445 [info] > git rev-parse --show-toplevel [338ms]
+2023-09-02 17:44:30.445 [info] fatal: not a git repository (or any parent up to mount point /home/owl)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
