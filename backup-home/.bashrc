@@ -15,9 +15,19 @@ PS1='[\u@\h \W]\$ '
 
 # ALIASES
 
-alias ls='ls -S --color=auto'
-alias ll='ls -la --color=auto'
-alias cat='bat'
+alias ls='ls -1 --color=auto'
+alias ll='ls -lh --color=auto'
+alias check='bat'
+
+# ALIAS FUNCTIONS
+cd() {
+	builtin cd $@;
+	ls;
+
+}
+
+
+
 # SERVERS
 alias sshvyda='ssh -i ~/.ssh/vyda vyda@vyda.mx'
 alias sshfsvyda='sshfs -o IdentityFile=~/.ssh/vyda vyda@vyda.mx:/var/www/vyda-project ~/server/'

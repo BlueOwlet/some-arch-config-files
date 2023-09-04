@@ -95,3 +95,15 @@ true
 0
 true
 #
+
+https://www.twitch.tv/
+https://www.twitch.tv/service-worker.js
+false
+{536c2607-00cd-48ca-a51b-f791b9aadb01}
+0
+1693809954976009
+1693809954980295
+1693809954938420
+0
+true
+#

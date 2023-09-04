@@ -7,7 +7,7 @@
             "file:///home/owl/server": "__default__profile__"
         },
         "emptyWindows": {
-            "1693794716527": "__default__profile__"
+            "1693809640303": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,19 +17,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1693794716527"
+                "backupFolder": "1693809640303"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693794716527",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693809640303",
             "uiState": {
                 "mode": 1,
-                "x": 389,
-                "y": 22,
-                "width": 1508,
-                "height": 1036
+                "x": 1101,
+                "y": 580,
+                "width": 796,
+                "height": 477
             }
         },
         "openedWindows": []
@@ -118,6 +118,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/.bashrc",
+                                        "path": "/home/owl/.bashrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.bashrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/starship.toml",
+                                        "path": "/home/owl/.config/starship.toml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/starship.toml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///usr/share/sddm/themes/maldives/Main.qml",
                                         "path": "/usr/share/sddm/themes/maldives/Main.qml",
                                         "scheme": "file"
@@ -179,28 +201,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.ssh/owl.pub"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.bashrc",
-                                        "path": "/home/owl/.bashrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.bashrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.config/starship.toml",
-                                        "path": "/home/owl/.config/starship.toml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/starship.toml"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -269,8 +269,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -849,8 +848,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -859,8 +857,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"

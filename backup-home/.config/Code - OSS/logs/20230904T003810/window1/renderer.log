@@ -1,0 +1,2 @@
+2023-09-04 00:38:11.087 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/.config/starship.toml","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-04 00:38:15.381 [info] [perf] Render performance baseline is 156ms
