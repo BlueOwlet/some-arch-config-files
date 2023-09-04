@@ -43,7 +43,7 @@ curl -sS https://starship.rs/install.sh | sh
 # Personal system packages
 sudo pacman --noconfirm -S usbutils rsync bat xdg-desktop-portal-hyprland udiskie sshfs
 # Personal dependencies
-sudo pacman --noconfirm -S firefox git inkscape ktorrent code usbutils vlc
+sudo pacman --noconfirm -S firefox git inkscape mixxx ktorrent code usbutils vlc
 
 # Policy Kit
 sudo pacman --noconfirm -S gnome-keyring polkit-gnome
