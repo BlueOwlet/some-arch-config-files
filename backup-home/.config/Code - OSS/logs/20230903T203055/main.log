@@ -1,0 +1,4 @@
+2023-09-03 20:30:55.814 [info] update#setState disabled
+2023-09-03 20:30:55.816 [info] update#ctor - updates are disabled as there is no update URL
+2023-09-03 20:31:50.282 [error] CodeWindow: renderer process gone (reason: crashed, code: 132)
+2023-09-03 20:31:50.300 [info] Extension host with pid 53007 exited with code: 0, signal: unknown.

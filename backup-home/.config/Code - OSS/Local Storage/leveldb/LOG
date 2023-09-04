@@ -1,3 +1,3 @@
-2023/09/03-14:38:11.258 2158 Reusing MANIFEST /home/owl/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
-2023/09/03-14:38:11.259 2158 Recovering log #3
-2023/09/03-14:38:11.259 2158 Reusing old log /home/owl/.config/Code - OSS/Local Storage/leveldb/000003.log 
+2023/09/03-20:31:55.675 cfe7 Reusing MANIFEST /home/owl/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2023/09/03-20:31:55.675 cfe7 Recovering log #3
+2023/09/03-20:31:55.675 cfe7 Reusing old log /home/owl/.config/Code - OSS/Local Storage/leveldb/000003.log 
