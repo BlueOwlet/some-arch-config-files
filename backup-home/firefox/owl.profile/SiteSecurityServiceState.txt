@@ -2,7 +2,7 @@ aus5.mozilla.org	2	19604	1725238977244,1,0
 vpnpro.com^partitionKey=%28https%2Cvpnpro.com%29	1	19603	1725232418875,1,1
 collector.github.com^partitionKey=%28https%2Cgithub.com%29	2	19604	2324849474104,1,0
 tcr9i.chat.openai.com^partitionKey=%28https%2Copenai.com%29	2	19604	1725248508053,1,1
-profile.accounts.firefox.com	2	19604	1725240055682,1,1
+profile.accounts.firefox.com	2	19604	1725326464621,1,1
 contile.services.mozilla.com	2	19604	1725241626864,1,0
 fadeevab.com^partitionKey=%28https%2Cfadeevab.com%29	0	19602	1756702806797,1,1
 gist.githubusercontent.com^partitionKey=%28https%2Cgist.githubusercontent.com%29	0	19603	1725317873534,1,0
@@ -26,7 +26,7 @@ ac.duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	1	19603	172523
 ugprod.geeksforgeeks.org^partitionKey=%28https%2Cgeeksforgeeks.org%29	0	19602	1725173221903,1,1
 www.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	1	19603	1725152514637,1,0
 www.geeksforgeeks.org^partitionKey=%28https%2Cgeeksforgeeks.org%29	0	19602	1725173176312,1,1
-api.accounts.firefox.com	1	19603	1725240053798,1,1
+api.accounts.firefox.com	2	19604	1725326464933,1,1
 sso.godaddy.com^partitionKey=%28https%2Cgodaddy.com%29	0	19602	1709174820823,1,1
 music.youtube.com^partitionKey=%28https%2Cyoutube.com%29	1	19603	1725158516951,1,0
 www.paypal.com^partitionKey=%28https%2Cpaypal.com%29	0	19602	1756689715632,1,1
