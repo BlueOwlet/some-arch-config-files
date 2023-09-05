@@ -9,7 +9,12 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 
+cd(){
+	builtin cd $@;
+	ls -1;
 
+
+}
 
 
 
