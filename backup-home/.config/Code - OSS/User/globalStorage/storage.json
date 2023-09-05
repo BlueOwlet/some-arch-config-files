@@ -6,10 +6,7 @@
             "file:///home/owl/config-files": "__default__profile__",
             "file:///home/owl/server": "__default__profile__"
         },
-        "emptyWindows": {
-            "1693809640303": "__default__profile__",
-            "1693881174905": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -22,10 +19,7 @@
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1693809640303"
-            },
-            {
-                "backupFolder": "1693881174905"
+                "backupFolder": "1693897088066"
             }
         ]
     },
@@ -35,10 +29,10 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 0,
-                "width": 1920,
-                "height": 1080
+                "x": 22,
+                "y": 22,
+                "width": 1876,
+                "height": 1036
             }
         },
         "openedWindows": []
@@ -81,7 +75,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -277,8 +272,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -616,7 +610,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1758,7 +1753,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

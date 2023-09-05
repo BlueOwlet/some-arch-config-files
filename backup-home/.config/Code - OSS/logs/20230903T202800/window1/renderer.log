@@ -1,2 +1,0 @@
-2023-09-03 20:28:01.185 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/usr/share/sddm/themes/maya/Main.qml","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2023-09-03 20:28:04.849 [info] [perf] Render performance baseline is 158ms

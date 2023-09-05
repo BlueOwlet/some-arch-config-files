@@ -1,2 +1,0 @@
-2023-09-03 20:31:56.476 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/usr/share/sddm/themes/maldives/Main.qml","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2023-09-03 20:32:00.137 [info] [perf] Render performance baseline is 159ms

@@ -143,3 +143,15 @@ true
 1
 true
 #
+
+https://forum.garudalinux.org/
+https://forum.garudalinux.org/service-worker.js
+true
+{bb4bba05-034a-411f-8782-3dec15cf1638}
+0
+1693899077786568
+1693899077787703
+1693899071256276
+0
+true
+#

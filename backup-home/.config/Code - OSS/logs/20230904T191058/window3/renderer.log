@@ -1,8 +1,0 @@
-2023-09-04 20:32:55.238 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2023-09-04 20:32:55.255 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
-2023-09-04 20:32:55.275 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
-2023-09-04 20:32:58.553 [info] [perf] Render performance baseline is 159ms
-2023-09-04 20:34:15.859 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
-2023-09-04 20:34:19.509 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
-2023-09-04 22:55:38.204 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
-2023-09-04 22:55:38.211 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
