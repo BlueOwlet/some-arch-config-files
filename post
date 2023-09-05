@@ -41,7 +41,7 @@ curl -sS https://starship.rs/install.sh | sh
 
 
 # Personal system packages
-sudo pacman --noconfirm -S usbutils rsync bat xdg-desktop-portal-hyprland udiskie sshfs
+sudo pacman --noconfirm -S usbutils rsync bat xdg-desktop-portal-hyprland udiskie sshfs flatpak
 # Personal dependencies
 sudo pacman --noconfirm -S firefox git inkscape mixxx ktorrent code usbutils vlc
 
@@ -59,6 +59,15 @@ sudo systemctl start bluetooth.service
 
 
 sudo pacman --noconfirm -S meson clang
+
+
+#sound -> helvum
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install org.gnome.{Platform,Sdk}//44 org.freedesktop.Sdk.Extension.rust-stable//22.08 org.freedesktop.Sdk.Extension.llvm15//22.08
+flatpak-builder --install flatpak-build/ build-aux/org.pipewire.Helvum.json
+flatpak run org.pipewire.Helvum
+
 
 
 #sound -> helvum

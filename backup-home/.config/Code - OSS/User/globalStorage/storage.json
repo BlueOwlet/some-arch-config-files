@@ -7,29 +7,38 @@
             "file:///home/owl/server": "__default__profile__"
         },
         "emptyWindows": {
-            "1693809640303": "__default__profile__"
+            "1693809640303": "__default__profile__",
+            "1693881174905": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/owl/server"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1693809640303"
+            },
+            {
+                "backupFolder": "1693881174905"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/1693809640303",
+            "folder": "file:///home/owl/server",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 1101,
-                "y": 580,
-                "width": 796,
-                "height": 477
+                "x": 22,
+                "y": 212,
+                "width": 1876,
+                "height": 845
             }
         },
         "openedWindows": []
@@ -72,8 +81,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -124,6 +132,39 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.bashrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Downloads/WhatsApp%20Image%202023-08-24%20at%2010.47.25%20AM.jpeg",
+                                        "path": "/home/owl/Downloads/WhatsApp Image 2023-08-24 at 10.47.25 AM.jpeg",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/WhatsApp Image 2023-08-24 at 10.47.25 AM.jpeg"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Desktop/noseque.html.txt",
+                                        "path": "/home/owl/Desktop/noseque.html.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/noseque.html.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///run/media/owl/5A3ED09F3ED0760B/Users/owl/Desktop/noseque.html.txt",
+                                        "path": "/run/media/owl/5A3ED09F3ED0760B/Users/owl/Desktop/noseque.html.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/run/media/owl/5A3ED09F3ED0760B/Users/owl/Desktop/noseque.html.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -190,39 +231,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/server/django-setup.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.ssh/owl.pub",
-                                        "path": "/home/owl/.ssh/owl.pub",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.ssh/owl.pub"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files/restore",
-                                        "path": "/home/owl/config-files/restore",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files/restore"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///usr/share/applications/blender.desktop",
-                                        "path": "/usr/share/applications/blender.desktop",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/usr/share/applications/blender.desktop"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -408,6 +416,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -926,54 +938,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1358,6 +1361,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1732,7 +1740,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 2,
+        "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",

@@ -19,6 +19,8 @@ cp -ap ~/Pictures .
 
 # bashrc
 cp -ap ~/.bashrc .
+# vimrc
+cp -ap ~/.vimrc .
 
 # Firefox profiles
 mkdir -p firefox

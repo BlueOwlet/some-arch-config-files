@@ -16,8 +16,9 @@ chmod u+rw,go-rwx ~/.ssh/*
 #chmod 700 ~/.ssh
 
 # bashrc
-cp -ap .bashrc ~/ 
-
+cp -ap .bashrc ~/
+# vimrc 
+cp -ap .vimrc ~/
 
 
 

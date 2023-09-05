@@ -1,0 +1,167 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vyda.mx - VideoConfer Website</title>
+<style>
+  body {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #434343;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header {
+    background-color: #66CC99;
+    color: #434343;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .login-section {
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 20%;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  .login-section label,
+  .login-section input,
+  .login-section button {
+    color: #666;
+  }
+
+  .create-meeting-button {
+    display: block;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background-color: #66CC99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  .dropdown-content p {
+    color: #666;
+  }
+
+  .create-meeting-button:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Updated styles for feature blocks */
+  .feature-block {
+    background: linear-gradient(135deg, #66CC99, #0099CC);
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin: 0.5em;
+    text-align: center;
+    width: calc(20% - 2em);
+  }
+
+  /* Increased spacing between feature blocks */
+  .right-section {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1em;
+    margin-left: 9em;
+    margin-bottom: 10em; /* Ajusta este valor para agregar espacio abajo de los bloques */
+  }
+
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #434343;
+    color: white;
+    width: 100%;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1 class="site-name">Vyda.mx</h1>
+    <p>Your Space, Your Community, Your Vyda</p>
+    <div class="login-section">
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" value="vbrunhu">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" value="Vb3691215">
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  </header>
+  
+  <div class="create-meeting-button">
+    PLAN MENSUAL
+    <div class="dropdown-content">
+      <p>Adquiere tu plan mensual para tener todas las juntas que quieras, grabar tus videoconferencias y conectar con todos por solo $99 pesos mensuales.</p>
+    </div>
+  </div>
+  <div class="create-meeting-button">
+    PLAN ANUAL
+    <div class="dropdown-content">
+      <p>Adquiere tu plan anual para tener todas las juntas que quieras, grabar tus videoconferencias y conectar con todos por solo $390 pesos anuales.</p>
+    </div>
+  </div>
+
+  <div class="right-section">
+    <div class="feature-block">
+      <h2>Calidad de Video y Audio</h2>
+      <p>Experiencia nítida y audio claro en videoconferencias.</p>
+    </div>
+    <div class="feature-block">
+      <h2>Facilidad de Uso y Accesibilidad</h2>
+      <p>Plataforma intuitiva para unirse a conferencias sin problemas.</p>
+    </div>
+    <div class="feature-block">
+      <h2>Seguridad y Privacidad</h2>
+      <p>Protegemos datos y comunicaciones para garantizar privacidad.</p>
+    </div>
+    <div class="feature-block">
+      <h2>Grabación de Conferencias</h2>
+      <p>Graba videoconferencias para revisarlas o compartirlas.</p>
+    </div>
+    <div class="feature-block">
+      <h2>Reuniones Sin Límite de Tiempo</h2>
+      <p>Conversaciones prolongadas sin preocuparte por tiempo.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Vyda.mx. All rights reserved.</p>
+  </footer>
+</body>
+</html>
