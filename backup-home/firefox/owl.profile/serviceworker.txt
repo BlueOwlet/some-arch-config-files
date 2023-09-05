@@ -131,3 +131,15 @@ true
 0
 true
 #
+
+https://music.youtube.com/
+https://music.youtube.com/sw.js
+true
+{15af5b68-5d6c-4aeb-8108-7ea71ca54ae2}
+0
+1693895822253931
+1693895822255406
+1693895821812821
+1
+true
+#

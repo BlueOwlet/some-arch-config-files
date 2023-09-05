@@ -191,3 +191,90 @@ To add an exception for this directory, call:
 To add an exception for this directory, call:
 
 	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:13:29.476 [info] > git rev-parse --show-toplevel [1018ms]
+2023-09-05 00:13:29.476 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:13:31.318 [info] > git rev-parse --show-toplevel [1830ms]
+2023-09-05 00:13:31.318 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:13:31.332 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-05 00:13:31.332 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-05 00:14:57.271 [info] > git rev-parse --show-toplevel [683ms]
+2023-09-05 00:14:57.271 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:14:57.700 [info] > git rev-parse --show-toplevel [419ms]
+2023-09-05 00:14:57.700 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:14:58.344 [info] > git rev-parse --show-toplevel [632ms]
+2023-09-05 00:14:58.344 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:14:59.459 [info] > git rev-parse --show-toplevel [425ms]
+2023-09-05 00:14:59.460 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:14:59.877 [info] > git rev-parse --show-toplevel [409ms]
+2023-09-05 00:14:59.877 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:14:59.888 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-05 00:14:59.888 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-05 00:15:48.416 [info] > git rev-parse --show-toplevel [761ms]
+2023-09-05 00:15:48.416 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:15:48.843 [info] > git rev-parse --show-toplevel [419ms]
+2023-09-05 00:15:48.843 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:15:48.850 [info] > git rev-parse --show-toplevel [0ms]
+2023-09-05 00:15:48.850 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-05 00:16:07.805 [info] > git rev-parse --show-toplevel [409ms]
+2023-09-05 00:16:07.805 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:08.240 [info] > git rev-parse --show-toplevel [423ms]
+2023-09-05 00:16:08.241 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:08.252 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-05 00:16:08.252 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-05 00:16:09.195 [info] > git rev-parse --show-toplevel [563ms]
+2023-09-05 00:16:09.195 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:09.760 [info] > git rev-parse --show-toplevel [483ms]
+2023-09-05 00:16:09.760 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:09.773 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-05 00:16:09.773 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-05 00:16:10.418 [info] > git rev-parse --show-toplevel [488ms]
+2023-09-05 00:16:10.418 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:10.845 [info] > git rev-parse --show-toplevel [416ms]
+2023-09-05 00:16:10.845 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-05 00:16:10.859 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-05 00:16:10.859 [info] fatal: not a git repository (or any of the parent directories): .git

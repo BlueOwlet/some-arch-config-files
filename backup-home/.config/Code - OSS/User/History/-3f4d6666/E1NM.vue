@@ -1,4 +1,3 @@
-file:///home/owl/server/frontend/src/views/HomeView.vue {"mtime":1693893572000,"ctime":0,"size":2051,"etag":"3b5l15gac245","orphaned":false,"typeId":""}
 <template>
   <div class="header">
     <div class="title">

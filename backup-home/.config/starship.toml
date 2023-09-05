@@ -1,10 +1,10 @@
 add_newline = true
 
 right_format = """
-$directory
 """
 
 format = """
+$directory
 $username$hostname 
 $character
 """
@@ -12,7 +12,7 @@ $character
 palette='owl'
 
 [palettes.owl]
-orange='#C27507'
+primary='#C27507'
 
 dark='#422803'
 
@@ -23,14 +23,14 @@ red = '#C23A3A'
 [username]
 style_user = "bold bg:dark fg:white"
 style_root = "red bold"
-format = "[🭃](bold fg:orange)[$user]($style)"
+format = "[🭃](bold fg:primary)[$user]($style)"
 disabled = false
 show_always = true
 
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
-success_symbol = "[🭧🭒](bold fg:orange)[ ∯ ](bold bg:dark fg:white)[](bold fg:orange)"
+success_symbol = "[🭧🭒](bold fg:primary)[ ∯ ](bold bg:dark fg:white)[](bold fg:primary)"
 
 error_symbol = "[🭧🭒](bold fg:red)[ ∯ ](bold bg:red fg:white)[](bold fg:red)"
 # Disable the package module, hiding it from the prompt completely
@@ -83,12 +83,12 @@ format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
 
 [directory]
-home_symbol = " "
-read_only = "  "
-style = "bold bg:green  fg:#000000"
+home_symbol = "n_n :3"
+read_only = " -readonly "
+style = "bold bg:primary  fg:dark"
 truncation_length = 2
 truncation_symbol = "./"
-format = '[$path]($style)[🭞](fg:green )'
+format = '[$path]($style)[🭞](fg:white)'
 
 
 [directory.substitutions]

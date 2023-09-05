@@ -35,10 +35,10 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 22,
-                "y": 212,
-                "width": 1876,
-                "height": 845
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -121,6 +121,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/vlc/vlcrc",
+                                        "path": "/home/owl/.config/vlc/vlcrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/vlc/vlcrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/hypr/hyprland.conf",
+                                        "path": "/home/owl/.config/hypr/hyprland.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr/hyprland.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -211,28 +233,6 @@
                                     "label": "~/Videos/Foundation.S02E02.WEB.x264-TORRENTGALAXY[TGx]/NEW upcoming releases by Xclusive.txt"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files/post",
-                                        "path": "/home/owl/config-files/post",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files/post"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/server/django-setup.sh",
-                                        "path": "/home/owl/server/django-setup.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/server/django-setup.sh"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -277,7 +277,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
