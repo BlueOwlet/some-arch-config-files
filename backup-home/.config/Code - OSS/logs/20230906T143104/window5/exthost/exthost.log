@@ -1,0 +1,12 @@
+2023-09-06 16:07:47.879 [info] Extension host with pid 9275 started
+2023-09-06 16:07:47.879 [info] Skipping acquiring lock for /home/owl/.config/Code - OSS/User/workspaceStorage/629b4e6f1a8ee8e45e1f71e04e3bd90c.
+2023-09-06 16:07:47.940 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-09-06 16:07:47.996 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-06 16:07:48.041 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-06 16:07:48.043 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-06 16:07:48.053 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-06 16:07:48.068 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-06 16:07:49.861 [info] Eager extensions activated
+2023-09-06 16:07:49.863 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-06 16:07:49.865 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-06 18:59:28.691 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'

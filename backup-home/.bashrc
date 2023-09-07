@@ -21,7 +21,7 @@ cd(){
 # ALIASES
 
 alias ls='ls -1 --color=auto'
-alias ll='ls -lh --color=auto'
+alias ll='ls -lah --color=auto'
 alias check='bat'
 
 

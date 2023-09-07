@@ -6,7 +6,13 @@
             "file:///home/owl/config-files": "__default__profile__",
             "file:///home/owl/server": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1694032264946": "__default__profile__",
+            "1694037898826": "__default__profile__",
+            "1694037946756": "__default__profile__",
+            "1694037967006": "__default__profile__",
+            "1694045499606": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -19,7 +25,19 @@
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1693897088066"
+                "backupFolder": "1694032264946"
+            },
+            {
+                "backupFolder": "1694037898826"
+            },
+            {
+                "backupFolder": "1694037946756"
+            },
+            {
+                "backupFolder": "1694037967006"
+            },
+            {
+                "backupFolder": "1694045499606"
             }
         ]
     },
@@ -29,9 +47,9 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 22,
+                "x": 180,
                 "y": 22,
-                "width": 1876,
+                "width": 1717,
                 "height": 1036
             }
         },
@@ -75,8 +93,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -121,23 +138,23 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/.config/vlc/vlcrc",
-                                        "path": "/home/owl/.config/vlc/vlcrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/vlc/vlcrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/owl/.config/hypr/hyprland.conf",
                                         "path": "/home/owl/.config/hypr/hyprland.conf",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/hypr/hyprland.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/vlc/vlcrc",
+                                        "path": "/home/owl/.config/vlc/vlcrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/vlc/vlcrc"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -272,7 +289,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

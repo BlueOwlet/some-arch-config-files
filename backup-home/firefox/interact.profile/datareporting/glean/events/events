@@ -1,5 +1,5 @@
-{"timestamp":5632373,"category":"fog.validation","name":"validate_early_event"}
-{"timestamp":5639055,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"accessibilityCache","reason":"invalid-feature","experiment":"next-generation-accessibility-engine-powering-screen-readers"}}
-{"timestamp":5639055,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy","reason":"invalid-feature","feature":"accessibilityCache"}}
-{"timestamp":5662441,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"accessibilityCache","experiment":"next-generation-accessibility-engine-powering-screen-readers","reason":"invalid-feature"}}
-{"timestamp":5662441,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"accessibilityCache","reason":"invalid-feature","experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy"}}
+{"timestamp":1509167,"category":"fog.validation","name":"validate_early_event"}
+{"timestamp":1512946,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"next-generation-accessibility-engine-powering-screen-readers","reason":"invalid-feature","feature":"accessibilityCache"}}
+{"timestamp":1512946,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"accessibilityCache","experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy"}}
+{"timestamp":1539263,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"accessibilityCache","reason":"invalid-feature","experiment":"next-generation-accessibility-engine-powering-screen-readers"}}
+{"timestamp":1539263,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy","feature":"accessibilityCache"}}

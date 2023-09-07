@@ -1,0 +1,41 @@
+1693949234931	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1693952474832	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1693952834932	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1693952834932	Sync.Service	INFO	Starting sync at 2023-09-05 16:27:14 in browser session _DI53NXCMA3y
+1693952834932	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1693952834936	Sync.Status	INFO	Resetting Status.
+1693952834936	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693952834936	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1693952834936	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693952834937	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1693952834937	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1693952834937	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1693952834938	Sync.SyncAuthManager	INFO	Getting sync key
+1693952834938	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1693952834938	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1693952834939	FirefoxAccounts	DEBUG	getOAuthToken enter
+1693952834939	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1693952834939	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1693952834939	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1693952834939	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1693952835111	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1693952835111	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1693952835112	Services.Common.TokenServerClient	DEBUG	Successful token response
+1693952835112	Sync.Status	DEBUG	Status.login: success.login => success.login
+1693952835112	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1693952835316	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1693952835418	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections
+1693952835419	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration
+1693952835419	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1693952835624	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration
+1693952835624	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration failed with status 503
+1693952835624	Sync.Service	WARN	info/configuration returned 503 - using default configuration
+1693952835624	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1693952835624	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1693952835624	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1693952835624	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1693952835624	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1693956435624
+1693952835624	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1693952835625	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3635324.802818896 ms.
+1693952835625	Sync.SyncScheduler	DEBUG	Next sync in 3635324.802818896 ms. (why=client-backoff-schedule)
+1693952835629	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
