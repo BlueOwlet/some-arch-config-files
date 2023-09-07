@@ -11,7 +11,8 @@
             "1694037898826": "__default__profile__",
             "1694037946756": "__default__profile__",
             "1694037967006": "__default__profile__",
-            "1694045499606": "__default__profile__"
+            "1694045499606": "__default__profile__",
+            "1694051678034": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -38,6 +39,9 @@
             },
             {
                 "backupFolder": "1694045499606"
+            },
+            {
+                "backupFolder": "1694051678034"
             }
         ]
     },
@@ -47,9 +51,9 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 180,
+                "x": 323,
                 "y": 22,
-                "width": 1717,
+                "width": 1574,
                 "height": 1036
             }
         },

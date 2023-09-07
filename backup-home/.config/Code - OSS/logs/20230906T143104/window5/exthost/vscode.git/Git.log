@@ -580,3 +580,18 @@ To add an exception for this directory, call:
 To add an exception for this directory, call:
 
 	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-06 20:00:09.905 [info] > git rev-parse --show-toplevel [1389ms]
+2023-09-06 20:00:09.905 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-06 20:00:10.535 [info] > git rev-parse --show-toplevel [615ms]
+2023-09-06 20:00:10.535 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend
+2023-09-06 20:00:11.330 [info] > git rev-parse --show-toplevel [783ms]
+2023-09-06 20:00:11.330 [info] fatal: detected dubious ownership in repository at '/home/owl/server/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/server/frontend

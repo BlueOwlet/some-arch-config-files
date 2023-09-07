@@ -9,12 +9,7 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 
-cd(){
-	builtin cd $@;
-	ls -1;
 
-
-}
 
 
 
@@ -24,7 +19,12 @@ alias ls='ls -1 --color=auto'
 alias ll='ls -lah --color=auto'
 alias check='bat'
 
+cd(){
+	builtin cd $@;
+	ls -1;
 
+
+}
 
 
 

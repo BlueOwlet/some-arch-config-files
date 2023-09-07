@@ -1,7 +1,7 @@
 aus5.mozilla.org	5	19607	1725568192246,1,0
 sso.crunchyroll.com^partitionKey=%28https%2Ccrunchyroll.com%29	0	19602	1725230070562,1,0
 vpnpro.com^partitionKey=%28https%2Cvpnpro.com%29	1	19603	1725232418875,1,1
-collector.github.com^partitionKey=%28https%2Cgithub.com%29	3	19605	2325032263715,1,0
+collector.github.com^partitionKey=%28https%2Cgithub.com%29	4	19607	2325190360231,1,0
 avatars.githubusercontent.com^partitionKey=%28https%2Cavatars.githubusercontent.com%29	3	19605	1725451876302,1,0
 auth.uber.com^partitionKey=%28https%2Cuber.com%29	0	19606	1725501065256,1,0
 blog.vuejs.org^partitionKey=%28https%2Cvuejs.org%29	0	19605	1756949122620,1,0
@@ -10,7 +10,7 @@ tcr9i.chat.openai.com^partitionKey=%28https%2Copenai.com%29	2	19604	172534472025
 profile.accounts.firefox.com	5	19607	1725585810224,1,1
 gitlab.gnome.org^partitionKey=%28https%2Cgnome.org%29	0	19607	1694047954773,1,0
 crash-reports.mozilla.com	0	19605	1725483223753,1,0
-contile.services.mozilla.com	5	19607	1725502035980,1,0
+contile.services.mozilla.com	5	19607	1725588455904,1,0
 gql-fed.reddit.com^partitionKey=%28https%2Creddit.com%29	0	19606	1725503298104,1,1
 www.clarinsusa.com^partitionKey=%28https%2Cclarinsusa.com%29	0	19603	1693771182164,1,1
 fadeevab.com^partitionKey=%28https%2Cfadeevab.com%29	0	19602	1756702806797,1,1
@@ -20,7 +20,7 @@ lt.0c.gay^partitionKey=%28http%2C0c.gay%29	0	19603	1725235201717,1,1
 browser.events.data.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19602	1725154318734,1,0
 apple.stackexchange.com^partitionKey=%28https%2Cstackexchange.com%29	0	19604	1709360984020,1,0
 www.bniconnectglobal.com^partitionKey=%28https%2Cbniconnectglobal.com%29	3	19605	1756688831386,1,0
-incoming.telemetry.mozilla.org	5	19607	1725501066462,1,0
+incoming.telemetry.mozilla.org	5	19607	1725587791145,1,0
 www.physicsforums.com^partitionKey=%28https%2Cphysicsforums.com%29	0	19604	1725340186721,1,1
 myactivity.google.com^partitionKey=%28https%2Cgoogle.com%29	0	19602	1725166905751,1,0
 us04st3.zoom.us^partitionKey=%28https%2Czoom.us%29	0	19602	1725163500182,1,1
@@ -35,7 +35,7 @@ web.whatsapp.com^partitionKey=%28https%2Cwhatsapp.com%29	3	19607	1725583174736,1
 tb-static.uber.com^partitionKey=%28https%2Cuber.com%29	0	19606	1725501089476,1,0
 links.duckduckgo.com^partitionKey=%28https%2Cduckduckgo.com%29	1	19603	1725232526538,1,0
 wa.scribd.com^partitionKey=%28https%2Cscribd.com%29	0	19602	1725163509339,1,0
-api.github.com^partitionKey=%28https%2Cgithub.com%29	4	19606	1725576524532,1,1
+api.github.com^partitionKey=%28https%2Cgithub.com%29	5	19607	1725576524532,1,1
 docs.nginx.com^partitionKey=%28https%2Cnginx.com%29	0	19603	1725311106802,1,0
 ac.duckduckgo.com^firstPartyDomain=ddg.search.suggestions.mozilla	1	19603	1725232524051,1,0
 snapcraft.io^partitionKey=%28https%2Csnapcraft.io%29	0	19607	1709772302490,1,0
@@ -57,6 +57,7 @@ payments.ubereats.com^partitionKey=%28https%2Cubereats.com%29	0	19606	1725501076
 appsgrowthpromo-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	0	19605	1704765054854,1,1
 glyph.medium.com^partitionKey=%28https%2Cmedium.com%29	0	19604	1709364689022,1,1
 devpress-api.csdn.net^partitionKey=%28https%2Ccsdn.net%29	0	19604	1725346921458,1,0
+www.drvhub.net^partitionKey=%28https%2Cdrvhub.net%29	0	19607	1757123813626,1,0
 www.browserstack.com^partitionKey=%28https%2Cbrowserstack.com%29	0	19602	1725156722597,1,0
 img.chocolatey.org^partitionKey=%28https%2Cchocolatey.org%29	0	19602	1706590591825,1,0
 itsfoss.com^partitionKey=%28https%2Citsfoss.com%29	0	19607	1757119377512,1,1
@@ -74,7 +75,7 @@ events.reddit.com^partitionKey=%28https%2Creddit.com%29	0	19605	1725481512875,1,
 snoovatar.reddit.com^partitionKey=%28https%2Creddit.com%29	0	19605	1725481530057,1,1
 ostree.readthedocs.io^partitionKey=%28https%2Costree.readthedocs.io%29	0	19604	1725350823631,1,1
 d.joinhoney.com^partitionKey=%28https%2Cjoinhoney.com%29	0	19602	1709168554128,1,1
-youtube.com^partitionKey=%28https%2Cyoutube.com%29	4	19606	1725570858583,1,1
+youtube.com^partitionKey=%28https%2Cyoutube.com%29	5	19607	1725570858583,1,1
 crates.io^partitionKey=%28https%2Ccrates.io%29	0	19604	1725350573909,1,1
 contacts.google.com^partitionKey=%28https%2Cgoogle.com%29	0	19605	1725414657778,1,0
 www.bls.gov^partitionKey=%28https%2Cbls.gov%29	0	19602	1725153115429,1,1
@@ -106,7 +107,7 @@ www.craigslist.org^partitionKey=%28https%2Ccraigslist.org%29	0	19602	17566888229
 developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	1	19607	1725581375497,1,0
 www.tecmint.com^partitionKey=%28https%2Ctecmint.com%29	0	19602	1725216807550,1,1
 www.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19602	1725154315648,1,0
-github.com^partitionKey=%28https%2Cgithub.com%29	4	19606	1725576521721,1,1
+github.com^partitionKey=%28https%2Cgithub.com%29	5	19607	1725576521721,1,1
 www.gap.com^partitionKey=%28https%2Cgap.com%29	0	19603	1696398510335,1,1
 lib.rs^partitionKey=%28https%2Clib.rs%29	0	19605	1725492098590,1,1
 silkroad.csdn.net^partitionKey=%28https%2Ccsdn.net%29	0	19604	1725346923477,1,0
@@ -134,8 +135,8 @@ ogs.google.com^partitionKey=%28https%2Cgoogle.com%29	5	19607	1725571416351,1,0
 flathub.org^partitionKey=%28https%2Cflathub.org%29	1	19607	1725605047781,1,0
 cdn.kde.org^partitionKey=%28https%2Ckde.org%29	0	19602	1709462921997,1,0
 websites.godaddy.com^partitionKey=%28https%2Cgodaddy.com%29	0	19602	1709351722944,1,1
-alive.github.com^partitionKey=%28https%2Cgithub.com%29	4	19606	1725576524074,1,0
-opengraph.githubassets.com^partitionKey=%28https%2Cgithubassets.com%29	4	19606	1725576575311,1,0
+alive.github.com^partitionKey=%28https%2Cgithub.com%29	5	19607	1725576524074,1,0
+opengraph.githubassets.com^partitionKey=%28https%2Cgithubassets.com%29	5	19607	1725576575311,1,0
 classify-client.services.mozilla.com	5	19607	1725568150480,1,0
 dcc.godaddy.com^partitionKey=%28https%2Cgodaddy.com%29	0	19602	1709174824818,1,1
 clarinsusa.com^partitionKey=%28https%2Cclarinsusa.com%29	0	19603	1694375681038,1,0
@@ -174,7 +175,7 @@ codedamn.com^partitionKey=%28https%2Ccodedamn.com%29	0	19604	1694158459274,1,1
 sstats.adobe.com^partitionKey=%28https%2Cadobe.com%29	1	19605	1725431043853,1,1
 owb.desiree-riedl.de^partitionKey=%28https%2Cdesiree-riedl.de%29	0	19605	1725492379983,1,1
 vlscppe.microsoft.com^partitionKey=%28https%2Cmicrosoft.com%29	0	19602	1725154316435,1,0
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla	4	19606	1725513585602,1,1
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla	5	19607	1725513585602,1,1
 tracking.digitalocean.com^partitionKey=%28https%2Cdigitalocean.com%29	0	19603	1725318457760,1,0
 normandy.cdn.mozilla.net	5	19607	1725581394873,1,0
 dashboard.snapcraft.io^partitionKey=%28https%2Csnapcraft.io%29	0	19607	1696639645998,1,0
@@ -195,7 +196,7 @@ es.vuejs.org^partitionKey=%28https%2Cvuejs.org%29	0	19604	1725347347685,1,0
 www.baeldung.com^partitionKey=%28https%2Cbaeldung.com%29	1	19604	1709334143594,1,0
 scone-pa.clients6.google.com^partitionKey=%28https%2Cgoogle.com%29	0	19602	1704513311349,1,1
 bcd.developer.mozilla.org^partitionKey=%28https%2Cmozilla.org%29	1	19607	1709597298210,1,1
-got.cr^partitionKey=%28https%2Cgot.cr%29	0	19602	1694903663616,1,0
+got.cr^partitionKey=%28https%2Cgot.cr%29	1	19607	1695261365118,1,0
 static.caliente.mx^partitionKey=%28https%2Ccaliente.mx%29	0	19602	1696214830499,1,0
 assets.ubuntu.com^partitionKey=%28https%2Cubuntu.com%29	0	19605	1709624814120,1,1
 www.nginx.com^partitionKey=%28https%2Cnginx.com%29	0	19603	1725317677172,1,0

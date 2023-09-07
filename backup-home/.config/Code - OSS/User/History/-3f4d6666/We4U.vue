@@ -4,7 +4,7 @@
       Vyda.mx
     </div>
     <div class="motto">
-      Your Space, Your Community, Your Vyda
+      Tu Espacio, Tu Comunidad, Tu Vyda
     </div>
     <div class="login">
       <input class="username" placeholder="username">
@@ -15,10 +15,20 @@
 
   <div class="plans">
     <div class="plan">
-      PLAN MENSUAL
+      <div>
+        PLAN MENSUAL 
+      </div>
+      <div>
+        199 MXN.-
+      </div>
     </div>
     <div class="plan">
-      PLAN ANUAL
+      <div>
+        PLAN ANUAL 
+      </div>
+      <div>
+        1,799 MXN.-
+      </div>
     </div>
   </div>
 
@@ -33,6 +43,10 @@
     </div>
   </div>
 
+  <div class="main-product-image">
+    <img src="@/assets/main-product.png">
+  </div>
+
 </template>
 
 <script setup>
@@ -41,7 +55,7 @@
   data.key_features=[
     {
       title:'Reuniones Sin Limite de Tiempo',
-      descripcion:`
+      description:`
       Conversaciones prolongadas sin preocuparte por tiempo.
       `
   },
@@ -80,7 +94,7 @@
   .header{
     width: 100%;
     height: 30vh;
-    background: var(--primary);
+    background: var(--gradient);
     display: grid;
     grid-template-areas: 
                         ". title login"
@@ -88,6 +102,24 @@
 
     justify-content: space-evenly;
     align-items: center;
+  }
+
+
+  @media screen {
+    
+  }
+
+  @media (max-width:1000px){
+
+    .header{
+      height: 100vh;
+      grid-template-areas: 
+                          "title"
+                          "motto"
+                          "login";
+
+    }
+
   }
 
 
@@ -122,16 +154,18 @@
   .plans{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1rem;
+    padding-top: 3rem;
+
   }
 
   .plan{
-    background: var(--primary);
+    background: var(--gradient);
     color: var(--white);
     border-radius: var(--rounded);
     box-shadow: var(--shadowed);
     font-size: larger;
     padding: 1rem;
+    text-align: center;
     
   }
 
@@ -139,23 +173,53 @@
 
 
   .key-features{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: center;
     gap: 1rem;
+    padding-top: 3rem;
+    grid-template-columns: repeat(auto-fit, 230px);
+    transition: var(--transition);
   }
+
   
   .key-feature{
     background: var(--gradient);
     border-radius: var(--rounded);
     box-shadow: var(--shadowed);
-    padding: 1rem;
+    padding: 5px;
     color: var(--white);
+
+    width:200px;
+    height: 250px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+    text-justify: center;
+  }
+
+  .key-feature-title{
+    font-size: xx-large;
 
   }
+
+  .key-feature-description{
+    font-size: large;
+    justify-self: start;
+
+  }
+
+  .main-product-image{
+    width: 100%;
+    height: auto;
+  }
+
+  .main-product-image img{
+    width: 100%;
+    height: auto;
+  }
+
 
 </style>
