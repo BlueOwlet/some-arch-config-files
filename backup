@@ -1,12 +1,17 @@
 #!/bin/bash
 
-#Reset
+#Backup
 sudo rm -r backup-home
 
 mkdir -p backup-home
 
 cd backup-home
 
+
+
+#Copying GRUB
+
+cp /etc/default/grub . 
 
 
 # Copy all configuration folders and files

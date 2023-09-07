@@ -1,9 +1,14 @@
 #!/bin/bash
 
-#Reset
+#Restore
 
 cd backup-home
 
+
+
+#Restore GRUB
+cp grub /etc/default/grub.
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 # Copy all configuration folders and files
