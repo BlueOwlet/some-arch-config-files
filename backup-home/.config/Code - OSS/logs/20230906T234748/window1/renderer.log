@@ -1,0 +1,5 @@
+2023-09-06 23:47:49.303 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/.config/hypr/hyprland.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-06 23:47:49.662 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-09-06 23:47:49.671 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-09-06 23:47:49.698 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-09-06 23:47:53.039 [info] [perf] Render performance baseline is 159ms

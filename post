@@ -57,14 +57,21 @@ sudo pacman --noconfirm -S bluez bluez-utils blueman
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
+#wifi
+sudo pacman --noconfirm -S networkmanager
+sudo systemctl start NetworkManager
+sudo systemctl enable NetworkManager
 
+#Building tools (cmake?)
 sudo pacman --noconfirm -S meson clang
 
 
-#sound -> helvum
-
+#flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install org.gnome.{Platform,Sdk}//44 org.freedesktop.Sdk.Extension.rust-stable//22.08 org.freedesktop.Sdk.Extension.llvm15//22.08
+
+
+#sound -> helvum
 flatpak-builder --install flatpak-build/ build-aux/org.pipewire.Helvum.json
 flatpak run org.pipewire.Helvum
 

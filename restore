@@ -5,10 +5,21 @@
 cd backup-home
 
 
-
+# GPU PASSTRHOUGH
 #Restore GRUB
 cp grub /etc/default/grub.
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+# initrams???
+cp vfio.conf /etc/modprobe.d/vfio.conf
+cp mkinitcpio.conf /etc/mkinitcpio.conf
+sudo mkinitcpio -p linux
+
+
+# QEMU
+cp qemu.conf /etc/libvirt/qemu.conf
+
 
 
 # Copy all configuration folders and files

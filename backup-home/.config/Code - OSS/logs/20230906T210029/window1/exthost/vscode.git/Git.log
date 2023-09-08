@@ -1,0 +1,20 @@
+2023-09-06 21:00:30.943 [info] Log level: Info
+2023-09-06 21:00:30.943 [info] Validating found git in: "git"
+2023-09-06 21:00:30.962 [info] Using git "2.42.0" from "git"
+2023-09-06 21:00:30.975 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-06 21:00:30.984 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-09-06 21:00:30.994 [info] Open repository: /home/owl/config-files
+2023-09-06 21:00:31.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-09-06 21:00:31.019 [info] > git config --get commit.template [14ms]
+2023-09-06 21:00:31.029 [info] > git rev-parse --show-toplevel [12ms]
+2023-09-06 21:00:31.132 [info] > git status -z -uall [106ms]
+2023-09-06 21:00:31.146 [info] > git config --get commit.template [1ms]
+2023-09-06 21:00:31.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2023-09-06 21:00:31.191 [info] > git status -z -uall [17ms]
+2023-09-06 21:00:31.519 [info] > git show --textconv :post [7ms]
+2023-09-06 21:00:31.520 [info] > git ls-files --stage -- /home/owl/config-files/post [2ms]
+2023-09-06 21:00:31.527 [info] > git cat-file -s 7a73ce2d39be1352c7b90a6e171ba051bb555358 [2ms]
+2023-09-06 21:00:31.566 [info] > git check-ignore -v -z --stdin [2ms]
+2023-09-06 21:00:38.193 [info] > git show --textconv :restore [7ms]
+2023-09-06 21:00:38.194 [info] > git ls-files --stage -- /home/owl/config-files/restore [2ms]
+2023-09-06 21:00:38.202 [info] > git cat-file -s c3add8bed3b7f8b6f4c1bba3c9b041ed739a657f [2ms]

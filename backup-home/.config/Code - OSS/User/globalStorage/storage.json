@@ -7,13 +7,8 @@
             "file:///home/owl/server": "__default__profile__"
         },
         "emptyWindows": {
-            "1694032264946": "__default__profile__",
-            "1694037898826": "__default__profile__",
-            "1694037946756": "__default__profile__",
-            "1694037967006": "__default__profile__",
-            "1694045499606": "__default__profile__",
-            "1694051678034": "__default__profile__",
-            "1694054801377": "__default__profile__"
+            "1694118838669": "__default__profile__",
+            "1694138075025": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -25,11 +20,7 @@
                 "folderUri": "file:///home/owl/server"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1694054801377"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -37,9 +28,9 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/94bea333b2f48332cf667f9f8a00894e",
             "uiState": {
                 "mode": 1,
-                "x": 487,
-                "y": 22,
-                "width": 466,
+                "x": 830,
+                "y": 547,
+                "width": 351,
                 "height": 511
             }
         },
@@ -272,13 +263,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -409,13 +398,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -464,13 +451,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -747,13 +732,6 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1352,11 +1330,6 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",

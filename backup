@@ -13,6 +13,17 @@ cd backup-home
 
 cp /etc/default/grub . 
 
+# vfio.conf
+cp /etc/modprobe.d/vfio.conf .
+
+# initrams???
+cp /etc/mkinitcpio.conf .
+
+cp /etc/libvirt/qemu.conf .
+
+
+
+
 
 # Copy all configuration folders and files
 cp -ap ~/.config/ .
