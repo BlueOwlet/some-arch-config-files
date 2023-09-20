@@ -1,0 +1,51 @@
+1694558472420	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1694558473950	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1694558479130	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1694558479132	Sync.Engine.Tabs	INFO	Posting 1 records of 6083 bytes with batch=true
+1694558479133	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694558479133	Sync.Collection	DEBUG	POST Length: 6083
+1694558479333	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/tabs?batch=true&commit=true
+1694558479339	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1694558492406	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1694558497434	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1694558497438	Sync.Engine.Tabs	INFO	Posting 1 records of 6083 bytes with batch=true
+1694558497438	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1694558497439	Sync.Collection	DEBUG	POST Length: 6083
+1694558497563	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/tabs?batch=true&commit=true
+1694558497568	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1694558822812	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1694558822812	Sync.Service	INFO	Starting sync at 2023-09-12 16:47:02 in browser session F3fwaWqok-9d
+1694558822813	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694558822818	Sync.Status	INFO	Resetting Status.
+1694558822818	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694558822819	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1694558822819	FirefoxAccounts	DEBUG	getOAuthToken enter
+1694558822820	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1694558822820	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1694558822821	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1694558822990	Sync.Resource	DEBUG	GET fail 502 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections
+1694558822990	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed with status 502
+1694558822990	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1694558822990	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 2 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+error@Log.sys.mjs:384:10
+observe@policies.sys.mjs:899:19
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:185:19
+WrappedNotify@util.sys.mjs:195:17
+1694558822991	Sync.Resource	DEBUG	Parse fail: Response body starts: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server E
+1694558822990	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections", status:502, success:false, headers:{'alt-svc':"clear", 'content-length':"332", 'content-type':"text/html; charset=UTF-8", date:"Tue, 12 Sep 2023 22:47:02 GMT", 'referrer-policy':"no-referrer", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}})
+1694558822991	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 1281331 ms.
+1694558822991	Sync.SyncScheduler	DEBUG	Next sync in 1281331 ms. (why=client-backoff-schedule)
+1694558822994	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections","status":502,"success":false,"headers":{"alt-svc":"clear","content-length":"332","content-type":"text/html; charset=UTF-8","date":"Tue, 12 Sep 2023 22:47:02 GMT","referrer-policy":"no-referrer","x-firefox-spdy":"h2"}}

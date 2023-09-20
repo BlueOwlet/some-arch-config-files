@@ -1,0 +1,17 @@
+
+
+
+FROM ubuntu
+
+WORKDIR /vyda
+
+COPY ./vyda-project /vyda
+
+RUN apt-get install sudo
+
+RUN chmod +x /vyda/manage.sh
+
+
+RUN /vyda/manage.sh container
+
+EXPOSE 8080 8000

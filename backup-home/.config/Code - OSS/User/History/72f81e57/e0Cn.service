@@ -1,0 +1,21 @@
+[Unit]
+Description=GUNICORN ASGI Server
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/vyda-project/backend
+
+
+ExecStart= /var/www/vyda-project/venv/bin/gunicorn --config /var/www/new_ia/serverfiles/gunicorn-config.py InterAct.wsgi
+Environment="DJANGO_SETTINGS_MODULE=InterAct.settings"
+
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+

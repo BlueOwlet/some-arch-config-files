@@ -1,0 +1,75 @@
+1694551372301	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1694553719132	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694553720690	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1694553720690	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694553720693	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1694553720694	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694553722644	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1694553722644	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1694553722647	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694553722648	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1694553722648	Sync.Service	INFO	Starting sync at 2023-09-12 15:22:02 in browser session F3fwaWqok-9d
+1694553722649	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1694553722653	Sync.Status	INFO	Resetting Status.
+1694553722653	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1694553722654	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1694553722654	FirefoxAccounts	DEBUG	getOAuthToken enter
+1694553722654	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1694553722654	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1694553722654	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1694553722850	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections
+1694553722851	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration
+1694553722935	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration
+1694553722936	Sync.Service	DEBUG	Fetching global metadata record
+1694553722936	Sync.Service	DEBUG	Weave Version: 1.119.0 Local Storage: 5 Remote Storage: 5
+1694553722936	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1694553722936	Sync.Service	INFO	Testing info/collections: {"crypto":1579049701.09,"prefs":1693723303.85,"clients":1694544941.83,"tabs":1694551371.91,"addons":1693727522.51,"passwords":1694393538.32,"forms":1694549504.74,"extension-storage":1694544944.19,"history":1694551372.17,"meta":1596056405.68,"bookmarks":1693770508.2}
+1694553722936	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1579049701.09
+1694553722936	Sync.Synchronizer	DEBUG	Refreshing client list.
+1694553722936	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1694553723072	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1694553723782	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694553725487	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1694553728066	Sync.Collection	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/clients?full=1&limit=1000
+1694553728066	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/clients?full=1&limit=1000 failed with status 503
+1694553728066	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1694553728066	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1694553728066	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1694553728066	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1694553728066	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1694557328066
+1694553728067	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.record_download_fail
+1694553728067	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1694553728067	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:222:21) JS Stack trace: _processResponse/<@resource.sys.mjs:222:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@logmanager.sys.mjs:137:44
+log@Log.sys.mjs:376:16
+debug@Log.sys.mjs:396:10
+observe@policies.sys.mjs:874:21
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:185:19
+WrappedNotify@util.sys.mjs:195:17
+1694553728067	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1694553728067	Sync.ErrorHandler	DEBUG	clients failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/clients?full=1&limit=1000", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Tue, 12 Sep 2023 21:22:08 GMT", etag:"\"6500c33f-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_download_fail"})
+1694553728068	Sync.Synchronizer	INFO	Updating enabled engines: 7 clients.
+1694553728069	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1694553728070	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1694553728071	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1694553728071	Sync.Synchronizer	INFO	Aborting sync for failure in prefs
+1694553728071	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1694553728071	Sync.Synchronizer	INFO	Sync completed at 2023-09-12 15:22:08 after 5.42 secs.
+1694553728072	Sync.Declined	DEBUG	Handling remote declined: []
+1694553728072	Sync.Declined	DEBUG	Handling local declined: []
+1694553728072	Sync.Declined	DEBUG	Declined changed? false
+1694553728072	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1694553728072	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1694553728072	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3640586.8081292175 ms.
+1694553728072	Sync.SyncScheduler	DEBUG	Next sync in 3640586.8081292175 ms. (why=client-backoff-schedule)

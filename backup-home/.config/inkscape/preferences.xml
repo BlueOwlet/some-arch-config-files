@@ -187,7 +187,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="2"
        angle="30"
-       width="15.118"
+       width="7.55905511811024"
        thinning="10"
        flatness="-90"
        cap_rounding="0.0"
@@ -302,7 +302,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -965,10 +965,10 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#66cc9a">
+     style="fill:#000000">
     <group
-       width="730"
-       height="511"
+       width="931"
+       height="1036"
        x="0"
        y="0"
        maximized="1"

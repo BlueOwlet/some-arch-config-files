@@ -1,0 +1,10 @@
+2023-09-19 12:52:35.687 [error] Error: The editor could not be opened because the file was not found.
+    at fh.bc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2297:19556)
+    at async fh.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2297:18643)
+    at async s.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2295:20269)
+    at async s.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2295:18937)
+    at async s.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2295:17925)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2480:12423
+2023-09-19 12:52:35.811 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-09-19 12:52:35.822 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-09-19 12:52:35.852 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python

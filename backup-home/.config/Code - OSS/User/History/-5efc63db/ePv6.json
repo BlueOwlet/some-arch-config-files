@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 2
+}

@@ -1,0 +1,16 @@
+Django
+djangorestframework
+django-cors-headers
+djangochannelsrestframework
+djoser
+gunicorn
+# channels
+# channels-redis
+# channels_demultiplexer
+
+
+#Database
+psycopg2-binary
+
+
+

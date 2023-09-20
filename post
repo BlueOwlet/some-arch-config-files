@@ -42,6 +42,10 @@ curl -sS https://starship.rs/install.sh | sh
 
 # Personal system packages
 sudo pacman --noconfirm -S usbutils rsync bat xdg-desktop-portal-hyprland udiskie sshfs flatpak
+
+# WORK DEPENDANCIES
+sudo pacman --noconfirm -S podman
+
 # Personal dependencies
 sudo pacman --noconfirm -S firefox git inkscape mixxx ktorrent code usbutils vlc
 

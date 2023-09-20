@@ -605,3 +605,459 @@
 2023-09-08T21:58:07.804Z [Modules] Host is up to date.
 2023-09-08T21:58:07.804Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2023-09-08T21:58:07.934Z [Modules] No module updates available.
+2023-09-09T02:15:34.807Z [Modules] Modules initializing
+2023-09-09T02:15:34.810Z [Modules] Distribution: remote
+2023-09-09T02:15:34.810Z [Modules] Host updates: enabled
+2023-09-09T02:15:34.810Z [Modules] Module updates: enabled
+2023-09-09T02:15:34.811Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-09T02:15:34.811Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-09T02:15:34.811Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-09T02:15:35.067Z [Modules] No updates to install
+2023-09-09T02:15:35.067Z [Modules] Checking for host updates.
+2023-09-09T02:15:35.327Z [Modules] Host is up to date.
+2023-09-09T02:15:35.327Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T02:15:35.429Z [Modules] No module updates available.
+2023-09-09T02:15:37.956Z [Modules] Checking for host updates.
+2023-09-09T02:15:38.113Z [Modules] Host is up to date.
+2023-09-09T02:15:38.113Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T02:15:38.117Z [Modules] No module updates available.
+2023-09-09T03:15:37.959Z [Modules] Checking for host updates.
+2023-09-09T03:15:38.167Z [Modules] Host is up to date.
+2023-09-09T03:15:38.168Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T03:15:38.270Z [Modules] No module updates available.
+2023-09-09T04:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T04:15:38.210Z [Modules] Host is up to date.
+2023-09-09T04:15:38.210Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T04:15:38.311Z [Modules] No module updates available.
+2023-09-09T05:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T05:15:38.338Z [Modules] Host is up to date.
+2023-09-09T05:15:38.339Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T05:15:38.441Z [Modules] No module updates available.
+2023-09-09T06:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T06:15:38.115Z [Modules] Host is up to date.
+2023-09-09T06:15:38.115Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T06:15:38.223Z [Modules] No module updates available.
+2023-09-09T07:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T07:15:38.215Z [Modules] Host is up to date.
+2023-09-09T07:15:38.215Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T07:15:38.317Z [Modules] No module updates available.
+2023-09-09T18:12:20.859Z [Modules] Modules initializing
+2023-09-09T18:12:20.864Z [Modules] Distribution: remote
+2023-09-09T18:12:20.864Z [Modules] Host updates: enabled
+2023-09-09T18:12:20.864Z [Modules] Module updates: enabled
+2023-09-09T18:12:20.866Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-09T18:12:20.866Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-09T18:12:20.866Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-09T18:12:21.189Z [Modules] No updates to install
+2023-09-09T18:12:21.190Z [Modules] Checking for host updates.
+2023-09-09T18:12:21.492Z [Modules] Host is up to date.
+2023-09-09T18:12:21.492Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T18:12:21.524Z [Modules] No module updates available.
+2023-09-09T18:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T18:12:26.694Z [Modules] Host is up to date.
+2023-09-09T18:12:26.694Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T18:12:26.697Z [Modules] No module updates available.
+2023-09-09T19:12:26.559Z [Modules] Checking for host updates.
+2023-09-09T19:12:26.696Z [Modules] Host is up to date.
+2023-09-09T19:12:26.697Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T19:12:26.727Z [Modules] No module updates available.
+2023-09-09T20:12:26.559Z [Modules] Checking for host updates.
+2023-09-09T20:12:26.734Z [Modules] Host is up to date.
+2023-09-09T20:12:26.734Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T20:12:26.768Z [Modules] No module updates available.
+2023-09-09T21:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T21:12:26.704Z [Modules] Host is up to date.
+2023-09-09T21:12:26.705Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T21:12:26.737Z [Modules] No module updates available.
+2023-09-09T22:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T22:12:26.712Z [Modules] Host is up to date.
+2023-09-09T22:12:26.712Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T22:12:26.746Z [Modules] No module updates available.
+2023-09-09T23:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T23:12:26.684Z [Modules] Host is up to date.
+2023-09-09T23:12:26.684Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T23:12:26.717Z [Modules] No module updates available.
+2023-09-10T00:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T00:12:26.724Z [Modules] Host is up to date.
+2023-09-10T00:12:26.724Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T00:12:26.749Z [Modules] No module updates available.
+2023-09-10T01:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T01:12:26.754Z [Modules] Host is up to date.
+2023-09-10T01:12:26.754Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T01:12:26.783Z [Modules] No module updates available.
+2023-09-10T02:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T02:12:26.762Z [Modules] Host is up to date.
+2023-09-10T02:12:26.762Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T02:12:26.791Z [Modules] No module updates available.
+2023-09-10T03:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T03:12:26.741Z [Modules] Host is up to date.
+2023-09-10T03:12:26.741Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T03:12:26.776Z [Modules] No module updates available.
+2023-09-10T04:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T04:12:26.686Z [Modules] Host is up to date.
+2023-09-10T04:12:26.686Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T04:12:26.721Z [Modules] No module updates available.
+2023-09-10T05:12:26.559Z [Modules] Checking for host updates.
+2023-09-10T05:12:26.699Z [Modules] Host is up to date.
+2023-09-10T05:12:26.700Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T05:12:26.727Z [Modules] No module updates available.
+2023-09-11T15:47:54.514Z [Modules] Modules initializing
+2023-09-11T15:47:54.517Z [Modules] Distribution: remote
+2023-09-11T15:47:54.517Z [Modules] Host updates: enabled
+2023-09-11T15:47:54.517Z [Modules] Module updates: enabled
+2023-09-11T15:47:54.518Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-11T15:47:54.518Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-11T15:47:54.518Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-11T15:47:54.769Z [Modules] No updates to install
+2023-09-11T15:47:54.770Z [Modules] Checking for host updates.
+2023-09-11T15:47:54.959Z [Modules] Host is up to date.
+2023-09-11T15:47:54.959Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T15:47:55.006Z [Modules] No module updates available.
+2023-09-11T15:47:57.639Z [Modules] Checking for host updates.
+2023-09-11T15:47:57.781Z [Modules] Host is up to date.
+2023-09-11T15:47:57.781Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T15:47:57.785Z [Modules] No module updates available.
+2023-09-11T17:11:16.058Z [Modules] Modules initializing
+2023-09-11T17:11:16.065Z [Modules] Distribution: remote
+2023-09-11T17:11:16.065Z [Modules] Host updates: enabled
+2023-09-11T17:11:16.065Z [Modules] Module updates: enabled
+2023-09-11T17:11:16.066Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-11T17:11:16.066Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-11T17:11:16.066Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-11T17:11:16.344Z [Modules] No updates to install
+2023-09-11T17:11:16.345Z [Modules] Checking for host updates.
+2023-09-11T17:11:16.563Z [Modules] Host is up to date.
+2023-09-11T17:11:16.564Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T17:11:16.589Z [Modules] No module updates available.
+2023-09-11T17:11:18.572Z [Modules] Checking for host updates.
+2023-09-11T17:11:18.742Z [Modules] Host is up to date.
+2023-09-11T17:11:18.742Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T17:11:18.745Z [Modules] No module updates available.
+2023-09-11T18:11:18.576Z [Modules] Checking for host updates.
+2023-09-11T18:11:18.754Z [Modules] Host is up to date.
+2023-09-11T18:11:18.754Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T18:11:18.784Z [Modules] No module updates available.
+2023-09-11T19:11:18.573Z [Modules] Checking for host updates.
+2023-09-11T19:11:18.793Z [Modules] Host is up to date.
+2023-09-11T19:11:18.793Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T19:11:18.822Z [Modules] No module updates available.
+2023-09-11T20:11:18.573Z [Modules] Checking for host updates.
+2023-09-11T20:11:18.746Z [Modules] Host is up to date.
+2023-09-11T20:11:18.747Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T20:11:18.773Z [Modules] No module updates available.
+2023-09-11T21:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T21:11:18.725Z [Modules] Host is up to date.
+2023-09-11T21:11:18.725Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T21:11:18.760Z [Modules] No module updates available.
+2023-09-11T22:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T22:11:18.743Z [Modules] Host is up to date.
+2023-09-11T22:11:18.743Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T22:11:18.846Z [Modules] No module updates available.
+2023-09-11T23:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T23:11:18.798Z [Modules] Host is up to date.
+2023-09-11T23:11:18.799Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T23:11:18.901Z [Modules] No module updates available.
+2023-09-12T00:11:18.574Z [Modules] Checking for host updates.
+2023-09-12T00:11:18.735Z [Modules] Host is up to date.
+2023-09-12T00:11:18.735Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T00:11:18.786Z [Modules] No module updates available.
+2023-09-12T01:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T01:11:18.717Z [Modules] Host is up to date.
+2023-09-12T01:11:18.718Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T01:11:18.752Z [Modules] No module updates available.
+2023-09-12T02:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T02:11:18.733Z [Modules] Host is up to date.
+2023-09-12T02:11:18.733Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T02:11:18.769Z [Modules] No module updates available.
+2023-09-12T03:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T03:11:18.743Z [Modules] Host is up to date.
+2023-09-12T03:11:18.743Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T03:11:18.846Z [Modules] No module updates available.
+2023-09-12T04:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T04:11:18.592Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-09-12T05:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T05:11:19.325Z [Modules] Host is up to date.
+2023-09-12T05:11:19.326Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T05:11:19.517Z [Modules] No module updates available.
+2023-09-12T06:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T06:11:18.766Z [Modules] Host is up to date.
+2023-09-12T06:11:18.766Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T06:11:18.795Z [Modules] No module updates available.
+2023-09-13T20:43:17.509Z [Modules] Modules initializing
+2023-09-13T20:43:17.513Z [Modules] Distribution: remote
+2023-09-13T20:43:17.514Z [Modules] Host updates: enabled
+2023-09-13T20:43:17.514Z [Modules] Module updates: enabled
+2023-09-13T20:43:17.517Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-13T20:43:17.517Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-13T20:43:17.517Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-13T20:43:17.852Z [Modules] No updates to install
+2023-09-13T20:43:17.853Z [Modules] Checking for host updates.
+2023-09-13T20:43:18.056Z [Modules] Host is up to date.
+2023-09-13T20:43:18.057Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T20:43:18.144Z [Modules] No module updates available.
+2023-09-13T20:43:23.369Z [Modules] Checking for host updates.
+2023-09-13T20:43:23.518Z [Modules] Host is up to date.
+2023-09-13T20:43:23.518Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T20:43:23.522Z [Modules] No module updates available.
+2023-09-13T21:43:23.370Z [Modules] Checking for host updates.
+2023-09-13T21:43:23.665Z [Modules] Host is up to date.
+2023-09-13T21:43:23.665Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T21:43:23.699Z [Modules] No module updates available.
+2023-09-13T22:43:23.369Z [Modules] Checking for host updates.
+2023-09-13T22:43:23.652Z [Modules] Host is up to date.
+2023-09-13T22:43:23.653Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T22:43:23.685Z [Modules] No module updates available.
+2023-09-14T21:09:53.765Z [Modules] Modules initializing
+2023-09-14T21:09:53.768Z [Modules] Distribution: remote
+2023-09-14T21:09:53.768Z [Modules] Host updates: enabled
+2023-09-14T21:09:53.769Z [Modules] Module updates: enabled
+2023-09-14T21:09:53.770Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-14T21:09:53.770Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-14T21:09:53.770Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-14T21:09:54.061Z [Modules] No updates to install
+2023-09-14T21:09:54.062Z [Modules] Checking for host updates.
+2023-09-14T21:09:54.332Z [Modules] Host is up to date.
+2023-09-14T21:09:54.332Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T21:09:54.357Z [Modules] No module updates available.
+2023-09-14T21:09:57.470Z [Modules] Checking for host updates.
+2023-09-14T21:09:57.598Z [Modules] Host is up to date.
+2023-09-14T21:09:57.598Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T21:09:57.601Z [Modules] No module updates available.
+2023-09-14T22:09:57.472Z [Modules] Checking for host updates.
+2023-09-14T22:09:57.634Z [Modules] Host is up to date.
+2023-09-14T22:09:57.634Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T22:09:57.661Z [Modules] No module updates available.
+2023-09-14T23:09:57.471Z [Modules] Checking for host updates.
+2023-09-14T23:09:57.724Z [Modules] Host is up to date.
+2023-09-14T23:09:57.724Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T23:09:57.826Z [Modules] No module updates available.
+2023-09-15T00:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T00:09:57.838Z [Modules] Host is up to date.
+2023-09-15T00:09:57.839Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T00:09:57.867Z [Modules] No module updates available.
+2023-09-15T01:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T01:09:57.629Z [Modules] Host is up to date.
+2023-09-15T01:09:57.629Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T01:09:57.656Z [Modules] No module updates available.
+2023-09-15T02:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T02:09:57.638Z [Modules] Host is up to date.
+2023-09-15T02:09:57.638Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T02:09:57.740Z [Modules] No module updates available.
+2023-09-15T03:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T03:09:57.611Z [Modules] Host is up to date.
+2023-09-15T03:09:57.611Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T03:09:57.639Z [Modules] No module updates available.
+2023-09-15T04:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T04:09:57.601Z [Modules] Host is up to date.
+2023-09-15T04:09:57.602Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T04:09:57.636Z [Modules] No module updates available.
+2023-09-15T05:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T05:09:57.683Z [Modules] Host is up to date.
+2023-09-15T05:09:57.684Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T05:09:57.714Z [Modules] No module updates available.
+2023-09-15T06:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T06:09:57.671Z [Modules] Host is up to date.
+2023-09-15T06:09:57.671Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T06:09:57.743Z [Modules] No module updates available.
+2023-09-15T07:09:57.472Z [Modules] Checking for host updates.
+2023-09-15T07:09:57.632Z [Modules] Host is up to date.
+2023-09-15T07:09:57.632Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T07:09:57.663Z [Modules] No module updates available.
+2023-09-15T08:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T08:09:57.631Z [Modules] Host is up to date.
+2023-09-15T08:09:57.631Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T08:09:57.656Z [Modules] No module updates available.
+2023-09-15T09:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T09:09:57.705Z [Modules] Host is up to date.
+2023-09-15T09:09:57.705Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T09:09:57.729Z [Modules] No module updates available.
+2023-09-15T10:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T10:09:57.618Z [Modules] Host is up to date.
+2023-09-15T10:09:57.619Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T10:09:57.643Z [Modules] No module updates available.
+2023-09-15T11:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T11:09:57.679Z [Modules] Host is up to date.
+2023-09-15T11:09:57.679Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T11:09:57.702Z [Modules] No module updates available.
+2023-09-15T12:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T12:09:57.586Z [Modules] Host is up to date.
+2023-09-15T12:09:57.586Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T12:09:57.614Z [Modules] No module updates available.
+2023-09-15T13:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T13:09:57.694Z [Modules] Host is up to date.
+2023-09-15T13:09:57.694Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T13:09:57.797Z [Modules] No module updates available.
+2023-09-16T03:41:06.367Z [Modules] Modules initializing
+2023-09-16T03:41:06.369Z [Modules] Distribution: remote
+2023-09-16T03:41:06.369Z [Modules] Host updates: enabled
+2023-09-16T03:41:06.370Z [Modules] Module updates: enabled
+2023-09-16T03:41:06.371Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T03:41:06.371Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T03:41:06.371Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T03:41:06.617Z [Modules] No updates to install
+2023-09-16T03:41:06.617Z [Modules] Checking for host updates.
+2023-09-16T03:41:06.907Z [Modules] Host is up to date.
+2023-09-16T03:41:06.907Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:43.928Z [Modules] Modules initializing
+2023-09-16T17:44:43.928Z [Modules] Distribution: remote
+2023-09-16T17:44:43.928Z [Modules] Host updates: enabled
+2023-09-16T17:44:43.928Z [Modules] Module updates: enabled
+2023-09-16T17:44:43.928Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T17:44:43.928Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T17:44:43.929Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T17:44:44.084Z [Modules] No updates to install
+2023-09-16T17:44:44.084Z [Modules] Checking for host updates.
+2023-09-16T17:44:44.290Z [Modules] Host is up to date.
+2023-09-16T17:44:44.290Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:44.330Z [Modules] No module updates available.
+2023-09-16T17:44:49.143Z [Modules] Checking for host updates.
+2023-09-16T17:44:49.258Z [Modules] Host is up to date.
+2023-09-16T17:44:49.259Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:49.263Z [Modules] No module updates available.
+2023-09-16T18:44:49.143Z [Modules] Checking for host updates.
+2023-09-16T18:44:49.371Z [Modules] Host is up to date.
+2023-09-16T18:44:49.371Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T18:44:49.409Z [Modules] No module updates available.
+2023-09-16T19:17:22.953Z [Modules] Modules initializing
+2023-09-16T19:17:22.961Z [Modules] Distribution: remote
+2023-09-16T19:17:22.961Z [Modules] Host updates: enabled
+2023-09-16T19:17:22.961Z [Modules] Module updates: enabled
+2023-09-16T19:17:22.963Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T19:17:22.963Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T19:17:22.963Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T19:17:23.260Z [Modules] No updates to install
+2023-09-16T19:17:23.261Z [Modules] Checking for host updates.
+2023-09-16T19:17:23.710Z [Modules] Host is up to date.
+2023-09-16T19:17:23.710Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T19:17:23.733Z [Modules] No module updates available.
+2023-09-16T19:17:26.196Z [Modules] Checking for host updates.
+2023-09-16T19:17:26.370Z [Modules] Host is up to date.
+2023-09-16T19:17:26.370Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T19:17:26.372Z [Modules] No module updates available.
+2023-09-17T03:39:00.104Z [Modules] Modules initializing
+2023-09-17T03:39:00.108Z [Modules] Distribution: remote
+2023-09-17T03:39:00.108Z [Modules] Host updates: enabled
+2023-09-17T03:39:00.108Z [Modules] Module updates: enabled
+2023-09-17T03:39:00.109Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T03:39:00.109Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T03:39:00.109Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T03:39:00.360Z [Modules] No updates to install
+2023-09-17T03:39:00.361Z [Modules] Checking for host updates.
+2023-09-17T17:56:25.632Z [Modules] Modules initializing
+2023-09-17T17:56:25.632Z [Modules] Distribution: remote
+2023-09-17T17:56:25.632Z [Modules] Host updates: enabled
+2023-09-17T17:56:25.632Z [Modules] Module updates: enabled
+2023-09-17T17:56:25.633Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T17:56:25.633Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T17:56:25.633Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T17:56:25.777Z [Modules] No updates to install
+2023-09-17T17:56:25.778Z [Modules] Checking for host updates.
+2023-09-17T17:56:26.047Z [Modules] Host is up to date.
+2023-09-17T17:56:26.047Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T17:56:26.124Z [Modules] No module updates available.
+2023-09-17T17:56:28.213Z [Modules] Checking for host updates.
+2023-09-17T17:56:28.330Z [Modules] Host is up to date.
+2023-09-17T17:56:28.330Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T17:56:28.334Z [Modules] No module updates available.
+2023-09-17T19:18:56.722Z [Modules] Modules initializing
+2023-09-17T19:18:56.726Z [Modules] Distribution: remote
+2023-09-17T19:18:56.726Z [Modules] Host updates: enabled
+2023-09-17T19:18:56.726Z [Modules] Module updates: enabled
+2023-09-17T19:18:56.728Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T19:18:56.728Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T19:18:56.728Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T19:18:57.007Z [Modules] No updates to install
+2023-09-17T19:18:57.008Z [Modules] Checking for host updates.
+2023-09-17T19:18:57.275Z [Modules] Host is up to date.
+2023-09-17T19:18:57.275Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T19:18:57.411Z [Modules] No module updates available.
+2023-09-17T19:18:59.368Z [Modules] Checking for host updates.
+2023-09-17T19:18:59.477Z [Modules] Host is up to date.
+2023-09-17T19:18:59.477Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T19:18:59.481Z [Modules] No module updates available.
+2023-09-17T20:18:59.371Z [Modules] Checking for host updates.
+2023-09-17T20:18:59.568Z [Modules] Host is up to date.
+2023-09-17T20:18:59.568Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T20:18:59.595Z [Modules] No module updates available.
+2023-09-18T03:35:54.834Z [Modules] Modules initializing
+2023-09-18T03:35:54.837Z [Modules] Distribution: remote
+2023-09-18T03:35:54.837Z [Modules] Host updates: enabled
+2023-09-18T03:35:54.837Z [Modules] Module updates: enabled
+2023-09-18T03:35:54.841Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-18T03:35:54.841Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-18T03:35:54.842Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-18T03:35:55.119Z [Modules] No updates to install
+2023-09-18T03:35:55.120Z [Modules] Checking for host updates.
+2023-09-18T03:35:55.384Z [Modules] Host is up to date.
+2023-09-18T03:35:55.385Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T03:35:55.452Z [Modules] No module updates available.
+2023-09-18T03:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T03:35:57.633Z [Modules] Host is up to date.
+2023-09-18T03:35:57.633Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T03:35:57.637Z [Modules] No module updates available.
+2023-09-18T04:35:57.441Z [Modules] Checking for host updates.
+2023-09-18T04:35:57.604Z [Modules] Host is up to date.
+2023-09-18T04:35:57.604Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T04:35:57.645Z [Modules] No module updates available.
+2023-09-18T05:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T05:35:57.678Z [Modules] Host is up to date.
+2023-09-18T05:35:57.678Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T05:35:57.701Z [Modules] No module updates available.
+2023-09-18T06:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T06:35:57.619Z [Modules] Host is up to date.
+2023-09-18T06:35:57.619Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T06:35:57.677Z [Modules] No module updates available.
+2023-09-18T07:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T07:35:57.622Z [Modules] Host is up to date.
+2023-09-18T07:35:57.622Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T07:35:57.645Z [Modules] No module updates available.
+2023-09-18T08:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T08:35:57.639Z [Modules] Host is up to date.
+2023-09-18T08:35:57.639Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T08:35:57.666Z [Modules] No module updates available.
+2023-09-18T09:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T09:35:57.603Z [Modules] Host is up to date.
+2023-09-18T09:35:57.603Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T09:35:57.629Z [Modules] No module updates available.
+2023-09-18T10:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T10:35:57.618Z [Modules] Host is up to date.
+2023-09-18T10:35:57.618Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T10:35:57.643Z [Modules] No module updates available.
+2023-09-18T11:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T11:35:57.607Z [Modules] Host is up to date.
+2023-09-18T11:35:57.607Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T11:35:57.638Z [Modules] No module updates available.
+2023-09-18T12:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T12:35:57.583Z [Modules] Host is up to date.
+2023-09-18T12:35:57.584Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T12:35:57.634Z [Modules] No module updates available.
+2023-09-18T13:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T13:35:57.678Z [Modules] Host is up to date.
+2023-09-18T13:35:57.678Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T13:35:57.779Z [Modules] No module updates available.
+2023-09-18T14:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T14:35:57.693Z [Modules] Host is up to date.
+2023-09-18T14:35:57.693Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T14:35:57.795Z [Modules] No module updates available.
+2023-09-18T15:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T15:35:57.609Z [Modules] Host is up to date.
+2023-09-18T15:35:57.609Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T15:35:57.638Z [Modules] No module updates available.
+2023-09-18T16:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T16:35:57.575Z [Modules] Host is up to date.
+2023-09-18T16:35:57.576Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T16:35:57.605Z [Modules] No module updates available.
+2023-09-18T17:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T17:35:57.601Z [Modules] Host is up to date.
+2023-09-18T17:35:57.601Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T17:35:57.632Z [Modules] No module updates available.
+2023-09-18T18:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T18:35:57.582Z [Modules] Host is up to date.
+2023-09-18T18:35:57.582Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T18:35:57.611Z [Modules] No module updates available.
+2023-09-18T19:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T19:35:57.585Z [Modules] Host is up to date.
+2023-09-18T19:35:57.585Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T19:35:57.617Z [Modules] No module updates available.
+2023-09-18T20:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T20:35:57.683Z [Modules] Host update is available. Manual update required!

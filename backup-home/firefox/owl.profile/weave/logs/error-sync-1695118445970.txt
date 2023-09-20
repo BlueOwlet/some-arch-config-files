@@ -1,0 +1,61 @@
+1695115557547	Sync.LogManager	DEBUG	Flushing file log
+1695115557578	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694251557578
+1695115557582	Sync.LogManager	DEBUG	Done deleting files.
+1695117885530	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118098723	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118102427	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118113723	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118118427	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118126533	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118131460	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118138480	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118146883	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118152366	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118160454	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118167570	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118175223	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118181723	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118192496	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118199717	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118216366	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118226413	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118235296	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118242306	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118247493	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695118445936	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1695118445936	Sync.Service	INFO	Starting sync at 2023-09-19 04:14:05 in browser session vZDuxHVMJ0sK
+1695118445936	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695118445942	Sync.Status	INFO	Resetting Status.
+1695118445942	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1695118445943	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1695118445943	FirefoxAccounts	DEBUG	getOAuthToken enter
+1695118445943	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1695118445943	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1695118445944	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1695118445945	Sync.SyncAuthManager	INFO	Getting sync key
+1695118445945	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1695118445945	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1695118445945	FirefoxAccounts	DEBUG	getOAuthToken enter
+1695118445945	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1695118445945	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1695118445946	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1695118445946	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1695118445952	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1695118445952	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1695118445954	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1695118445954	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1695118445954	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1695118445954	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1695118445955	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1695118445956	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1695118445963	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1695118445963	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1695118445963	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1695118445964	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1695118445964	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1695118445964	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 5295320 ms.
+1695118445964	Sync.SyncScheduler	DEBUG	Next sync in 5295320 ms. (why=client-backoff-schedule)
+1695118445964	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1695118445970	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

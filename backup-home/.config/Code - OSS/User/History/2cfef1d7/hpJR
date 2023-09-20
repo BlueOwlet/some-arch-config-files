@@ -1,0 +1,14 @@
+
+
+
+FROM ubuntu
+
+WORKDIR /vyda
+
+COPY ./vyda-project /vyda
+
+RUN chmod +x /vyda/manage.sh
+
+RUN /vyda/manage.sh container
+
+EXPOSE 8080 8000
