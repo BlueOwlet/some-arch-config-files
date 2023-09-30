@@ -8,14 +8,10 @@
             "file:///home/owl/Desktop/vyda/vyda-project": "__default__profile__",
             "file:///home/owl/interact": "__default__profile__",
             "file:///home/owl/Desktop/container": "__default__profile__",
-            "file:///home/owl/config-files": "__default__profile__",
-            "file:///home/owl/vyda": "__default__profile__"
+            "file:///home/owl/vyda": "__default__profile__",
+            "file:///home/owl/config-files": "__default__profile__"
         },
-        "emptyWindows": {
-            "1696058736596": "__default__profile__",
-            "1696059671873": "__default__profile__",
-            "1696059672156": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -24,22 +20,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/owl/config-files"
-            },
-            {
-                "folderUri": "file:///home/owl/vyda"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1696058736596"
-            },
-            {
-                "backupFolder": "1696059671873"
-            },
-            {
-                "backupFolder": "1696059672156"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -47,10 +30,10 @@
             "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
             "uiState": {
                 "mode": 1,
-                "x": 22,
-                "y": 22,
-                "width": 1876,
-                "height": 1036
+                "x": 503,
+                "y": 88,
+                "width": 1708,
+                "height": 892
             }
         },
         "openedWindows": []
@@ -93,21 +76,11 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/vyda",
-                                        "path": "/home/owl/vyda",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/vyda"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -119,6 +92,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/config-files"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/vyda",
+                                        "path": "/home/owl/vyda",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/vyda"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -945,7 +929,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

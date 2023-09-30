@@ -1,9 +1,0 @@
-2023-09-28 12:43:45.750 [info] Extension host with pid 12477 started
-2023-09-28 12:43:45.828 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
-2023-09-28 12:43:45.853 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-09-28 12:43:45.873 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-09-28 12:43:45.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-09-28 12:43:45.895 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-09-28 12:43:45.935 [info] Eager extensions activated
-2023-09-28 12:43:45.955 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-09-28 12:43:45.957 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
