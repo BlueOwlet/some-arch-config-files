@@ -1,7 +1,0 @@
-2023-09-20 12:24:44.232 [info] Extension host with pid 34235 started
-2023-09-20 12:24:44.292 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-09-20 12:24:44.311 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-09-20 12:24:44.325 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-09-20 12:24:44.356 [info] Eager extensions activated
-2023-09-20 12:24:44.379 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-09-20 12:24:44.380 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

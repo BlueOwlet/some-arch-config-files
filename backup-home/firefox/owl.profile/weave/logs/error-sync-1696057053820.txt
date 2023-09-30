@@ -1,0 +1,40 @@
+1696056974404	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696056978814	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1696056978816	Sync.Engine.Tabs	INFO	Posting 1 records of 9899 bytes with batch=true
+1696056978817	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696056978817	Sync.Collection	DEBUG	POST Length: 9899
+1696056978969	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/storage/tabs?batch=true&commit=true
+1696056978980	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1696056983399	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056997378	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057017328	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696057017328	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057017331	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057017333	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057037665	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696057037665	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696057037671	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057037672	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696057037673	Sync.Service	INFO	Starting sync at 2023-09-30 00:57:17 in browser session eehs_I8FvLUI
+1696057037673	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057037677	Sync.Status	INFO	Resetting Status.
+1696057037677	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696057037678	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1696057037678	FirefoxAccounts	DEBUG	getOAuthToken enter
+1696057037679	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1696057037679	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1696057037679	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1696057043786	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections
+1696057043786	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration
+1696057045423	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696057045423	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057045426	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057045427	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057053815	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2147500036 - NS_ERROR_ABORT
+1696057053815	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696057053815	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696057053816	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/configuration failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696057053816	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696057053816	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1696057053817	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1696057053820	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

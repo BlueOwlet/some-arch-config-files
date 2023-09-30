@@ -311,7 +311,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
+       style="line-height:1.25;font-family:sans-serif;font-size:12px"
        selcue="1" />
     <eventcontext
        id="nodes"
@@ -965,14 +965,14 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000">
+     style="fill:#d45500;font-size:12px">
     <group
        width="931"
-       height="1036"
+       height="511"
        x="0"
        y="0"
        maximized="1"
-       fullscreen="0"
+       fullscreen="1"
        id="geometry" />
     <group
        id="XYfront" />

@@ -1,0 +1,99 @@
+#!/bin/bash
+
+#Backup
+
+delete_backup(){
+	sudo rm -r backup-home
+
+}
+
+mkdir -p backup-home
+
+cd backup-home
+
+
+
+#Copying GRUB
+
+cp /etc/default/grub . 
+
+# vfio.conf
+cp /etc/modprobe.d/vfio.conf .
+
+# initrams???
+cp /etc/mkinitcpio.conf .
+
+# Virtual Manager conf for permissions and stuff
+cp /etc/libvirt/qemu.conf .
+
+
+# Copy WIFI
+
+sudo cp -r /var/lib/iwd .
+
+
+# Copy all configuration folders and files
+cp -ap ~/.config/ .
+
+cp -ap ~/.ssh/ .
+
+# Background and Images
+cp -ap ~/Pictures .
+
+# bashrc
+cp -ap ~/.bashrc .
+# vimrc
+cp -ap ~/.vimrc .
+
+# Firefox profiles
+mkdir -p firefox
+cp -ap ~/.mozilla/firefox/owl.profile ./firefox/
+cp -ap ~/.mozilla/firefox/interact.profile ./firefox/
+
+
+# DOCKER
+mkdir -p docker
+cp /etc/containers/registries.conf ./docker/
+
+
+cd ..
+
+
+
+
+# GIT HANDLING
+echo "First Run? first | n (nothing) | default (git add ., git commit -m, git push)"
+read option
+if [ "$option" = "first" ] ; then
+	echo "running first time"
+	git init
+	git add .
+	git commit -m "something"
+	git remote add origin https://github.com/BlueOwlet/config-files.git
+	git remote set-url origin git@github.com:BlueOwlet/config-files.git
+	echo "final push"
+	git push -f origin master
+
+fi
+
+if [ "$option" = "n" ]; then
+	echo "running nothing"
+fi
+
+formatted_date=$(date '+%m/%d/%Y %T')
+
+if [ "$option" = "" ]; then
+	echo "running normal commit"
+	git status
+	git add .
+	git add backup
+	git add restore
+	git add post
+	git status
+	git commit -m "auto backup: $formatted_date"
+	echo "final push"
+	git push -f origin master
+fi
+
+
+

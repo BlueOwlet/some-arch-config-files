@@ -1,0 +1,141 @@
+#!/bin/bash
+
+#Backup
+
+delete_backup(){
+	sudo rm -r backup-home
+
+}
+
+
+create_backup_folder(){
+	mkdir -p backup-home
+
+}
+
+enter_backup_folder()}{
+	cd backup-home
+
+}
+
+
+backup_GRUB(){
+	cp /etc/default/grub . 
+	 
+}
+
+
+backup_virt_manager(){
+	# vfio.conf -> driver for virtual-manager vfio (input-output)
+	cp /etc/modprobe.d/vfio.conf .
+
+
+}
+
+backup_initrams(){
+	# initrams???
+	cp /etc/mkinitcpio.conf .
+
+}
+
+
+
+backup_virtual_manager(){
+	# Virtual Manager conf for permissions and stuff
+	cp /etc/libvirt/qemu.conf .
+
+}
+
+
+backup_wifi(){
+	# Copy WIFI
+
+	sudo cp -r /var/lib/iwd .
+
+}
+
+
+backup_dot_config(){
+	# Copy all configuration folders and files
+	cp -ap ~/.config/ .
+
+}
+
+backup_ssh(){
+	cp -ap ~/.ssh/ .
+
+}
+
+
+backup_images(){
+	# Background and Images
+	cp -ap ~/Pictures .
+
+}
+
+
+backup_cli_config(){
+	# bashrc
+	cp -ap ~/.bashrc .
+	# vimrc
+	cp -ap ~/.vimrc .
+
+}
+
+
+backup_firefox(){
+
+	# Firefox profiles
+	mkdir -p firefox
+	cp -ap ~/.mozilla/firefox/owl.profile ./firefox/
+	cp -ap ~/.mozilla/firefox/interact.profile ./firefox/
+
+}
+
+
+# DOCKER
+mkdir -p docker
+cp /etc/containers/registries.conf ./docker/
+
+
+cd ..
+
+
+
+
+# GIT HANDLING
+echo "First Run? first | n (nothing) | default (git add ., git commit -m, git push)"
+read option
+if [ "$option" = "first" ] ; then
+	echo "running first time"
+	git init
+	git add .
+	git commit -m "something"
+	git remote add origin https://github.com/BlueOwlet/config-files.git
+	git remote set-url origin git@github.com:BlueOwlet/config-files.git
+	echo "final push"
+	git push -f origin master
+
+fi
+
+if [ "$option" = "n" ]; then
+	echo "running nothing"
+fi
+
+formatted_date=$(date '+%m/%d/%Y %T')
+
+if [ "$option" = "" ]; then
+	echo "running normal commit"
+	git status
+	git add .
+	git add backup
+	git add restore
+	git add post
+	git status
+	git commit -m "auto backup: $formatted_date"
+	echo "final push"
+	git push -f origin master
+fi
+
+
+

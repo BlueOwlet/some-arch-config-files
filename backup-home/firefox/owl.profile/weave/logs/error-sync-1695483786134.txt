@@ -1,0 +1,43 @@
+1695483768441	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695483769243	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483772925	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483774523	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1695483774523	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695483774526	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695483774527	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483776773	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1695483776773	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1695483776779	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483776781	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1695483776781	Sync.Service	INFO	Starting sync at 2023-09-23 09:42:56 in browser session fEwM4xMj83Gj
+1695483776781	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695483776785	Sync.Status	INFO	Resetting Status.
+1695483776785	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1695483776785	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1695483777915	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483779479	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1695483779480	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695483779482	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695483779483	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483781736	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1695483781737	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1695483781741	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483781743	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1695483781743	Sync.Service	INFO	Starting sync at 2023-09-23 09:43:01 in browser session fEwM4xMj83Gj
+1695483781744	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:45:5) JS Stack trace: LockException@util.sys.mjs:45:5
+throwLockException@util.sys.mjs:129:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1369:6
+sync/<@service.sys.mjs:1334:18
+WrappedCatch@util.sys.mjs:114:27
+sync@service.sys.mjs:1335:7
+1695483781744	Sync.Service	INFO	Cannot start sync: already syncing?
+1695483782845	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483784432	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1695483784432	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695483784435	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695483784436	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695483786129	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1695483786129	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1695483786130	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1695483786134	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

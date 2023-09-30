@@ -11,3 +11,15 @@ true
 0
 true
 #
+
+https://meet.interactspeakingcenter.com/
+https://meet.interactspeakingcenter.com/pwa-worker.js
+true
+{e8612ba9-94ca-4c9e-82be-6fc0eb001aea}
+0
+1695348143110809
+1695348143111913
+1695348141777591
+1
+true
+#

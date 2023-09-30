@@ -1,0 +1,35 @@
+1696056195583	Sync.LogManager	DEBUG	Flushing file log
+1696056195621	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695192195621
+1696056195639	Sync.LogManager	DEBUG	Done deleting files.
+1696056199623	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056200732	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056202039	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056213737	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056215666	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056236273	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696056236273	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696056236277	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696056236278	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056237784	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056257865	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696056257866	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696056257872	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056257874	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696056257874	Sync.Service	INFO	Starting sync at 2023-09-30 00:44:17 in browser session eehs_I8FvLUI
+1696056257875	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696056257879	Sync.Status	INFO	Resetting Status.
+1696056257879	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696056257880	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1696056257880	FirefoxAccounts	DEBUG	getOAuthToken enter
+1696056257881	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1696056257881	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1696056257881	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1696056264407	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1696056265978	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696056265978	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696056265981	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696056265983	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696056274454	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696056274454	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696056274456	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1696056274461	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

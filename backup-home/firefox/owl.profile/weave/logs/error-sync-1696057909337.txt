@@ -1,0 +1,28 @@
+1696057832439	Sync.LogManager	DEBUG	Flushing file log
+1696057832452	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695193832452
+1696057832459	Sync.LogManager	DEBUG	Done deleting files.
+1696057833445	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057835239	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057890779	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696057890779	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057890782	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057890784	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057893749	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057904545	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057909298	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696057909298	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696057909303	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057909305	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696057909305	Sync.Service	INFO	Starting sync at 2023-09-30 01:11:49 in browser session eehs_I8FvLUI
+1696057909305	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057909309	Sync.Status	INFO	Resetting Status.
+1696057909309	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696057909310	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696057909332	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1696057909332	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1696057909332	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1696057909333	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1696057909333	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1696057909333	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3745902 ms.
+1696057909333	Sync.SyncScheduler	DEBUG	Next sync in 3745902 ms. (why=client-backoff-schedule)
+1696057909336	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

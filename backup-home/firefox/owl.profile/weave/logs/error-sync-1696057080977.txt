@@ -1,0 +1,27 @@
+1696057066780	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057072145	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696057072145	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057072146	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057072161	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057073575	Sync.RemoteTabs	INFO	Generating tab list with filter
+1696057073580	Sync.RemoteTabs	DEBUG	Processing client: {"id":"4ae8fe694b46c0abb2f32f96c42ba5a0","type":"client","name":"Firefox on samsung SM-S916U","clientType":"phone","lastModified":1695979276110,"tabs":[]}
+1696057073580	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 6 tabs.
+1696057075612	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696057075612	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696057075616	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057075618	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696057075618	Sync.Service	INFO	Starting sync at 2023-09-30 00:57:55 in browser session eehs_I8FvLUI
+1696057075618	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696057075621	Sync.Status	INFO	Resetting Status.
+1696057075621	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696057075621	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696057076296	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1696057076415	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696057076719	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057076863	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696057078172	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696057080060	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696057080971	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696057080971	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696057080972	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1696057080976	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
