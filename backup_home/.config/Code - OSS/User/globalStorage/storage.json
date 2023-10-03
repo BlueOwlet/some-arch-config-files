@@ -8,15 +8,10 @@
             "file:///home/owl/Desktop/vyda/vyda-project": "__default__profile__",
             "file:///home/owl/Desktop/container": "__default__profile__",
             "file:///home/owl/interact": "__default__profile__",
-            "file:///home/owl/vyda": "__default__profile__",
-            "file:///home/owl/config-files": "__default__profile__"
+            "file:///home/owl/config-files": "__default__profile__",
+            "file:///home/owl/vyda": "__default__profile__"
         },
-        "emptyWindows": {
-            "1696293534712": "__default__profile__",
-            "1696293733976": "__default__profile__",
-            "1696293735507": "__default__profile__",
-            "1696295549180": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -25,36 +20,49 @@
         "folders": [
             {
                 "folderUri": "file:///home/owl/config-files"
+            },
+            {
+                "folderUri": "file:///home/owl/vyda"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1696293534712"
-            },
-            {
-                "backupFolder": "1696293733976"
-            },
-            {
-                "backupFolder": "1696293735507"
-            },
-            {
-                "backupFolder": "1696295549180"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/owl/config-files",
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
+            "folder": "file:///home/owl/vyda",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/38053b1434e97e5d05ec237516fc9c17",
             "uiState": {
                 "mode": 1,
                 "x": 22,
-                "y": 22,
-                "width": 824,
-                "height": 1036
+                "y": 547,
+                "width": 931,
+                "height": 511
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/owl/config-files",
+                "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
+                "uiState": {
+                    "mode": 1,
+                    "x": 967,
+                    "y": 22,
+                    "width": 931,
+                    "height": 1036
+                }
+            },
+            {
+                "folder": "file:///home/owl/vyda",
+                "backupPath": "/home/owl/.config/Code - OSS/Backups/38053b1434e97e5d05ec237516fc9c17",
+                "uiState": {
+                    "mode": 1,
+                    "x": 22,
+                    "y": 547,
+                    "width": 931,
+                    "height": 511
+                }
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -94,21 +102,11 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files",
-                                        "path": "/home/owl/config-files",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -120,6 +118,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/vyda"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/config-files",
+                                        "path": "/home/owl/config-files",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -194,6 +203,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/config-files/vy",
+                                        "path": "/home/owl/config-files/vy",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files/vy"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/hypr/hyprland.conf",
+                                        "path": "/home/owl/.config/hypr/hyprland.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr/hyprland.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/owl/.bashrc",
                                         "path": "/home/owl/.bashrc",
                                         "scheme": "file"
@@ -211,17 +242,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Pictures/organize_wallpapers"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.config/hypr/hyprland.conf",
-                                        "path": "/home/owl/.config/hypr/hyprland.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/hypr/hyprland.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -290,17 +310,6 @@
                                     "label": "~/Desktop/vyda/vyda-project/django.sh"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/Desktop/vyda/Dockerfile",
-                                        "path": "/home/owl/Desktop/vyda/Dockerfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/vyda/Dockerfile"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -356,13 +365,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -902,6 +904,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -946,7 +952,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
