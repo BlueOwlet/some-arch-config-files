@@ -1,0 +1,1222 @@
+2023-09-08T20:57:50.482Z [Modules] Modules initializing
+2023-09-08T20:57:50.482Z [Modules] Distribution: remote
+2023-09-08T20:57:50.482Z [Modules] Host updates: enabled
+2023-09-08T20:57:50.483Z [Modules] Module updates: enabled
+2023-09-08T20:57:50.483Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-08T20:57:50.483Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-08T20:57:50.483Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-08T20:57:50.621Z [Modules] Bootstrapping...
+2023-09-08T20:57:50.622Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-09-08T20:57:50.625Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-09-08T20:57:50.625Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-09-08T20:57:50.626Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-09-08T20:57:50.626Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-09-08T20:57:50.627Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-09-08T20:57:50.628Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-09-08T20:57:50.629Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-09-08T20:57:50.630Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-09-08T20:57:50.631Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-09-08T20:57:50.632Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-09-08T20:57:50.632Z [Modules] Checking for host updates.
+2023-09-08T20:57:50.834Z [Modules] Host is up to date.
+2023-09-08T20:57:50.835Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-08T20:57:50.904Z [Modules] Module update available: discord_desktop_core@2 [installed: 0]
+2023-09-08T20:57:50.904Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-09-08T20:57:50.904Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-09-08T20:57:50.904Z [Modules] Module update available: discord_utils@2 [installed: 0]
+2023-09-08T20:57:50.905Z [Modules] Module update available: discord_voice@2 [installed: 0]
+2023-09-08T20:57:50.905Z [Modules] Fetching discord_desktop_core@2 from https://discord.com/api/modules/stable/discord_desktop_core/2
+2023-09-08T20:57:50.906Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip
+2023-09-08T20:57:51.361Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 2%
+2023-09-08T20:57:51.421Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 5%
+2023-09-08T20:57:51.478Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 8%
+2023-09-08T20:57:51.480Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 9%
+2023-09-08T20:57:51.517Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 10%
+2023-09-08T20:57:51.535Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 12%
+2023-09-08T20:57:51.539Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 13%
+2023-09-08T20:57:51.541Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 14%
+2023-09-08T20:57:51.588Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 15%
+2023-09-08T20:57:51.592Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 17%
+2023-09-08T20:57:51.593Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 18%
+2023-09-08T20:57:51.597Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 20%
+2023-09-08T20:57:51.645Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 21%
+2023-09-08T20:57:51.647Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 22%
+2023-09-08T20:57:51.648Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 23%
+2023-09-08T20:57:51.653Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 24%
+2023-09-08T20:57:51.655Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 25%
+2023-09-08T20:57:51.658Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 27%
+2023-09-08T20:57:51.701Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 28%
+2023-09-08T20:57:51.708Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 29%
+2023-09-08T20:57:51.710Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 30%
+2023-09-08T20:57:51.718Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 33%
+2023-09-08T20:57:51.742Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 34%
+2023-09-08T20:57:51.763Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 35%
+2023-09-08T20:57:51.770Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 36%
+2023-09-08T20:57:51.778Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 38%
+2023-09-08T20:57:51.780Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 39%
+2023-09-08T20:57:51.798Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 40%
+2023-09-08T20:57:51.811Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 41%
+2023-09-08T20:57:51.824Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 42%
+2023-09-08T20:57:51.838Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 44%
+2023-09-08T20:57:51.841Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 45%
+2023-09-08T20:57:51.864Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 46%
+2023-09-08T20:57:51.871Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 47%
+2023-09-08T20:57:51.878Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 48%
+2023-09-08T20:57:51.901Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 51%
+2023-09-08T20:57:51.905Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 52%
+2023-09-08T20:57:51.925Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 53%
+2023-09-08T20:57:51.933Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 54%
+2023-09-08T20:57:51.938Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 55%
+2023-09-08T20:57:51.959Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 57%
+2023-09-08T20:57:51.961Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 58%
+2023-09-08T20:57:51.980Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 59%
+2023-09-08T20:57:51.993Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 61%
+2023-09-08T20:57:52.006Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 62%
+2023-09-08T20:57:52.013Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 63%
+2023-09-08T20:57:52.020Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 64%
+2023-09-08T20:57:52.021Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 65%
+2023-09-08T20:57:52.034Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 66%
+2023-09-08T20:57:52.048Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 68%
+2023-09-08T20:57:52.060Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 69%
+2023-09-08T20:57:52.068Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 70%
+2023-09-08T20:57:52.074Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 71%
+2023-09-08T20:57:52.080Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 72%
+2023-09-08T20:57:52.086Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 73%
+2023-09-08T20:57:52.108Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 75%
+2023-09-08T20:57:52.114Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 76%
+2023-09-08T20:57:52.128Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 77%
+2023-09-08T20:57:52.130Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 78%
+2023-09-08T20:57:52.134Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 79%
+2023-09-08T20:57:52.140Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 80%
+2023-09-08T20:57:52.153Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 81%
+2023-09-08T20:57:52.166Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 82%
+2023-09-08T20:57:52.168Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 83%
+2023-09-08T20:57:52.188Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 85%
+2023-09-08T20:57:52.193Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 87%
+2023-09-08T20:57:52.214Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 89%
+2023-09-08T20:57:52.220Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 90%
+2023-09-08T20:57:52.248Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 92%
+2023-09-08T20:57:52.251Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 93%
+2023-09-08T20:57:52.254Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 94%
+2023-09-08T20:57:52.274Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 96%
+2023-09-08T20:57:52.276Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 97%
+2023-09-08T20:57:52.294Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 98%
+2023-09-08T20:57:52.306Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 99%
+2023-09-08T20:57:52.307Z [Modules] Streaming discord_desktop_core@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 100%
+2023-09-08T20:57:52.326Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-09-08T20:57:52.326Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip
+2023-09-08T20:57:52.581Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 1%
+2023-09-08T20:57:52.582Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 2%
+2023-09-08T20:57:52.584Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 3%
+2023-09-08T20:57:52.587Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 6%
+2023-09-08T20:57:52.590Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 8%
+2023-09-08T20:57:52.636Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 10%
+2023-09-08T20:57:52.643Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 11%
+2023-09-08T20:57:52.644Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 12%
+2023-09-08T20:57:52.647Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 14%
+2023-09-08T20:57:52.648Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 15%
+2023-09-08T20:57:52.650Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 17%
+2023-09-08T20:57:52.691Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 18%
+2023-09-08T20:57:52.698Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 19%
+2023-09-08T20:57:52.700Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 21%
+2023-09-08T20:57:52.705Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 22%
+2023-09-08T20:57:52.707Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 23%
+2023-09-08T20:57:52.709Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 25%
+2023-09-08T20:57:52.711Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 26%
+2023-09-08T20:57:52.712Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 27%
+2023-09-08T20:57:52.746Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 28%
+2023-09-08T20:57:52.763Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 30%
+2023-09-08T20:57:52.768Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 34%
+2023-09-08T20:57:52.771Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 35%
+2023-09-08T20:57:52.773Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 36%
+2023-09-08T20:57:52.806Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 37%
+2023-09-08T20:57:52.819Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 38%
+2023-09-08T20:57:52.821Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 39%
+2023-09-08T20:57:52.824Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 42%
+2023-09-08T20:57:52.826Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 43%
+2023-09-08T20:57:52.828Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 44%
+2023-09-08T20:57:52.832Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 47%
+2023-09-08T20:57:52.866Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 48%
+2023-09-08T20:57:52.873Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 49%
+2023-09-08T20:57:52.881Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 50%
+2023-09-08T20:57:52.884Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 51%
+2023-09-08T20:57:52.887Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 54%
+2023-09-08T20:57:52.891Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 57%
+2023-09-08T20:57:52.894Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 58%
+2023-09-08T20:57:52.907Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 59%
+2023-09-08T20:57:52.943Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 62%
+2023-09-08T20:57:52.947Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 65%
+2023-09-08T20:57:52.951Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 69%
+2023-09-08T20:57:52.955Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 71%
+2023-09-08T20:57:52.957Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 72%
+2023-09-08T20:57:52.961Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 73%
+2023-09-08T20:57:52.981Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 74%
+2023-09-08T20:57:53.002Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 76%
+2023-09-08T20:57:53.004Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 77%
+2023-09-08T20:57:53.006Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 80%
+2023-09-08T20:57:53.009Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 81%
+2023-09-08T20:57:53.012Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 84%
+2023-09-08T20:57:53.016Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 88%
+2023-09-08T20:57:53.019Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 89%
+2023-09-08T20:57:53.035Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 90%
+2023-09-08T20:57:53.042Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 91%
+2023-09-08T20:57:53.063Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 93%
+2023-09-08T20:57:53.065Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 94%
+2023-09-08T20:57:53.067Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 95%
+2023-09-08T20:57:53.069Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 96%
+2023-09-08T20:57:53.071Z [Modules] Streaming discord_erlpack@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 100%
+2023-09-08T20:57:53.073Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-09-08T20:57:53.073Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip
+2023-09-08T20:57:53.317Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 1%
+2023-09-08T20:57:53.319Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 2%
+2023-09-08T20:57:53.327Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 3%
+2023-09-08T20:57:53.367Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 4%
+2023-09-08T20:57:53.378Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 5%
+2023-09-08T20:57:53.385Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 6%
+2023-09-08T20:57:53.391Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 7%
+2023-09-08T20:57:53.394Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 8%
+2023-09-08T20:57:53.439Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 9%
+2023-09-08T20:57:53.443Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 10%
+2023-09-08T20:57:53.455Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 11%
+2023-09-08T20:57:53.457Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 12%
+2023-09-08T20:57:53.495Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 13%
+2023-09-08T20:57:53.502Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 14%
+2023-09-08T20:57:53.518Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 15%
+2023-09-08T20:57:53.522Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 16%
+2023-09-08T20:57:53.527Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 17%
+2023-09-08T20:57:53.556Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 18%
+2023-09-08T20:57:53.564Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 19%
+2023-09-08T20:57:53.581Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 20%
+2023-09-08T20:57:53.587Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 21%
+2023-09-08T20:57:53.603Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 22%
+2023-09-08T20:57:53.623Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 23%
+2023-09-08T20:57:53.625Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 24%
+2023-09-08T20:57:53.641Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 25%
+2023-09-08T20:57:53.648Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 26%
+2023-09-08T20:57:53.660Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 27%
+2023-09-08T20:57:53.680Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 28%
+2023-09-08T20:57:53.689Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 29%
+2023-09-08T20:57:53.692Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 30%
+2023-09-08T20:57:53.705Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 31%
+2023-09-08T20:57:53.711Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 32%
+2023-09-08T20:57:53.724Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 33%
+2023-09-08T20:57:53.744Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 34%
+2023-09-08T20:57:53.747Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 35%
+2023-09-08T20:57:53.757Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 36%
+2023-09-08T20:57:53.761Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 37%
+2023-09-08T20:57:53.769Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 38%
+2023-09-08T20:57:53.777Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 39%
+2023-09-08T20:57:53.804Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 40%
+2023-09-08T20:57:53.813Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 41%
+2023-09-08T20:57:53.817Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 42%
+2023-09-08T20:57:53.822Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 43%
+2023-09-08T20:57:53.830Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 44%
+2023-09-08T20:57:53.839Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 45%
+2023-09-08T20:57:53.857Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 46%
+2023-09-08T20:57:53.871Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 47%
+2023-09-08T20:57:53.876Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 48%
+2023-09-08T20:57:53.880Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 49%
+2023-09-08T20:57:53.886Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 50%
+2023-09-08T20:57:53.891Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 51%
+2023-09-08T20:57:53.898Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 52%
+2023-09-08T20:57:53.913Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 53%
+2023-09-08T20:57:53.927Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 54%
+2023-09-08T20:57:53.938Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 55%
+2023-09-08T20:57:53.942Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 56%
+2023-09-08T20:57:53.958Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 57%
+2023-09-08T20:57:53.961Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 58%
+2023-09-08T20:57:53.967Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 59%
+2023-09-08T20:57:53.974Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 60%
+2023-09-08T20:57:53.989Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 61%
+2023-09-08T20:57:53.996Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 62%
+2023-09-08T20:57:53.999Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 63%
+2023-09-08T20:57:54.005Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 64%
+2023-09-08T20:57:54.022Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 65%
+2023-09-08T20:57:54.029Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 66%
+2023-09-08T20:57:54.033Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 67%
+2023-09-08T20:57:54.045Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 68%
+2023-09-08T20:57:54.052Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 69%
+2023-09-08T20:57:54.061Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 70%
+2023-09-08T20:57:54.064Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 71%
+2023-09-08T20:57:54.072Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 72%
+2023-09-08T20:57:54.082Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 73%
+2023-09-08T20:57:54.089Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 74%
+2023-09-08T20:57:54.095Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 75%
+2023-09-08T20:57:54.106Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 76%
+2023-09-08T20:57:54.118Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 77%
+2023-09-08T20:57:54.124Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 78%
+2023-09-08T20:57:54.131Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 79%
+2023-09-08T20:57:54.134Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 80%
+2023-09-08T20:57:54.142Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 81%
+2023-09-08T20:57:54.151Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 82%
+2023-09-08T20:57:54.159Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 83%
+2023-09-08T20:57:54.169Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 84%
+2023-09-08T20:57:54.181Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 85%
+2023-09-08T20:57:54.185Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 86%
+2023-09-08T20:57:54.192Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 87%
+2023-09-08T20:57:54.198Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 88%
+2023-09-08T20:57:54.205Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 89%
+2023-09-08T20:57:54.212Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 90%
+2023-09-08T20:57:54.219Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 91%
+2023-09-08T20:57:54.225Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 92%
+2023-09-08T20:57:54.237Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 93%
+2023-09-08T20:57:54.247Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 94%
+2023-09-08T20:57:54.251Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 95%
+2023-09-08T20:57:54.259Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 96%
+2023-09-08T20:57:54.263Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 97%
+2023-09-08T20:57:54.273Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 98%
+2023-09-08T20:57:54.279Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 99%
+2023-09-08T20:57:54.286Z [Modules] Streaming discord_spellcheck@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 100%
+2023-09-08T20:57:54.287Z [Modules] Fetching discord_utils@2 from https://discord.com/api/modules/stable/discord_utils/2
+2023-09-08T20:57:54.287Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip
+2023-09-08T20:57:54.467Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 2%
+2023-09-08T20:57:54.471Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 4%
+2023-09-08T20:57:54.474Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 6%
+2023-09-08T20:57:54.478Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 8%
+2023-09-08T20:57:54.481Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 9%
+2023-09-08T20:57:54.484Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 11%
+2023-09-08T20:57:54.486Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 13%
+2023-09-08T20:57:54.491Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 15%
+2023-09-08T20:57:54.494Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 17%
+2023-09-08T20:57:54.498Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 18%
+2023-09-08T20:57:54.500Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 19%
+2023-09-08T20:57:54.501Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 21%
+2023-09-08T20:57:54.504Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 23%
+2023-09-08T20:57:54.507Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 24%
+2023-09-08T20:57:54.523Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 25%
+2023-09-08T20:57:54.529Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 27%
+2023-09-08T20:57:54.532Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 28%
+2023-09-08T20:57:54.533Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 29%
+2023-09-08T20:57:54.536Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 31%
+2023-09-08T20:57:54.541Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 33%
+2023-09-08T20:57:54.545Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 35%
+2023-09-08T20:57:54.547Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 36%
+2023-09-08T20:57:54.551Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 37%
+2023-09-08T20:57:54.551Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 38%
+2023-09-08T20:57:54.554Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 40%
+2023-09-08T20:57:54.557Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 42%
+2023-09-08T20:57:54.559Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 43%
+2023-09-08T20:57:54.562Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 44%
+2023-09-08T20:57:54.565Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 45%
+2023-09-08T20:57:54.568Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 47%
+2023-09-08T20:57:54.572Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 48%
+2023-09-08T20:57:54.574Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 49%
+2023-09-08T20:57:54.588Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 51%
+2023-09-08T20:57:54.592Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 52%
+2023-09-08T20:57:54.593Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 53%
+2023-09-08T20:57:54.596Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 54%
+2023-09-08T20:57:54.598Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 55%
+2023-09-08T20:57:54.600Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 56%
+2023-09-08T20:57:54.605Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 57%
+2023-09-08T20:57:54.606Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 58%
+2023-09-08T20:57:54.608Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 60%
+2023-09-08T20:57:54.611Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 62%
+2023-09-08T20:57:54.617Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 64%
+2023-09-08T20:57:54.620Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 66%
+2023-09-08T20:57:54.623Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 67%
+2023-09-08T20:57:54.626Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 68%
+2023-09-08T20:57:54.629Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 70%
+2023-09-08T20:57:54.631Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 71%
+2023-09-08T20:57:54.634Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 73%
+2023-09-08T20:57:54.647Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 75%
+2023-09-08T20:57:54.652Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 76%
+2023-09-08T20:57:54.655Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 78%
+2023-09-08T20:57:54.657Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 79%
+2023-09-08T20:57:54.659Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 80%
+2023-09-08T20:57:54.664Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 81%
+2023-09-08T20:57:54.666Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 83%
+2023-09-08T20:57:54.670Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 85%
+2023-09-08T20:57:54.672Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 87%
+2023-09-08T20:57:54.676Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 89%
+2023-09-08T20:57:54.682Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 91%
+2023-09-08T20:57:54.687Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 93%
+2023-09-08T20:57:54.690Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 95%
+2023-09-08T20:57:54.693Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 97%
+2023-09-08T20:57:54.697Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 98%
+2023-09-08T20:57:54.705Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 99%
+2023-09-08T20:57:54.709Z [Modules] Streaming discord_utils@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 100%
+2023-09-08T20:57:54.710Z [Modules] Fetching discord_voice@2 from https://discord.com/api/modules/stable/discord_voice/2
+2023-09-08T20:57:54.710Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip
+2023-09-08T20:57:54.898Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 1%
+2023-09-08T20:57:54.906Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 2%
+2023-09-08T20:57:54.919Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 3%
+2023-09-08T20:57:54.927Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 4%
+2023-09-08T20:57:54.959Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 5%
+2023-09-08T20:57:54.967Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 6%
+2023-09-08T20:57:54.979Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 7%
+2023-09-08T20:57:54.989Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 8%
+2023-09-08T20:57:55.013Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 9%
+2023-09-08T20:57:55.026Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 10%
+2023-09-08T20:57:55.036Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 11%
+2023-09-08T20:57:55.056Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 12%
+2023-09-08T20:57:55.068Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 13%
+2023-09-08T20:57:55.086Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 14%
+2023-09-08T20:57:55.098Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 15%
+2023-09-08T20:57:55.108Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 16%
+2023-09-08T20:57:55.120Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 17%
+2023-09-08T20:57:55.128Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 18%
+2023-09-08T20:57:55.145Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 19%
+2023-09-08T20:57:55.157Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 20%
+2023-09-08T20:57:55.170Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 21%
+2023-09-08T20:57:55.186Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 22%
+2023-09-08T20:57:55.194Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 23%
+2023-09-08T20:57:55.201Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 24%
+2023-09-08T20:57:55.219Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 25%
+2023-09-08T20:57:55.227Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 26%
+2023-09-08T20:57:55.245Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 27%
+2023-09-08T20:57:55.257Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 28%
+2023-09-08T20:57:55.263Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 29%
+2023-09-08T20:57:55.273Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 30%
+2023-09-08T20:57:55.286Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 31%
+2023-09-08T20:57:55.295Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 32%
+2023-09-08T20:57:55.312Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 33%
+2023-09-08T20:57:55.323Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 34%
+2023-09-08T20:57:55.329Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 35%
+2023-09-08T20:57:55.346Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 36%
+2023-09-08T20:57:55.353Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 37%
+2023-09-08T20:57:55.367Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 38%
+2023-09-08T20:57:55.384Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 39%
+2023-09-08T20:57:55.390Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 40%
+2023-09-08T20:57:55.396Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 41%
+2023-09-08T20:57:55.411Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 42%
+2023-09-08T20:57:55.422Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 43%
+2023-09-08T20:57:55.434Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 44%
+2023-09-08T20:57:55.450Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 45%
+2023-09-08T20:57:55.457Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 46%
+2023-09-08T20:57:55.468Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 47%
+2023-09-08T20:57:55.484Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 48%
+2023-09-08T20:57:55.490Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 49%
+2023-09-08T20:57:55.502Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 50%
+2023-09-08T20:57:55.515Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 51%
+2023-09-08T20:57:55.525Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 52%
+2023-09-08T20:57:55.534Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 53%
+2023-09-08T20:57:55.552Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 54%
+2023-09-08T20:57:55.558Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 55%
+2023-09-08T20:57:55.570Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 56%
+2023-09-08T20:57:55.578Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 57%
+2023-09-08T20:57:55.587Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 58%
+2023-09-08T20:57:55.598Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 59%
+2023-09-08T20:57:55.617Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 60%
+2023-09-08T20:57:55.624Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 61%
+2023-09-08T20:57:55.638Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 62%
+2023-09-08T20:57:55.643Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 63%
+2023-09-08T20:57:55.665Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 64%
+2023-09-08T20:57:55.674Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 65%
+2023-09-08T20:57:55.684Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 66%
+2023-09-08T20:57:55.695Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 67%
+2023-09-08T20:57:55.703Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 68%
+2023-09-08T20:57:55.717Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 69%
+2023-09-08T20:57:55.724Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 70%
+2023-09-08T20:57:55.739Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 71%
+2023-09-08T20:57:55.750Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 72%
+2023-09-08T20:57:55.760Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 73%
+2023-09-08T20:57:55.844Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 74%
+2023-09-08T20:57:55.845Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 75%
+2023-09-08T20:57:55.846Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 76%
+2023-09-08T20:57:55.846Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 77%
+2023-09-08T20:57:55.847Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 78%
+2023-09-08T20:57:55.849Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 79%
+2023-09-08T20:57:55.914Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 80%
+2023-09-08T20:57:55.919Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 81%
+2023-09-08T20:57:55.926Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 82%
+2023-09-08T20:57:55.935Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 83%
+2023-09-08T20:57:55.941Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 84%
+2023-09-08T20:57:56.005Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 85%
+2023-09-08T20:57:56.013Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 86%
+2023-09-08T20:57:56.020Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 87%
+2023-09-08T20:57:56.028Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 88%
+2023-09-08T20:57:56.035Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 89%
+2023-09-08T20:57:56.042Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 90%
+2023-09-08T20:57:56.104Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 91%
+2023-09-08T20:57:56.109Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 92%
+2023-09-08T20:57:56.117Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 93%
+2023-09-08T20:57:56.124Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 94%
+2023-09-08T20:57:56.131Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 95%
+2023-09-08T20:57:56.195Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 96%
+2023-09-08T20:57:56.203Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 97%
+2023-09-08T20:57:56.210Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 98%
+2023-09-08T20:57:56.218Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 99%
+2023-09-08T20:57:56.222Z [Modules] Streaming discord_voice@2 to /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 100%
+2023-09-08T20:57:56.224Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-09-08T20:57:56.224Z [Modules] Installing updates...
+2023-09-08T20:57:56.224Z [Modules] Installing discord_desktop_core@2 from /home/owl/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip
+2023-09-08T20:57:56.305Z [Modules] Installing discord_erlpack@1 from /home/owl/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip
+2023-09-08T20:57:56.367Z [Modules] Installing discord_spellcheck@1 from /home/owl/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip
+2023-09-08T20:57:57.050Z [Modules] Installing discord_utils@2 from /home/owl/.config/discord/0.0.29/modules/pending/discord_utils-2.zip
+2023-09-08T20:57:57.466Z [Modules] Installing discord_voice@2 from /home/owl/.config/discord/0.0.29/modules/pending/discord_voice-2.zip
+2023-09-08T20:57:58.231Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-09-08T20:57:58.231Z [Modules] Checking for host updates.
+2023-09-08T20:57:58.357Z [Modules] Host is up to date.
+2023-09-08T20:57:58.357Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-08T20:57:58.359Z [Modules] No module updates available.
+2023-09-08T20:58:00.841Z [Modules] Starting to install discord_krisp...
+2023-09-08T20:58:00.841Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-09-08T20:58:00.841Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip
+2023-09-08T20:58:00.858Z [Modules] Starting to install discord_game_utils...
+2023-09-08T20:58:01.103Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 1%
+2023-09-08T20:58:01.112Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 2%
+2023-09-08T20:58:01.123Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 3%
+2023-09-08T20:58:01.143Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 4%
+2023-09-08T20:58:01.243Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 5%
+2023-09-08T20:58:01.245Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 6%
+2023-09-08T20:58:01.247Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 7%
+2023-09-08T20:58:01.249Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 8%
+2023-09-08T20:58:01.249Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 9%
+2023-09-08T20:58:01.250Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 10%
+2023-09-08T20:58:01.251Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 11%
+2023-09-08T20:58:01.251Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 12%
+2023-09-08T20:58:01.252Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 13%
+2023-09-08T20:58:01.256Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 14%
+2023-09-08T20:58:01.270Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 15%
+2023-09-08T20:58:01.278Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 16%
+2023-09-08T20:58:01.290Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 17%
+2023-09-08T20:58:01.300Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 18%
+2023-09-08T20:58:01.317Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 19%
+2023-09-08T20:58:01.337Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 20%
+2023-09-08T20:58:01.518Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 21%
+2023-09-08T20:58:01.635Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 22%
+2023-09-08T20:58:01.646Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 23%
+2023-09-08T20:58:01.656Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 24%
+2023-09-08T20:58:01.667Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 25%
+2023-09-08T20:58:01.677Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 26%
+2023-09-08T20:58:01.689Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 27%
+2023-09-08T20:58:01.701Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 28%
+2023-09-08T20:58:01.712Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 29%
+2023-09-08T20:58:01.720Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 30%
+2023-09-08T20:58:01.732Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 31%
+2023-09-08T20:58:01.738Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 32%
+2023-09-08T20:58:01.752Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 33%
+2023-09-08T20:58:01.760Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 34%
+2023-09-08T20:58:01.774Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 35%
+2023-09-08T20:58:01.783Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 36%
+2023-09-08T20:58:01.807Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 37%
+2023-09-08T20:58:01.815Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 38%
+2023-09-08T20:58:01.821Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 39%
+2023-09-08T20:58:01.830Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 40%
+2023-09-08T20:58:01.857Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 41%
+2023-09-08T20:58:01.860Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 42%
+2023-09-08T20:58:01.895Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 43%
+2023-09-08T20:58:01.906Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 44%
+2023-09-08T20:58:01.913Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 45%
+2023-09-08T20:58:01.921Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 46%
+2023-09-08T20:58:01.927Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 47%
+2023-09-08T20:58:01.937Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 48%
+2023-09-08T20:58:01.955Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 49%
+2023-09-08T20:58:01.991Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 50%
+2023-09-08T20:58:02.003Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 51%
+2023-09-08T20:58:02.011Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 52%
+2023-09-08T20:58:02.018Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 53%
+2023-09-08T20:58:02.026Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 54%
+2023-09-08T20:58:02.033Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 55%
+2023-09-08T20:58:02.048Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 56%
+2023-09-08T20:58:02.097Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 57%
+2023-09-08T20:58:02.105Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 58%
+2023-09-08T20:58:02.115Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 59%
+2023-09-08T20:58:02.122Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 60%
+2023-09-08T20:58:02.128Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 61%
+2023-09-08T20:58:02.136Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 62%
+2023-09-08T20:58:02.202Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 63%
+2023-09-08T20:58:02.227Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 64%
+2023-09-08T20:58:02.231Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 65%
+2023-09-08T20:58:02.232Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 66%
+2023-09-08T20:58:02.233Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 67%
+2023-09-08T20:58:02.239Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 68%
+2023-09-08T20:58:02.262Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 69%
+2023-09-08T20:58:02.316Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 70%
+2023-09-08T20:58:02.321Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 71%
+2023-09-08T20:58:02.328Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 72%
+2023-09-08T20:58:02.336Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 73%
+2023-09-08T20:58:02.342Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 74%
+2023-09-08T20:58:02.352Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 75%
+2023-09-08T20:58:02.391Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 76%
+2023-09-08T20:58:02.409Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 77%
+2023-09-08T20:58:02.421Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 78%
+2023-09-08T20:58:02.428Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 79%
+2023-09-08T20:58:02.436Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 80%
+2023-09-08T20:58:02.442Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 81%
+2023-09-08T20:58:02.450Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 82%
+2023-09-08T20:58:02.456Z [Modules] Checking for host updates.
+2023-09-08T20:58:02.458Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 83%
+2023-09-08T20:58:02.520Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 84%
+2023-09-08T20:58:02.530Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 85%
+2023-09-08T20:58:02.538Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 86%
+2023-09-08T20:58:02.546Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 87%
+2023-09-08T20:58:02.552Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 88%
+2023-09-08T20:58:02.560Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 89%
+2023-09-08T20:58:02.567Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 90%
+2023-09-08T20:58:02.584Z [Modules] Host is up to date.
+2023-09-08T20:58:02.584Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-08T20:58:02.588Z [Modules] No module updates available.
+2023-09-08T20:58:02.635Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 91%
+2023-09-08T20:58:02.642Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 92%
+2023-09-08T20:58:02.650Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 93%
+2023-09-08T20:58:02.657Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 94%
+2023-09-08T20:58:02.663Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 95%
+2023-09-08T20:58:02.669Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 96%
+2023-09-08T20:58:02.676Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 97%
+2023-09-08T20:58:02.740Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 98%
+2023-09-08T20:58:02.745Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 99%
+2023-09-08T20:58:02.752Z [Modules] Streaming discord_krisp@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 100%
+2023-09-08T20:58:02.753Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-09-08T20:58:02.753Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip
+2023-09-08T20:58:02.753Z [Modules] Installing discord_krisp@1 from /home/owl/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip
+2023-09-08T20:58:02.810Z [Modules] Starting to install discord_rpc...
+2023-09-08T20:58:02.977Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 2%
+2023-09-08T20:58:02.977Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 3%
+2023-09-08T20:58:02.979Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 5%
+2023-09-08T20:58:02.981Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 8%
+2023-09-08T20:58:02.983Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 11%
+2023-09-08T20:58:02.985Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 12%
+2023-09-08T20:58:02.987Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 15%
+2023-09-08T20:58:02.988Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 16%
+2023-09-08T20:58:02.990Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 18%
+2023-09-08T20:58:02.993Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 20%
+2023-09-08T20:58:02.995Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 23%
+2023-09-08T20:58:02.995Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 24%
+2023-09-08T20:58:02.997Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 27%
+2023-09-08T20:58:03.001Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 29%
+2023-09-08T20:58:03.002Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 31%
+2023-09-08T20:58:03.004Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 33%
+2023-09-08T20:58:03.007Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 36%
+2023-09-08T20:58:03.007Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 37%
+2023-09-08T20:58:03.007Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 38%
+2023-09-08T20:58:03.009Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 40%
+2023-09-08T20:58:03.011Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 43%
+2023-09-08T20:58:03.013Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 46%
+2023-09-08T20:58:03.015Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 47%
+2023-09-08T20:58:03.018Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 50%
+2023-09-08T20:58:03.018Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 51%
+2023-09-08T20:58:03.020Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 54%
+2023-09-08T20:58:03.022Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 57%
+2023-09-08T20:58:03.025Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 59%
+2023-09-08T20:58:03.027Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 62%
+2023-09-08T20:58:03.334Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 83%
+2023-09-08T20:58:03.338Z [Modules] Streaming discord_game_utils@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 100%
+2023-09-08T20:58:03.340Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-09-08T20:58:03.341Z [Modules] Streaming discord_rpc@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip
+2023-09-08T20:58:03.502Z [Modules] Installing discord_game_utils@1 from /home/owl/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip
+2023-09-08T20:58:03.569Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2023-09-08T20:58:03.609Z [Modules] Streaming discord_rpc@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip: 75%
+2023-09-08T20:58:03.610Z [Modules] Streaming discord_rpc@1 to /home/owl/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip: 100%
+2023-09-08T20:58:03.611Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-09-08T20:58:03.611Z [Modules] Installing discord_rpc@1 from /home/owl/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip
+2023-09-08T20:58:03.627Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-09-08T21:58:02.460Z [Modules] Checking for host updates.
+2023-09-08T21:58:07.804Z [Modules] Host is up to date.
+2023-09-08T21:58:07.804Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-08T21:58:07.934Z [Modules] No module updates available.
+2023-09-09T02:15:34.807Z [Modules] Modules initializing
+2023-09-09T02:15:34.810Z [Modules] Distribution: remote
+2023-09-09T02:15:34.810Z [Modules] Host updates: enabled
+2023-09-09T02:15:34.810Z [Modules] Module updates: enabled
+2023-09-09T02:15:34.811Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-09T02:15:34.811Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-09T02:15:34.811Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-09T02:15:35.067Z [Modules] No updates to install
+2023-09-09T02:15:35.067Z [Modules] Checking for host updates.
+2023-09-09T02:15:35.327Z [Modules] Host is up to date.
+2023-09-09T02:15:35.327Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T02:15:35.429Z [Modules] No module updates available.
+2023-09-09T02:15:37.956Z [Modules] Checking for host updates.
+2023-09-09T02:15:38.113Z [Modules] Host is up to date.
+2023-09-09T02:15:38.113Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T02:15:38.117Z [Modules] No module updates available.
+2023-09-09T03:15:37.959Z [Modules] Checking for host updates.
+2023-09-09T03:15:38.167Z [Modules] Host is up to date.
+2023-09-09T03:15:38.168Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T03:15:38.270Z [Modules] No module updates available.
+2023-09-09T04:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T04:15:38.210Z [Modules] Host is up to date.
+2023-09-09T04:15:38.210Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T04:15:38.311Z [Modules] No module updates available.
+2023-09-09T05:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T05:15:38.338Z [Modules] Host is up to date.
+2023-09-09T05:15:38.339Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T05:15:38.441Z [Modules] No module updates available.
+2023-09-09T06:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T06:15:38.115Z [Modules] Host is up to date.
+2023-09-09T06:15:38.115Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T06:15:38.223Z [Modules] No module updates available.
+2023-09-09T07:15:37.957Z [Modules] Checking for host updates.
+2023-09-09T07:15:38.215Z [Modules] Host is up to date.
+2023-09-09T07:15:38.215Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T07:15:38.317Z [Modules] No module updates available.
+2023-09-09T18:12:20.859Z [Modules] Modules initializing
+2023-09-09T18:12:20.864Z [Modules] Distribution: remote
+2023-09-09T18:12:20.864Z [Modules] Host updates: enabled
+2023-09-09T18:12:20.864Z [Modules] Module updates: enabled
+2023-09-09T18:12:20.866Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-09T18:12:20.866Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-09T18:12:20.866Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-09T18:12:21.189Z [Modules] No updates to install
+2023-09-09T18:12:21.190Z [Modules] Checking for host updates.
+2023-09-09T18:12:21.492Z [Modules] Host is up to date.
+2023-09-09T18:12:21.492Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T18:12:21.524Z [Modules] No module updates available.
+2023-09-09T18:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T18:12:26.694Z [Modules] Host is up to date.
+2023-09-09T18:12:26.694Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T18:12:26.697Z [Modules] No module updates available.
+2023-09-09T19:12:26.559Z [Modules] Checking for host updates.
+2023-09-09T19:12:26.696Z [Modules] Host is up to date.
+2023-09-09T19:12:26.697Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T19:12:26.727Z [Modules] No module updates available.
+2023-09-09T20:12:26.559Z [Modules] Checking for host updates.
+2023-09-09T20:12:26.734Z [Modules] Host is up to date.
+2023-09-09T20:12:26.734Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T20:12:26.768Z [Modules] No module updates available.
+2023-09-09T21:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T21:12:26.704Z [Modules] Host is up to date.
+2023-09-09T21:12:26.705Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T21:12:26.737Z [Modules] No module updates available.
+2023-09-09T22:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T22:12:26.712Z [Modules] Host is up to date.
+2023-09-09T22:12:26.712Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T22:12:26.746Z [Modules] No module updates available.
+2023-09-09T23:12:26.558Z [Modules] Checking for host updates.
+2023-09-09T23:12:26.684Z [Modules] Host is up to date.
+2023-09-09T23:12:26.684Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-09T23:12:26.717Z [Modules] No module updates available.
+2023-09-10T00:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T00:12:26.724Z [Modules] Host is up to date.
+2023-09-10T00:12:26.724Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T00:12:26.749Z [Modules] No module updates available.
+2023-09-10T01:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T01:12:26.754Z [Modules] Host is up to date.
+2023-09-10T01:12:26.754Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T01:12:26.783Z [Modules] No module updates available.
+2023-09-10T02:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T02:12:26.762Z [Modules] Host is up to date.
+2023-09-10T02:12:26.762Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T02:12:26.791Z [Modules] No module updates available.
+2023-09-10T03:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T03:12:26.741Z [Modules] Host is up to date.
+2023-09-10T03:12:26.741Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T03:12:26.776Z [Modules] No module updates available.
+2023-09-10T04:12:26.558Z [Modules] Checking for host updates.
+2023-09-10T04:12:26.686Z [Modules] Host is up to date.
+2023-09-10T04:12:26.686Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T04:12:26.721Z [Modules] No module updates available.
+2023-09-10T05:12:26.559Z [Modules] Checking for host updates.
+2023-09-10T05:12:26.699Z [Modules] Host is up to date.
+2023-09-10T05:12:26.700Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-10T05:12:26.727Z [Modules] No module updates available.
+2023-09-11T15:47:54.514Z [Modules] Modules initializing
+2023-09-11T15:47:54.517Z [Modules] Distribution: remote
+2023-09-11T15:47:54.517Z [Modules] Host updates: enabled
+2023-09-11T15:47:54.517Z [Modules] Module updates: enabled
+2023-09-11T15:47:54.518Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-11T15:47:54.518Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-11T15:47:54.518Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-11T15:47:54.769Z [Modules] No updates to install
+2023-09-11T15:47:54.770Z [Modules] Checking for host updates.
+2023-09-11T15:47:54.959Z [Modules] Host is up to date.
+2023-09-11T15:47:54.959Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T15:47:55.006Z [Modules] No module updates available.
+2023-09-11T15:47:57.639Z [Modules] Checking for host updates.
+2023-09-11T15:47:57.781Z [Modules] Host is up to date.
+2023-09-11T15:47:57.781Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T15:47:57.785Z [Modules] No module updates available.
+2023-09-11T17:11:16.058Z [Modules] Modules initializing
+2023-09-11T17:11:16.065Z [Modules] Distribution: remote
+2023-09-11T17:11:16.065Z [Modules] Host updates: enabled
+2023-09-11T17:11:16.065Z [Modules] Module updates: enabled
+2023-09-11T17:11:16.066Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-11T17:11:16.066Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-11T17:11:16.066Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-11T17:11:16.344Z [Modules] No updates to install
+2023-09-11T17:11:16.345Z [Modules] Checking for host updates.
+2023-09-11T17:11:16.563Z [Modules] Host is up to date.
+2023-09-11T17:11:16.564Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T17:11:16.589Z [Modules] No module updates available.
+2023-09-11T17:11:18.572Z [Modules] Checking for host updates.
+2023-09-11T17:11:18.742Z [Modules] Host is up to date.
+2023-09-11T17:11:18.742Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T17:11:18.745Z [Modules] No module updates available.
+2023-09-11T18:11:18.576Z [Modules] Checking for host updates.
+2023-09-11T18:11:18.754Z [Modules] Host is up to date.
+2023-09-11T18:11:18.754Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T18:11:18.784Z [Modules] No module updates available.
+2023-09-11T19:11:18.573Z [Modules] Checking for host updates.
+2023-09-11T19:11:18.793Z [Modules] Host is up to date.
+2023-09-11T19:11:18.793Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T19:11:18.822Z [Modules] No module updates available.
+2023-09-11T20:11:18.573Z [Modules] Checking for host updates.
+2023-09-11T20:11:18.746Z [Modules] Host is up to date.
+2023-09-11T20:11:18.747Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T20:11:18.773Z [Modules] No module updates available.
+2023-09-11T21:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T21:11:18.725Z [Modules] Host is up to date.
+2023-09-11T21:11:18.725Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T21:11:18.760Z [Modules] No module updates available.
+2023-09-11T22:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T22:11:18.743Z [Modules] Host is up to date.
+2023-09-11T22:11:18.743Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T22:11:18.846Z [Modules] No module updates available.
+2023-09-11T23:11:18.574Z [Modules] Checking for host updates.
+2023-09-11T23:11:18.798Z [Modules] Host is up to date.
+2023-09-11T23:11:18.799Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-11T23:11:18.901Z [Modules] No module updates available.
+2023-09-12T00:11:18.574Z [Modules] Checking for host updates.
+2023-09-12T00:11:18.735Z [Modules] Host is up to date.
+2023-09-12T00:11:18.735Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T00:11:18.786Z [Modules] No module updates available.
+2023-09-12T01:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T01:11:18.717Z [Modules] Host is up to date.
+2023-09-12T01:11:18.718Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T01:11:18.752Z [Modules] No module updates available.
+2023-09-12T02:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T02:11:18.733Z [Modules] Host is up to date.
+2023-09-12T02:11:18.733Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T02:11:18.769Z [Modules] No module updates available.
+2023-09-12T03:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T03:11:18.743Z [Modules] Host is up to date.
+2023-09-12T03:11:18.743Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T03:11:18.846Z [Modules] No module updates available.
+2023-09-12T04:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T04:11:18.592Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-09-12T05:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T05:11:19.325Z [Modules] Host is up to date.
+2023-09-12T05:11:19.326Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T05:11:19.517Z [Modules] No module updates available.
+2023-09-12T06:11:18.573Z [Modules] Checking for host updates.
+2023-09-12T06:11:18.766Z [Modules] Host is up to date.
+2023-09-12T06:11:18.766Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-12T06:11:18.795Z [Modules] No module updates available.
+2023-09-13T20:43:17.509Z [Modules] Modules initializing
+2023-09-13T20:43:17.513Z [Modules] Distribution: remote
+2023-09-13T20:43:17.514Z [Modules] Host updates: enabled
+2023-09-13T20:43:17.514Z [Modules] Module updates: enabled
+2023-09-13T20:43:17.517Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-13T20:43:17.517Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-13T20:43:17.517Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-13T20:43:17.852Z [Modules] No updates to install
+2023-09-13T20:43:17.853Z [Modules] Checking for host updates.
+2023-09-13T20:43:18.056Z [Modules] Host is up to date.
+2023-09-13T20:43:18.057Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T20:43:18.144Z [Modules] No module updates available.
+2023-09-13T20:43:23.369Z [Modules] Checking for host updates.
+2023-09-13T20:43:23.518Z [Modules] Host is up to date.
+2023-09-13T20:43:23.518Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T20:43:23.522Z [Modules] No module updates available.
+2023-09-13T21:43:23.370Z [Modules] Checking for host updates.
+2023-09-13T21:43:23.665Z [Modules] Host is up to date.
+2023-09-13T21:43:23.665Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T21:43:23.699Z [Modules] No module updates available.
+2023-09-13T22:43:23.369Z [Modules] Checking for host updates.
+2023-09-13T22:43:23.652Z [Modules] Host is up to date.
+2023-09-13T22:43:23.653Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T22:43:23.685Z [Modules] No module updates available.
+2023-09-14T21:09:53.765Z [Modules] Modules initializing
+2023-09-14T21:09:53.768Z [Modules] Distribution: remote
+2023-09-14T21:09:53.768Z [Modules] Host updates: enabled
+2023-09-14T21:09:53.769Z [Modules] Module updates: enabled
+2023-09-14T21:09:53.770Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-14T21:09:53.770Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-14T21:09:53.770Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-14T21:09:54.061Z [Modules] No updates to install
+2023-09-14T21:09:54.062Z [Modules] Checking for host updates.
+2023-09-14T21:09:54.332Z [Modules] Host is up to date.
+2023-09-14T21:09:54.332Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T21:09:54.357Z [Modules] No module updates available.
+2023-09-14T21:09:57.470Z [Modules] Checking for host updates.
+2023-09-14T21:09:57.598Z [Modules] Host is up to date.
+2023-09-14T21:09:57.598Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T21:09:57.601Z [Modules] No module updates available.
+2023-09-14T22:09:57.472Z [Modules] Checking for host updates.
+2023-09-14T22:09:57.634Z [Modules] Host is up to date.
+2023-09-14T22:09:57.634Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T22:09:57.661Z [Modules] No module updates available.
+2023-09-14T23:09:57.471Z [Modules] Checking for host updates.
+2023-09-14T23:09:57.724Z [Modules] Host is up to date.
+2023-09-14T23:09:57.724Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T23:09:57.826Z [Modules] No module updates available.
+2023-09-15T00:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T00:09:57.838Z [Modules] Host is up to date.
+2023-09-15T00:09:57.839Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T00:09:57.867Z [Modules] No module updates available.
+2023-09-15T01:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T01:09:57.629Z [Modules] Host is up to date.
+2023-09-15T01:09:57.629Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T01:09:57.656Z [Modules] No module updates available.
+2023-09-15T02:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T02:09:57.638Z [Modules] Host is up to date.
+2023-09-15T02:09:57.638Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T02:09:57.740Z [Modules] No module updates available.
+2023-09-15T03:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T03:09:57.611Z [Modules] Host is up to date.
+2023-09-15T03:09:57.611Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T03:09:57.639Z [Modules] No module updates available.
+2023-09-15T04:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T04:09:57.601Z [Modules] Host is up to date.
+2023-09-15T04:09:57.602Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T04:09:57.636Z [Modules] No module updates available.
+2023-09-15T05:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T05:09:57.683Z [Modules] Host is up to date.
+2023-09-15T05:09:57.684Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T05:09:57.714Z [Modules] No module updates available.
+2023-09-15T06:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T06:09:57.671Z [Modules] Host is up to date.
+2023-09-15T06:09:57.671Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T06:09:57.743Z [Modules] No module updates available.
+2023-09-15T07:09:57.472Z [Modules] Checking for host updates.
+2023-09-15T07:09:57.632Z [Modules] Host is up to date.
+2023-09-15T07:09:57.632Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T07:09:57.663Z [Modules] No module updates available.
+2023-09-15T08:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T08:09:57.631Z [Modules] Host is up to date.
+2023-09-15T08:09:57.631Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T08:09:57.656Z [Modules] No module updates available.
+2023-09-15T09:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T09:09:57.705Z [Modules] Host is up to date.
+2023-09-15T09:09:57.705Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T09:09:57.729Z [Modules] No module updates available.
+2023-09-15T10:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T10:09:57.618Z [Modules] Host is up to date.
+2023-09-15T10:09:57.619Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T10:09:57.643Z [Modules] No module updates available.
+2023-09-15T11:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T11:09:57.679Z [Modules] Host is up to date.
+2023-09-15T11:09:57.679Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T11:09:57.702Z [Modules] No module updates available.
+2023-09-15T12:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T12:09:57.586Z [Modules] Host is up to date.
+2023-09-15T12:09:57.586Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T12:09:57.614Z [Modules] No module updates available.
+2023-09-15T13:09:57.470Z [Modules] Checking for host updates.
+2023-09-15T13:09:57.694Z [Modules] Host is up to date.
+2023-09-15T13:09:57.694Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T13:09:57.797Z [Modules] No module updates available.
+2023-09-16T03:41:06.367Z [Modules] Modules initializing
+2023-09-16T03:41:06.369Z [Modules] Distribution: remote
+2023-09-16T03:41:06.369Z [Modules] Host updates: enabled
+2023-09-16T03:41:06.370Z [Modules] Module updates: enabled
+2023-09-16T03:41:06.371Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T03:41:06.371Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T03:41:06.371Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T03:41:06.617Z [Modules] No updates to install
+2023-09-16T03:41:06.617Z [Modules] Checking for host updates.
+2023-09-16T03:41:06.907Z [Modules] Host is up to date.
+2023-09-16T03:41:06.907Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:43.928Z [Modules] Modules initializing
+2023-09-16T17:44:43.928Z [Modules] Distribution: remote
+2023-09-16T17:44:43.928Z [Modules] Host updates: enabled
+2023-09-16T17:44:43.928Z [Modules] Module updates: enabled
+2023-09-16T17:44:43.928Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T17:44:43.928Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T17:44:43.929Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T17:44:44.084Z [Modules] No updates to install
+2023-09-16T17:44:44.084Z [Modules] Checking for host updates.
+2023-09-16T17:44:44.290Z [Modules] Host is up to date.
+2023-09-16T17:44:44.290Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:44.330Z [Modules] No module updates available.
+2023-09-16T17:44:49.143Z [Modules] Checking for host updates.
+2023-09-16T17:44:49.258Z [Modules] Host is up to date.
+2023-09-16T17:44:49.259Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T17:44:49.263Z [Modules] No module updates available.
+2023-09-16T18:44:49.143Z [Modules] Checking for host updates.
+2023-09-16T18:44:49.371Z [Modules] Host is up to date.
+2023-09-16T18:44:49.371Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T18:44:49.409Z [Modules] No module updates available.
+2023-09-16T19:17:22.953Z [Modules] Modules initializing
+2023-09-16T19:17:22.961Z [Modules] Distribution: remote
+2023-09-16T19:17:22.961Z [Modules] Host updates: enabled
+2023-09-16T19:17:22.961Z [Modules] Module updates: enabled
+2023-09-16T19:17:22.963Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-16T19:17:22.963Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-16T19:17:22.963Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-16T19:17:23.260Z [Modules] No updates to install
+2023-09-16T19:17:23.261Z [Modules] Checking for host updates.
+2023-09-16T19:17:23.710Z [Modules] Host is up to date.
+2023-09-16T19:17:23.710Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T19:17:23.733Z [Modules] No module updates available.
+2023-09-16T19:17:26.196Z [Modules] Checking for host updates.
+2023-09-16T19:17:26.370Z [Modules] Host is up to date.
+2023-09-16T19:17:26.370Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-16T19:17:26.372Z [Modules] No module updates available.
+2023-09-17T03:39:00.104Z [Modules] Modules initializing
+2023-09-17T03:39:00.108Z [Modules] Distribution: remote
+2023-09-17T03:39:00.108Z [Modules] Host updates: enabled
+2023-09-17T03:39:00.108Z [Modules] Module updates: enabled
+2023-09-17T03:39:00.109Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T03:39:00.109Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T03:39:00.109Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T03:39:00.360Z [Modules] No updates to install
+2023-09-17T03:39:00.361Z [Modules] Checking for host updates.
+2023-09-17T17:56:25.632Z [Modules] Modules initializing
+2023-09-17T17:56:25.632Z [Modules] Distribution: remote
+2023-09-17T17:56:25.632Z [Modules] Host updates: enabled
+2023-09-17T17:56:25.632Z [Modules] Module updates: enabled
+2023-09-17T17:56:25.633Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T17:56:25.633Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T17:56:25.633Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T17:56:25.777Z [Modules] No updates to install
+2023-09-17T17:56:25.778Z [Modules] Checking for host updates.
+2023-09-17T17:56:26.047Z [Modules] Host is up to date.
+2023-09-17T17:56:26.047Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T17:56:26.124Z [Modules] No module updates available.
+2023-09-17T17:56:28.213Z [Modules] Checking for host updates.
+2023-09-17T17:56:28.330Z [Modules] Host is up to date.
+2023-09-17T17:56:28.330Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T17:56:28.334Z [Modules] No module updates available.
+2023-09-17T19:18:56.722Z [Modules] Modules initializing
+2023-09-17T19:18:56.726Z [Modules] Distribution: remote
+2023-09-17T19:18:56.726Z [Modules] Host updates: enabled
+2023-09-17T19:18:56.726Z [Modules] Module updates: enabled
+2023-09-17T19:18:56.728Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-17T19:18:56.728Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-17T19:18:56.728Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-17T19:18:57.007Z [Modules] No updates to install
+2023-09-17T19:18:57.008Z [Modules] Checking for host updates.
+2023-09-17T19:18:57.275Z [Modules] Host is up to date.
+2023-09-17T19:18:57.275Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T19:18:57.411Z [Modules] No module updates available.
+2023-09-17T19:18:59.368Z [Modules] Checking for host updates.
+2023-09-17T19:18:59.477Z [Modules] Host is up to date.
+2023-09-17T19:18:59.477Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T19:18:59.481Z [Modules] No module updates available.
+2023-09-17T20:18:59.371Z [Modules] Checking for host updates.
+2023-09-17T20:18:59.568Z [Modules] Host is up to date.
+2023-09-17T20:18:59.568Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-17T20:18:59.595Z [Modules] No module updates available.
+2023-09-18T03:35:54.834Z [Modules] Modules initializing
+2023-09-18T03:35:54.837Z [Modules] Distribution: remote
+2023-09-18T03:35:54.837Z [Modules] Host updates: enabled
+2023-09-18T03:35:54.837Z [Modules] Module updates: enabled
+2023-09-18T03:35:54.841Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-18T03:35:54.841Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-18T03:35:54.842Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-18T03:35:55.119Z [Modules] No updates to install
+2023-09-18T03:35:55.120Z [Modules] Checking for host updates.
+2023-09-18T03:35:55.384Z [Modules] Host is up to date.
+2023-09-18T03:35:55.385Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T03:35:55.452Z [Modules] No module updates available.
+2023-09-18T03:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T03:35:57.633Z [Modules] Host is up to date.
+2023-09-18T03:35:57.633Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T03:35:57.637Z [Modules] No module updates available.
+2023-09-18T04:35:57.441Z [Modules] Checking for host updates.
+2023-09-18T04:35:57.604Z [Modules] Host is up to date.
+2023-09-18T04:35:57.604Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T04:35:57.645Z [Modules] No module updates available.
+2023-09-18T05:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T05:35:57.678Z [Modules] Host is up to date.
+2023-09-18T05:35:57.678Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T05:35:57.701Z [Modules] No module updates available.
+2023-09-18T06:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T06:35:57.619Z [Modules] Host is up to date.
+2023-09-18T06:35:57.619Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T06:35:57.677Z [Modules] No module updates available.
+2023-09-18T07:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T07:35:57.622Z [Modules] Host is up to date.
+2023-09-18T07:35:57.622Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T07:35:57.645Z [Modules] No module updates available.
+2023-09-18T08:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T08:35:57.639Z [Modules] Host is up to date.
+2023-09-18T08:35:57.639Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T08:35:57.666Z [Modules] No module updates available.
+2023-09-18T09:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T09:35:57.603Z [Modules] Host is up to date.
+2023-09-18T09:35:57.603Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T09:35:57.629Z [Modules] No module updates available.
+2023-09-18T10:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T10:35:57.618Z [Modules] Host is up to date.
+2023-09-18T10:35:57.618Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T10:35:57.643Z [Modules] No module updates available.
+2023-09-18T11:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T11:35:57.607Z [Modules] Host is up to date.
+2023-09-18T11:35:57.607Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T11:35:57.638Z [Modules] No module updates available.
+2023-09-18T12:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T12:35:57.583Z [Modules] Host is up to date.
+2023-09-18T12:35:57.584Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T12:35:57.634Z [Modules] No module updates available.
+2023-09-18T13:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T13:35:57.678Z [Modules] Host is up to date.
+2023-09-18T13:35:57.678Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T13:35:57.779Z [Modules] No module updates available.
+2023-09-18T14:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T14:35:57.693Z [Modules] Host is up to date.
+2023-09-18T14:35:57.693Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T14:35:57.795Z [Modules] No module updates available.
+2023-09-18T15:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T15:35:57.609Z [Modules] Host is up to date.
+2023-09-18T15:35:57.609Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T15:35:57.638Z [Modules] No module updates available.
+2023-09-18T16:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T16:35:57.575Z [Modules] Host is up to date.
+2023-09-18T16:35:57.576Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T16:35:57.605Z [Modules] No module updates available.
+2023-09-18T17:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T17:35:57.601Z [Modules] Host is up to date.
+2023-09-18T17:35:57.601Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T17:35:57.632Z [Modules] No module updates available.
+2023-09-18T18:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T18:35:57.582Z [Modules] Host is up to date.
+2023-09-18T18:35:57.582Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T18:35:57.611Z [Modules] No module updates available.
+2023-09-18T19:35:57.438Z [Modules] Checking for host updates.
+2023-09-18T19:35:57.585Z [Modules] Host is up to date.
+2023-09-18T19:35:57.585Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T19:35:57.617Z [Modules] No module updates available.
+2023-09-18T20:35:57.439Z [Modules] Checking for host updates.
+2023-09-18T20:35:57.683Z [Modules] Host update is available. Manual update required!
+2023-09-20T19:42:33.930Z [Modules] Modules initializing
+2023-09-20T19:42:33.933Z [Modules] Distribution: remote
+2023-09-20T19:42:33.933Z [Modules] Host updates: enabled
+2023-09-20T19:42:33.933Z [Modules] Module updates: enabled
+2023-09-20T19:42:33.934Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-20T19:42:33.934Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-20T19:42:33.934Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-20T19:42:34.182Z [Modules] No updates to install
+2023-09-20T19:42:34.183Z [Modules] Checking for host updates.
+2023-09-20T19:42:34.517Z [Modules] Host update is available. Manual update required!
+2023-09-21T20:30:03.626Z [Modules] Modules initializing
+2023-09-21T20:30:03.630Z [Modules] Distribution: remote
+2023-09-21T20:30:03.630Z [Modules] Host updates: enabled
+2023-09-21T20:30:03.630Z [Modules] Module updates: enabled
+2023-09-21T20:30:03.631Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-21T20:30:03.631Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-21T20:30:03.632Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-21T20:30:03.889Z [Modules] No updates to install
+2023-09-21T20:30:03.889Z [Modules] Checking for host updates.
+2023-09-21T20:30:04.073Z [Modules] Host update is available. Manual update required!
+2023-09-21T21:44:52.795Z [Modules] Modules initializing
+2023-09-21T21:44:52.796Z [Modules] Distribution: remote
+2023-09-21T21:44:52.796Z [Modules] Host updates: enabled
+2023-09-21T21:44:52.796Z [Modules] Module updates: enabled
+2023-09-21T21:44:52.796Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-21T21:44:52.796Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-21T21:44:52.796Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-21T21:44:52.960Z [Modules] No updates to install
+2023-09-21T21:44:52.961Z [Modules] Checking for host updates.
+2023-09-21T21:44:53.380Z [Modules] Host update is available. Manual update required!
+2023-09-21T22:02:47.817Z [Modules] Modules initializing
+2023-09-21T22:02:47.817Z [Modules] Distribution: remote
+2023-09-21T22:02:47.817Z [Modules] Host updates: enabled
+2023-09-21T22:02:47.817Z [Modules] Module updates: enabled
+2023-09-21T22:02:47.818Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-21T22:02:47.818Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-21T22:02:47.818Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-21T22:02:47.970Z [Modules] No updates to install
+2023-09-21T22:02:47.971Z [Modules] Checking for host updates.
+2023-09-21T22:02:48.286Z [Modules] Host update is available. Manual update required!
+2023-09-21T22:17:23.166Z [Modules] Modules initializing
+2023-09-21T22:17:23.166Z [Modules] Distribution: remote
+2023-09-21T22:17:23.166Z [Modules] Host updates: enabled
+2023-09-21T22:17:23.166Z [Modules] Module updates: enabled
+2023-09-21T22:17:23.166Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-21T22:17:23.166Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-21T22:17:23.167Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-21T22:17:23.307Z [Modules] No updates to install
+2023-09-21T22:17:23.307Z [Modules] Checking for host updates.
+2023-09-21T22:17:23.598Z [Modules] Host update is available. Manual update required!
+2023-09-24T02:37:37.293Z [Modules] Modules initializing
+2023-09-24T02:37:37.296Z [Modules] Distribution: remote
+2023-09-24T02:37:37.296Z [Modules] Host updates: enabled
+2023-09-24T02:37:37.296Z [Modules] Module updates: enabled
+2023-09-24T02:37:37.297Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-24T02:37:37.297Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-24T02:37:37.297Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-24T02:37:37.548Z [Modules] No updates to install
+2023-09-24T02:37:37.549Z [Modules] Checking for host updates.
+2023-09-24T02:37:38.201Z [Modules] Host update is available. Manual update required!
+2023-09-24T02:37:54.912Z [Modules] Modules initializing
+2023-09-24T02:37:54.912Z [Modules] Distribution: remote
+2023-09-24T02:37:54.913Z [Modules] Host updates: enabled
+2023-09-24T02:37:54.913Z [Modules] Module updates: enabled
+2023-09-24T02:37:54.913Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-24T02:37:54.913Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-24T02:37:54.913Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-24T02:37:55.055Z [Modules] No updates to install
+2023-09-24T02:37:55.055Z [Modules] Checking for host updates.
+2023-09-24T02:37:55.368Z [Modules] Host update is available. Manual update required!
+2023-09-24T02:38:05.416Z [Modules] Modules initializing
+2023-09-24T02:38:05.417Z [Modules] Distribution: remote
+2023-09-24T02:38:05.417Z [Modules] Host updates: enabled
+2023-09-24T02:38:05.417Z [Modules] Module updates: enabled
+2023-09-24T02:38:05.417Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-24T02:38:05.417Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-24T02:38:05.417Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-24T02:38:05.557Z [Modules] No updates to install
+2023-09-24T02:38:05.558Z [Modules] Checking for host updates.
+2023-09-24T02:38:05.736Z [Modules] Host update is available. Manual update required!
+2023-09-24T02:38:13.899Z [Modules] Modules initializing
+2023-09-24T02:38:13.899Z [Modules] Distribution: remote
+2023-09-24T02:38:13.899Z [Modules] Host updates: enabled
+2023-09-24T02:38:13.899Z [Modules] Module updates: enabled
+2023-09-24T02:38:13.900Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-24T02:38:13.900Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-24T02:38:13.900Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-24T02:38:14.034Z [Modules] No updates to install
+2023-09-24T02:38:14.034Z [Modules] Checking for host updates.
+2023-09-24T02:38:14.196Z [Modules] Host update is available. Manual update required!
+2023-09-26T19:18:24.524Z [Modules] Modules initializing
+2023-09-26T19:18:24.528Z [Modules] Distribution: remote
+2023-09-26T19:18:24.528Z [Modules] Host updates: enabled
+2023-09-26T19:18:24.528Z [Modules] Module updates: enabled
+2023-09-26T19:18:24.529Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-26T19:18:24.529Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-26T19:18:24.529Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-26T19:18:24.773Z [Modules] No updates to install
+2023-09-26T19:18:24.774Z [Modules] Checking for host updates.
+2023-09-26T19:18:24.988Z [Modules] Host update is available. Manual update required!
+2023-09-27T01:27:00.791Z [Modules] Modules initializing
+2023-09-27T01:27:00.794Z [Modules] Distribution: remote
+2023-09-27T01:27:00.794Z [Modules] Host updates: enabled
+2023-09-27T01:27:00.795Z [Modules] Module updates: enabled
+2023-09-27T01:27:00.796Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-27T01:27:00.796Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-27T01:27:00.796Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-27T01:27:01.038Z [Modules] No updates to install
+2023-09-27T01:27:01.038Z [Modules] Checking for host updates.
+2023-09-27T01:27:01.319Z [Modules] Host update is available. Manual update required!
+2023-09-27T04:02:30.829Z [Modules] Modules initializing
+2023-09-27T04:02:30.833Z [Modules] Distribution: remote
+2023-09-27T04:02:30.833Z [Modules] Host updates: enabled
+2023-09-27T04:02:30.833Z [Modules] Module updates: enabled
+2023-09-27T04:02:30.835Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-27T04:02:30.835Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-27T04:02:30.835Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-27T04:02:31.118Z [Modules] No updates to install
+2023-09-27T04:02:31.119Z [Modules] Checking for host updates.
+2023-09-27T04:02:31.418Z [Modules] Host update is available. Manual update required!
+2023-09-29T20:01:41.307Z [Modules] Modules initializing
+2023-09-29T20:01:41.310Z [Modules] Distribution: remote
+2023-09-29T20:01:41.310Z [Modules] Host updates: enabled
+2023-09-29T20:01:41.310Z [Modules] Module updates: enabled
+2023-09-29T20:01:41.311Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-29T20:01:41.311Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-29T20:01:41.311Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-29T20:01:41.637Z [Modules] No updates to install
+2023-09-29T20:01:41.638Z [Modules] Checking for host updates.
+2023-09-29T20:01:41.825Z [Modules] Host update is available. Manual update required!
+2023-09-30T21:14:39.635Z [Modules] Modules initializing
+2023-09-30T21:14:39.638Z [Modules] Distribution: remote
+2023-09-30T21:14:39.638Z [Modules] Host updates: enabled
+2023-09-30T21:14:39.638Z [Modules] Module updates: enabled
+2023-09-30T21:14:39.638Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-09-30T21:14:39.638Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-09-30T21:14:39.638Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-09-30T21:14:39.984Z [Modules] No updates to install
+2023-09-30T21:14:39.985Z [Modules] Checking for host updates.
+2023-09-30T21:14:40.238Z [Modules] Host update is available. Manual update required!
+2023-10-03T00:38:54.932Z [Modules] Modules initializing
+2023-10-03T00:38:54.935Z [Modules] Distribution: remote
+2023-10-03T00:38:54.935Z [Modules] Host updates: enabled
+2023-10-03T00:38:54.935Z [Modules] Module updates: enabled
+2023-10-03T00:38:54.936Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T00:38:54.936Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T00:38:54.936Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T00:38:55.181Z [Modules] No updates to install
+2023-10-03T00:38:55.182Z [Modules] Checking for host updates.
+2023-10-03T00:42:14.095Z [Modules] Modules initializing
+2023-10-03T00:42:14.095Z [Modules] Distribution: remote
+2023-10-03T00:42:14.095Z [Modules] Host updates: enabled
+2023-10-03T00:42:14.095Z [Modules] Module updates: enabled
+2023-10-03T00:42:14.096Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T00:42:14.096Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T00:42:14.096Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T00:42:14.226Z [Modules] No updates to install
+2023-10-03T00:42:14.227Z [Modules] Checking for host updates.
+2023-10-03T00:42:14.462Z [Modules] Host update is available. Manual update required!

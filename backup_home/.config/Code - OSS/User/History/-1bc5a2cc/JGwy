@@ -1,0 +1,39 @@
+#!/bin/bash
+
+wallpaper_folder=./wallpapers
+
+files=($image_folder/*)
+
+get_last_image_index(){
+	array_length=${#files[@]}
+	# echo $array_length
+}
+
+
+
+change_image_names(){
+	counter=0
+
+	for image in $files; do
+		echo $counter
+		echo $image
+		((counter++))
+		if [ -f $image ]; then
+			# mv $image $image_folder/wallpaper_$counter.jpg
+			echo "image is file :))"	
+		fi
+	done
+
+}
+
+
+
+main(){
+
+	echo $wallpaper_folder
+	echo $files
+	get_last_image_index
+	change_image_names
+}
+
+main

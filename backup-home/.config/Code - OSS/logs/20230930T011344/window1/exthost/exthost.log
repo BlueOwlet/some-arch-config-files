@@ -1,7 +1,0 @@
-2023-09-30 01:13:46.031 [info] Extension host with pid 52179 started
-2023-09-30 01:13:46.031 [info] Skipping acquiring lock for /home/owl/.config/Code - OSS/User/workspaceStorage/831148750dfe76b08f1dd2ffd5ec88e9.
-2023-09-30 01:13:46.148 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
-2023-09-30 01:13:46.175 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-09-30 01:13:46.228 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-09-30 01:13:46.231 [info] Extension host terminating: renderer closed the MessagePort
-2023-09-30 01:13:46.234 [info] Extension host with pid 52179 exiting with code 0

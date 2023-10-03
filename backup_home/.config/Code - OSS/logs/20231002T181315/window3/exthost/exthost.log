@@ -1,0 +1,83 @@
+2023-10-02 18:42:15.074 [info] Extension host with pid 28051 started
+2023-10-02 18:42:15.104 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-02 18:42:15.108 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-02 18:42:15.129 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-02 18:42:15.188 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-02 18:42:15.193 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.193 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.193 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.193 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.194 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.194 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.194 [error] Canceled: Canceled
+	at Object.I [as $4] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+	at Array.forEach (<anonymous>)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+	at r.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-02 18:42:15.194 [info] Extension host with pid 28051 exiting with code 0

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+image_folder=./wallpapers
+
+
+
+get_last_image_index(){
+
+}
+
+
+
+counter=0
+for image in $image_folder/*; do
+	if [ -f $image ]; then
+		((counter++))
+		echo $counter		
+		mv $image $image_folder/wallpaper_$counter	
+	fi
+done

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+main(){
+    echo """ 
+        b) Backup everything
+        r) Restore
+        p) Post archinstall
+
+    
+    
+    
+    """
+}
+
+
+main

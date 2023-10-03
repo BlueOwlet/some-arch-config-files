@@ -1,0 +1,190 @@
+1696283194314	Sync.LogManager	DEBUG	Flushing file log
+1696283194315	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1696283194315	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1696283194316	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1694468792850 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1696283194316	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:479
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+request()@resource://services-common/hawkclient.sys.mjs:230
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 631"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:631
+request()@resource://services-common/hawkclient.sys.mjs:238
+1696283194316	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1694468792850: code: null - Status text: null
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:246
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:247
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 631"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:631
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:252
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:252
+1696283194316	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:252
+1696283194317	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:252
+1696283194317	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1694468792850: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1696283194317	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1696283194317	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1696283194317	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1696283194317	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1696283194322	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194323	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1696283194326	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695419194326
+1696283194330	Sync.LogManager	DEBUG	Done deleting files.
+1696283194335	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283197326	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696283197327	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696283197329	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696283197330	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696283197330	Sync.Service	INFO	Starting sync at 2023-10-02 15:46:37 in browser session aGtX-BxrMKsy
+1696283197330	Sync.Service	DEBUG	In sync: should login.
+1696283197330	Sync.Service	INFO	User logged in successfully - verifying login.
+1696283197330	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283197330	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1696283197330	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1696283197330	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1696283197331	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1696283197331	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283197331	Sync.SyncAuthManager	INFO	Getting sync key
+1696283197331	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1696283197331	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1696283197331	FirefoxAccounts	DEBUG	getOAuthToken enter
+1696283197331	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1696283197331	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1696283197331	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1696283197331	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1696283202067	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696283202067	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696283202070	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1696283202071	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696283202352	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1696283214516	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283215467	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283215691	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283215929	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283216137	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1696283223856	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696283223856	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696283223859	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696283223859	Sync.Service	DEBUG	User-Agent: Firefox/117.0 (Linux x86_64) FxSync/1.119.0.20230828231221.desktop
+1696283223860	Sync.Service	INFO	Starting sync at 2023-10-02 15:47:03 in browser session aGtX-BxrMKsy
+1696283223860	Sync.Service	DEBUG	In sync: should login.
+1696283223860	Sync.Service	DEBUG	Exception calling WrappedLock: LockException: Could not acquire lock. Label: "service.js: login".(resource://services-sync/util.sys.mjs:45:5) JS Stack trace: LockException@util.sys.mjs:45:5
+throwLockException@util.sys.mjs:129:11
+WrappedLock@util.sys.mjs:143:15
+WrappedCatch@util.sys.mjs:114:27
+login@service.sys.mjs:1049:66
+sync/<@service.sys.mjs:1327:26
+WrappedCatch@util.sys.mjs:114:27
+sync@service.sys.mjs:1335:7
+1696283223860	Sync.Service	INFO	Cannot start sync: already syncing?
+1696283223860	Sync.Service	DEBUG	Not syncing: login returned false.
+1696283233286	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 401
+1696283233286	Services.Common.TokenServerClient	DEBUG	Got token response: 401
+1696283233286	Services.Common.TokenServerClient	INFO	Server-reported error: {"location":"body","name":"","description":"Unauthorized"}
+1696283233287	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1696283233287	Services.Common.RESTRequest	DEBUG	POST Length: 969
+1696283233288	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1696283233288	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1696283233288	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1696283233288	Sync.SyncAuthManager	WARN	Token server returned 401, retrying token fetch with fresh credentials
+1696283233289	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1696283233289	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1696283233289	FirefoxAccounts	DEBUG	getOAuthToken enter
+1696283233290	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1696283233290	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1696283233290	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1696283233296	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1696283233297	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1696283233297	Services.Common.RESTRequest	DEBUG	POST Length: 127
+1696283233733	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1696283233733	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: OK
+1696283233733	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -733
+1696283234757	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1696283234757	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: OK
+1696283234758	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -1758
+1696283234758	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1696283234758	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1696283234758	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","profileCache"]
+1696283234758	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1696283234758	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1696283234760	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1696283234760	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1696283234760	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1696283234765	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1696283234842	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1696283234842	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1696283234842	Services.Common.TokenServerClient	DEBUG	Successful token response
+1696283234843	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1696283234843	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1696283234843	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696283234843	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/
+1696283234843	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/
+1696283234843	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/
+1696283234843	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/
+1696283234843	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283234843	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283234844	FirefoxAccounts	INFO	fetching updated device list
+1696283234846	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1694468834845
+1696283235175	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1694468834845 200
+1696283235175	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1694468834845: code: 200 - Status text: OK
+1696283235175	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -1175
+1696283235175	FirefoxAccounts	INFO	Got new device list: 307d432e342d7207aa920f5546cd16d1
+1696283235176	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1696283235176	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1696283235178	FirefoxAccounts	TRACE	Our push subscription looks OK
+1696283235178	FirefoxAccounts	INFO	updating the cache
+1696283235691	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/collections
+1696283235691	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/configuration
+1696283235691	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283236030	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/configuration
+1696283236031	Sync.Service	DEBUG	Fetching global metadata record
+1696283236031	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283236443	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/storage/meta/global
+1696283236444	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1596039914.94
+1696283236444	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283236650	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/storage/meta/global
+1696283236650	Sync.Service	DEBUG	Weave Version: 1.119.0 Local Storage: 5 Remote Storage: 5
+1696283236650	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1696283236650	Sync.Service	INFO	Testing info/collections: {"prefs":1693617357.15,"history":1696200929.94,"extension-storage":1619098849.62,"passwords":1693345961.74,"bookmarks":1693617362.49,"clients":1696197326.89,"forms":1696200929.68,"meta":1596039914.94,"crypto":1591396517.85,"tabs":1696204531.59,"addons":1693617357.61}
+1696283236650	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1696283236650	Sync.Service	INFO	collection keys reports that a key update is needed.
+1696283236650	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283236749	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/storage/crypto/keys
+1696283236749	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1696283236750	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1591396517.85.
+1696283236750	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1696283236750	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1696283236750	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1696283236750	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1696283236750	Sync.CollectionKeyManager	INFO	Bumping last modified to 1591396517.85
+1696283236750	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1696283236750	Sync.Status	DEBUG	Status.login: success.login => success.login
+1696283236751	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696283236751	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/
+1696283236751	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696283236753	Sync.Status	INFO	Resetting Status.
+1696283236753	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1696283236753	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283237162	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/collections
+1696283237163	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/configuration
+1696283237163	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696283238393	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1696283238393	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696283238395	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1696283238396	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696283246470	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147756523/info/configuration failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696283246470	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1696283246470	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1696283246470	Sync.SyncScheduler	DEBUG	Client count: 0 -> 1
+1696283246471	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1696283246474	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

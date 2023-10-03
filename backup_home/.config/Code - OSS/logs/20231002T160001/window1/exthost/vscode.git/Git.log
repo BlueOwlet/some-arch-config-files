@@ -1,0 +1,48 @@
+2023-10-02 16:00:05.246 [info] Log level: Info
+2023-10-02 16:00:05.246 [info] Validating found git in: "git"
+2023-10-02 16:00:05.246 [info] Using git "2.42.0" from "git"
+2023-10-02 16:00:06.058 [info] > git rev-parse --show-toplevel [819ms]
+2023-10-02 16:00:06.058 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:07.108 [info] > git rev-parse --show-toplevel [617ms]
+2023-10-02 16:00:07.108 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:07.996 [info] > git rev-parse --show-toplevel [879ms]
+2023-10-02 16:00:07.996 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:08.215 [info] > git rev-parse --show-toplevel [205ms]
+2023-10-02 16:00:08.215 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:08.726 [info] > git rev-parse --show-toplevel [498ms]
+2023-10-02 16:00:08.726 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:09.163 [info] > git rev-parse --show-toplevel [424ms]
+2023-10-02 16:00:09.164 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:09.590 [info] > git rev-parse --show-toplevel [414ms]
+2023-10-02 16:00:09.590 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:10.019 [info] > git rev-parse --show-toplevel [416ms]
+2023-10-02 16:00:10.019 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact
+2023-10-02 16:00:10.444 [info] > git rev-parse --show-toplevel [412ms]
+2023-10-02 16:00:10.444 [info] fatal: detected dubious ownership in repository at '/home/owl/interact'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/owl/interact

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+main(){
+    echo """ 
+        b) Backup everything
+        r) Restore everything
+        p) Post archinstall
+        eww) Eww
+    """
+
+    case
+}
+
+
+main
