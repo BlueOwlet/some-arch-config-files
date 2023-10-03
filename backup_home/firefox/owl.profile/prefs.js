@@ -232,7 +232,7 @@ user_pref("services.sync.engine.creditcards", true);
 user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.forms.lastSync", "1696291734.75");
 user_pref("services.sync.forms.syncID", "5EbdlajMKVtn");
-user_pref("services.sync.globalScore", 0);
+user_pref("services.sync.globalScore", 6);
 user_pref("services.sync.lastPing", 1696278987);
 user_pref("services.sync.lastSync", "Mon Oct 02 2023 19:03:58 GMT-0600 (Central Standard Time)");
 user_pref("services.sync.lastTabFetch", 1696295038);
