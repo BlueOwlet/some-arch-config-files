@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+install_fonts(){
+
+    mkdir -p /usr/share/fonts
+    cd /usr/share/fonts
+    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/OpenDyslexic.zip
+    unzip
+
+}

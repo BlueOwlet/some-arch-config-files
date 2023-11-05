@@ -1,0 +1,18 @@
+(defwindow supaba
+           :monitor 0
+           :geometry (geometry 
+                                :x "0px"
+                                :y "0px"
+                                :width "90%"
+                                :height "100px"
+                                :anchor "top center"
+                               
+                        )
+            :stacking overlay
+
+            :exclusive true
+
+            :focusable true
+
+
+  "supaba")

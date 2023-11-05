@@ -1220,3 +1220,399 @@
 2023-10-03T00:42:14.226Z [Modules] No updates to install
 2023-10-03T00:42:14.227Z [Modules] Checking for host updates.
 2023-10-03T00:42:14.462Z [Modules] Host update is available. Manual update required!
+2023-10-03T22:00:38.716Z [Modules] Modules initializing
+2023-10-03T22:00:38.719Z [Modules] Distribution: remote
+2023-10-03T22:00:38.719Z [Modules] Host updates: enabled
+2023-10-03T22:00:38.719Z [Modules] Module updates: enabled
+2023-10-03T22:00:38.720Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T22:00:38.720Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T22:00:38.720Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T22:00:38.999Z [Modules] No updates to install
+2023-10-03T22:00:38.999Z [Modules] Checking for host updates.
+2023-10-03T22:00:39.333Z [Modules] Host update is available. Manual update required!
+2023-10-03T22:02:06.140Z [Modules] Modules initializing
+2023-10-03T22:02:06.140Z [Modules] Distribution: remote
+2023-10-03T22:02:06.140Z [Modules] Host updates: enabled
+2023-10-03T22:02:06.140Z [Modules] Module updates: enabled
+2023-10-03T22:02:06.140Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T22:02:06.140Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T22:02:06.141Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T22:02:06.275Z [Modules] No updates to install
+2023-10-03T22:02:06.276Z [Modules] Checking for host updates.
+2023-10-03T22:02:06.529Z [Modules] Host update is available. Manual update required!
+2023-10-03T23:37:30.113Z [Modules] Modules initializing
+2023-10-03T23:37:30.116Z [Modules] Distribution: remote
+2023-10-03T23:37:30.116Z [Modules] Host updates: enabled
+2023-10-03T23:37:30.116Z [Modules] Module updates: enabled
+2023-10-03T23:37:30.117Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T23:37:30.117Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T23:37:30.118Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T23:37:30.356Z [Modules] No updates to install
+2023-10-03T23:37:30.357Z [Modules] Checking for host updates.
+2023-10-03T23:37:30.617Z [Modules] Host update is available. Manual update required!
+2023-10-03T23:39:05.069Z [Modules] Modules initializing
+2023-10-03T23:39:05.069Z [Modules] Distribution: remote
+2023-10-03T23:39:05.069Z [Modules] Host updates: enabled
+2023-10-03T23:39:05.070Z [Modules] Module updates: enabled
+2023-10-03T23:39:05.070Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T23:39:05.070Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T23:39:05.070Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T23:39:05.207Z [Modules] No updates to install
+2023-10-03T23:39:05.207Z [Modules] Checking for host updates.
+2023-10-03T23:39:05.451Z [Modules] Host update is available. Manual update required!
+2023-10-03T23:41:06.922Z [Modules] Modules initializing
+2023-10-03T23:41:06.922Z [Modules] Distribution: remote
+2023-10-03T23:41:06.922Z [Modules] Host updates: enabled
+2023-10-03T23:41:06.922Z [Modules] Module updates: enabled
+2023-10-03T23:41:06.923Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T23:41:06.923Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T23:41:06.923Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T23:41:07.054Z [Modules] No updates to install
+2023-10-03T23:41:07.054Z [Modules] Checking for host updates.
+2023-10-03T23:41:07.254Z [Modules] Host update is available. Manual update required!
+2023-10-03T23:50:26.042Z [Modules] Modules initializing
+2023-10-03T23:50:26.046Z [Modules] Distribution: remote
+2023-10-03T23:50:26.046Z [Modules] Host updates: enabled
+2023-10-03T23:50:26.046Z [Modules] Module updates: enabled
+2023-10-03T23:50:26.047Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-03T23:50:26.047Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-03T23:50:26.047Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-03T23:50:26.352Z [Modules] No updates to install
+2023-10-03T23:50:26.353Z [Modules] Checking for host updates.
+2023-10-03T23:50:26.387Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-10-04T00:13:57.940Z [Modules] Modules initializing
+2023-10-04T00:13:57.940Z [Modules] Distribution: remote
+2023-10-04T00:13:57.941Z [Modules] Host updates: enabled
+2023-10-04T00:13:57.941Z [Modules] Module updates: enabled
+2023-10-04T00:13:57.941Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-04T00:13:57.941Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-04T00:13:57.941Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-04T00:13:58.095Z [Modules] No updates to install
+2023-10-04T00:13:58.095Z [Modules] Checking for host updates.
+2023-10-04T00:13:58.386Z [Modules] Host update is available. Manual update required!
+2023-10-05T03:44:57.413Z [Modules] Modules initializing
+2023-10-05T03:44:57.416Z [Modules] Distribution: remote
+2023-10-05T03:44:57.416Z [Modules] Host updates: enabled
+2023-10-05T03:44:57.417Z [Modules] Module updates: enabled
+2023-10-05T03:44:57.417Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-05T03:44:57.417Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-05T03:44:57.418Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-05T03:44:57.673Z [Modules] No updates to install
+2023-10-05T03:44:57.674Z [Modules] Checking for host updates.
+2023-10-05T05:09:49.434Z [Modules] Modules initializing
+2023-10-05T05:09:49.434Z [Modules] Distribution: remote
+2023-10-05T05:09:49.434Z [Modules] Host updates: enabled
+2023-10-05T05:09:49.434Z [Modules] Module updates: enabled
+2023-10-05T05:09:49.434Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-05T05:09:49.435Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-05T05:09:49.435Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-05T05:09:49.575Z [Modules] No updates to install
+2023-10-05T05:09:49.576Z [Modules] Checking for host updates.
+2023-10-05T05:09:49.822Z [Modules] Host update is available. Manual update required!
+2023-10-05T05:14:10.098Z [Modules] Modules initializing
+2023-10-05T05:14:10.098Z [Modules] Distribution: remote
+2023-10-05T05:14:10.098Z [Modules] Host updates: enabled
+2023-10-05T05:14:10.098Z [Modules] Module updates: enabled
+2023-10-05T05:14:10.098Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-05T05:14:10.098Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-05T05:14:10.098Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-05T05:14:10.239Z [Modules] No updates to install
+2023-10-05T05:14:10.240Z [Modules] Checking for host updates.
+2023-10-05T05:14:10.525Z [Modules] Host update is available. Manual update required!
+2023-10-05T05:29:08.200Z [Modules] Modules initializing
+2023-10-05T05:29:08.201Z [Modules] Distribution: remote
+2023-10-05T05:29:08.201Z [Modules] Host updates: enabled
+2023-10-05T05:29:08.201Z [Modules] Module updates: enabled
+2023-10-05T05:29:08.201Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-05T05:29:08.201Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-05T05:29:08.201Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-05T05:29:08.335Z [Modules] No updates to install
+2023-10-05T05:29:08.336Z [Modules] Checking for host updates.
+2023-10-05T05:29:08.580Z [Modules] Host update is available. Manual update required!
+2023-10-06T07:16:35.283Z [Modules] Modules initializing
+2023-10-06T07:16:35.286Z [Modules] Distribution: remote
+2023-10-06T07:16:35.286Z [Modules] Host updates: enabled
+2023-10-06T07:16:35.286Z [Modules] Module updates: enabled
+2023-10-06T07:16:35.286Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-06T07:16:35.287Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-06T07:16:35.287Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-06T07:16:35.541Z [Modules] No updates to install
+2023-10-06T07:16:35.541Z [Modules] Checking for host updates.
+2023-10-06T07:16:35.569Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-10-06T20:44:31.758Z [Modules] Modules initializing
+2023-10-06T20:44:31.761Z [Modules] Distribution: remote
+2023-10-06T20:44:31.761Z [Modules] Host updates: enabled
+2023-10-06T20:44:31.761Z [Modules] Module updates: enabled
+2023-10-06T20:44:31.761Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-06T20:44:31.762Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-06T20:44:31.762Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-06T20:44:32.015Z [Modules] No updates to install
+2023-10-06T20:44:32.016Z [Modules] Checking for host updates.
+2023-10-06T20:44:32.289Z [Modules] Host update is available. Manual update required!
+2023-10-10T05:19:23.225Z [Modules] Modules initializing
+2023-10-10T05:19:23.228Z [Modules] Distribution: remote
+2023-10-10T05:19:23.228Z [Modules] Host updates: enabled
+2023-10-10T05:19:23.228Z [Modules] Module updates: enabled
+2023-10-10T05:19:23.229Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-10T05:19:23.229Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-10T05:19:23.229Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-10T05:19:23.478Z [Modules] No updates to install
+2023-10-10T05:19:23.478Z [Modules] Checking for host updates.
+2023-10-10T05:19:23.714Z [Modules] Host update is available. Manual update required!
+2023-10-10T05:45:38.836Z [Modules] Modules initializing
+2023-10-10T05:45:38.837Z [Modules] Distribution: remote
+2023-10-10T05:45:38.837Z [Modules] Host updates: enabled
+2023-10-10T05:45:38.837Z [Modules] Module updates: enabled
+2023-10-10T05:45:38.837Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-10T05:45:38.837Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-10T05:45:38.837Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-10T05:45:38.987Z [Modules] No updates to install
+2023-10-10T05:45:38.988Z [Modules] Checking for host updates.
+2023-10-10T05:45:39.286Z [Modules] Host update is available. Manual update required!
+2023-10-11T00:30:10.422Z [Modules] Modules initializing
+2023-10-11T00:30:10.425Z [Modules] Distribution: remote
+2023-10-11T00:30:10.425Z [Modules] Host updates: enabled
+2023-10-11T00:30:10.426Z [Modules] Module updates: enabled
+2023-10-11T00:30:10.426Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-11T00:30:10.427Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-11T00:30:10.427Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-11T00:30:10.678Z [Modules] No updates to install
+2023-10-11T00:30:10.678Z [Modules] Checking for host updates.
+2023-10-11T20:37:30.281Z [Modules] Modules initializing
+2023-10-11T20:37:30.284Z [Modules] Distribution: remote
+2023-10-11T20:37:30.284Z [Modules] Host updates: enabled
+2023-10-11T20:37:30.285Z [Modules] Module updates: enabled
+2023-10-11T20:37:30.285Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-11T20:37:30.286Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-11T20:37:30.286Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-11T20:37:30.599Z [Modules] No updates to install
+2023-10-11T20:37:30.600Z [Modules] Checking for host updates.
+2023-10-11T20:37:30.936Z [Modules] Host update is available. Manual update required!
+2023-10-11T22:02:08.082Z [Modules] Modules initializing
+2023-10-11T22:02:08.085Z [Modules] Distribution: remote
+2023-10-11T22:02:08.085Z [Modules] Host updates: enabled
+2023-10-11T22:02:08.085Z [Modules] Module updates: enabled
+2023-10-11T22:02:08.085Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-11T22:02:08.085Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-11T22:02:08.085Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-11T22:02:08.344Z [Modules] No updates to install
+2023-10-11T22:02:08.345Z [Modules] Checking for host updates.
+2023-10-11T22:02:08.375Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-10-13T19:51:13.445Z [Modules] Modules initializing
+2023-10-13T19:51:13.447Z [Modules] Distribution: remote
+2023-10-13T19:51:13.447Z [Modules] Host updates: enabled
+2023-10-13T19:51:13.448Z [Modules] Module updates: enabled
+2023-10-13T19:51:13.448Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-13T19:51:13.449Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-13T19:51:13.449Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-13T19:51:13.752Z [Modules] No updates to install
+2023-10-13T19:51:13.753Z [Modules] Checking for host updates.
+2023-10-13T19:51:14.182Z [Modules] Host update is available. Manual update required!
+2023-10-14T00:28:20.563Z [Modules] Modules initializing
+2023-10-14T00:28:20.567Z [Modules] Distribution: remote
+2023-10-14T00:28:20.567Z [Modules] Host updates: enabled
+2023-10-14T00:28:20.567Z [Modules] Module updates: enabled
+2023-10-14T00:28:20.568Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-14T00:28:20.568Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-14T00:28:20.568Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-14T00:28:20.811Z [Modules] No updates to install
+2023-10-14T00:28:20.811Z [Modules] Checking for host updates.
+2023-10-14T00:28:21.114Z [Modules] Host update is available. Manual update required!
+2023-10-15T02:17:58.538Z [Modules] Modules initializing
+2023-10-15T02:17:58.541Z [Modules] Distribution: remote
+2023-10-15T02:17:58.541Z [Modules] Host updates: enabled
+2023-10-15T02:17:58.541Z [Modules] Module updates: enabled
+2023-10-15T02:17:58.541Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T02:17:58.542Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T02:17:58.542Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T02:17:58.826Z [Modules] No updates to install
+2023-10-15T02:17:58.826Z [Modules] Checking for host updates.
+2023-10-15T02:17:59.019Z [Modules] Host update is available. Manual update required!
+2023-10-15T03:12:36.296Z [Modules] Modules initializing
+2023-10-15T03:12:36.297Z [Modules] Distribution: remote
+2023-10-15T03:12:36.297Z [Modules] Host updates: enabled
+2023-10-15T03:12:36.297Z [Modules] Module updates: enabled
+2023-10-15T03:12:36.297Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T03:12:36.298Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T03:12:36.298Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T03:12:36.467Z [Modules] No updates to install
+2023-10-15T03:12:36.468Z [Modules] Checking for host updates.
+2023-10-15T03:12:36.660Z [Modules] Host update is available. Manual update required!
+2023-10-15T03:13:45.268Z [Modules] Modules initializing
+2023-10-15T03:13:45.268Z [Modules] Distribution: remote
+2023-10-15T03:13:45.268Z [Modules] Host updates: enabled
+2023-10-15T03:13:45.268Z [Modules] Module updates: enabled
+2023-10-15T03:13:45.268Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T03:13:45.269Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T03:13:45.269Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T03:13:45.403Z [Modules] No updates to install
+2023-10-15T03:13:45.404Z [Modules] Checking for host updates.
+2023-10-15T03:13:45.575Z [Modules] Host update is available. Manual update required!
+2023-10-15T03:19:29.882Z [Modules] Modules initializing
+2023-10-15T03:19:29.882Z [Modules] Distribution: remote
+2023-10-15T03:19:29.882Z [Modules] Host updates: enabled
+2023-10-15T03:19:29.882Z [Modules] Module updates: enabled
+2023-10-15T03:19:29.883Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T03:19:29.883Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T03:19:29.883Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T03:19:30.023Z [Modules] No updates to install
+2023-10-15T03:19:30.023Z [Modules] Checking for host updates.
+2023-10-15T03:19:30.202Z [Modules] Host update is available. Manual update required!
+2023-10-15T03:21:06.135Z [Modules] Modules initializing
+2023-10-15T03:21:06.135Z [Modules] Distribution: remote
+2023-10-15T03:21:06.135Z [Modules] Host updates: enabled
+2023-10-15T03:21:06.136Z [Modules] Module updates: enabled
+2023-10-15T03:21:06.136Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T03:21:06.136Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T03:21:06.136Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T03:21:06.319Z [Modules] No updates to install
+2023-10-15T03:21:06.320Z [Modules] Checking for host updates.
+2023-10-15T03:21:06.586Z [Modules] Host update is available. Manual update required!
+2023-10-15T03:33:07.622Z [Modules] Modules initializing
+2023-10-15T03:33:07.625Z [Modules] Distribution: remote
+2023-10-15T03:33:07.625Z [Modules] Host updates: enabled
+2023-10-15T03:33:07.626Z [Modules] Module updates: enabled
+2023-10-15T03:33:07.627Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T03:33:07.627Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T03:33:07.627Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T03:33:07.889Z [Modules] No updates to install
+2023-10-15T03:33:07.889Z [Modules] Checking for host updates.
+2023-10-15T03:33:08.130Z [Modules] Host update is available. Manual update required!
+2023-10-15T10:03:46.019Z [Modules] Modules initializing
+2023-10-15T10:03:46.019Z [Modules] Distribution: remote
+2023-10-15T10:03:46.019Z [Modules] Host updates: enabled
+2023-10-15T10:03:46.019Z [Modules] Module updates: enabled
+2023-10-15T10:03:46.019Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-15T10:03:46.019Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-15T10:03:46.019Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-15T10:03:46.164Z [Modules] No updates to install
+2023-10-15T10:03:46.165Z [Modules] Checking for host updates.
+2023-10-15T10:03:46.380Z [Modules] Host update is available. Manual update required!
+2023-10-16T08:14:41.537Z [Modules] Modules initializing
+2023-10-16T08:14:41.537Z [Modules] Distribution: remote
+2023-10-16T08:14:41.537Z [Modules] Host updates: enabled
+2023-10-16T08:14:41.537Z [Modules] Module updates: enabled
+2023-10-16T08:14:41.538Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T08:14:41.538Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T08:14:41.538Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T08:14:41.680Z [Modules] No updates to install
+2023-10-16T08:14:41.681Z [Modules] Checking for host updates.
+2023-10-16T08:14:41.873Z [Modules] Host update is available. Manual update required!
+2023-10-16T08:23:04.074Z [Modules] Modules initializing
+2023-10-16T08:23:04.074Z [Modules] Distribution: remote
+2023-10-16T08:23:04.075Z [Modules] Host updates: enabled
+2023-10-16T08:23:04.075Z [Modules] Module updates: enabled
+2023-10-16T08:23:04.075Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T08:23:04.075Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T08:23:04.075Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T08:23:04.213Z [Modules] No updates to install
+2023-10-16T08:23:04.214Z [Modules] Checking for host updates.
+2023-10-16T08:23:04.375Z [Modules] Host update is available. Manual update required!
+2023-10-16T08:44:38.211Z [Modules] Modules initializing
+2023-10-16T08:44:38.211Z [Modules] Distribution: remote
+2023-10-16T08:44:38.211Z [Modules] Host updates: enabled
+2023-10-16T08:44:38.211Z [Modules] Module updates: enabled
+2023-10-16T08:44:38.211Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T08:44:38.211Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T08:44:38.211Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T08:44:38.350Z [Modules] No updates to install
+2023-10-16T08:44:38.350Z [Modules] Checking for host updates.
+2023-10-16T08:44:38.596Z [Modules] Host update is available. Manual update required!
+2023-10-16T08:49:00.269Z [Modules] Modules initializing
+2023-10-16T08:49:00.269Z [Modules] Distribution: remote
+2023-10-16T08:49:00.269Z [Modules] Host updates: enabled
+2023-10-16T08:49:00.270Z [Modules] Module updates: enabled
+2023-10-16T08:49:00.270Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T08:49:00.270Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T08:49:00.270Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T08:49:00.409Z [Modules] No updates to install
+2023-10-16T08:49:00.410Z [Modules] Checking for host updates.
+2023-10-16T08:49:00.639Z [Modules] Host update is available. Manual update required!
+2023-10-16T08:59:17.479Z [Modules] Modules initializing
+2023-10-16T08:59:17.480Z [Modules] Distribution: remote
+2023-10-16T08:59:17.480Z [Modules] Host updates: enabled
+2023-10-16T08:59:17.480Z [Modules] Module updates: enabled
+2023-10-16T08:59:17.480Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T08:59:17.480Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T08:59:17.480Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T08:59:17.619Z [Modules] No updates to install
+2023-10-16T08:59:17.620Z [Modules] Checking for host updates.
+2023-10-16T08:59:17.802Z [Modules] Host update is available. Manual update required!
+2023-10-16T09:26:13.493Z [Modules] Modules initializing
+2023-10-16T09:26:13.493Z [Modules] Distribution: remote
+2023-10-16T09:26:13.493Z [Modules] Host updates: enabled
+2023-10-16T09:26:13.493Z [Modules] Module updates: enabled
+2023-10-16T09:26:13.494Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T09:26:13.494Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T09:26:13.494Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T09:26:13.632Z [Modules] No updates to install
+2023-10-16T09:26:13.632Z [Modules] Checking for host updates.
+2023-10-16T09:26:13.795Z [Modules] Host update is available. Manual update required!
+2023-10-16T09:53:04.622Z [Modules] Modules initializing
+2023-10-16T09:53:04.622Z [Modules] Distribution: remote
+2023-10-16T09:53:04.622Z [Modules] Host updates: enabled
+2023-10-16T09:53:04.622Z [Modules] Module updates: enabled
+2023-10-16T09:53:04.623Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T09:53:04.623Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T09:53:04.623Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T09:53:04.761Z [Modules] No updates to install
+2023-10-16T09:53:04.761Z [Modules] Checking for host updates.
+2023-10-16T09:53:04.917Z [Modules] Host update is available. Manual update required!
+2023-10-16T12:18:15.856Z [Modules] Modules initializing
+2023-10-16T12:18:15.856Z [Modules] Distribution: remote
+2023-10-16T12:18:15.856Z [Modules] Host updates: enabled
+2023-10-16T12:18:15.856Z [Modules] Module updates: enabled
+2023-10-16T12:18:15.857Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-16T12:18:15.857Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-16T12:18:15.857Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-16T12:18:16.012Z [Modules] No updates to install
+2023-10-16T12:18:16.013Z [Modules] Checking for host updates.
+2023-10-16T12:18:16.186Z [Modules] Host update is available. Manual update required!
+2023-10-18T08:12:56.296Z [Modules] Modules initializing
+2023-10-18T08:12:56.299Z [Modules] Distribution: remote
+2023-10-18T08:12:56.299Z [Modules] Host updates: enabled
+2023-10-18T08:12:56.299Z [Modules] Module updates: enabled
+2023-10-18T08:12:56.299Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-18T08:12:56.299Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-18T08:12:56.300Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-18T08:12:56.562Z [Modules] No updates to install
+2023-10-18T08:12:56.562Z [Modules] Checking for host updates.
+2023-10-18T08:12:56.826Z [Modules] Host update is available. Manual update required!
+2023-10-31T19:17:18.963Z [Modules] Modules initializing
+2023-10-31T19:17:18.966Z [Modules] Distribution: remote
+2023-10-31T19:17:18.966Z [Modules] Host updates: enabled
+2023-10-31T19:17:18.966Z [Modules] Module updates: enabled
+2023-10-31T19:17:18.967Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-10-31T19:17:18.967Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-10-31T19:17:18.967Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-10-31T19:17:19.218Z [Modules] No updates to install
+2023-10-31T19:17:19.219Z [Modules] Checking for host updates.
+2023-11-02T14:25:06.075Z [Modules] Modules initializing
+2023-11-02T14:25:06.080Z [Modules] Distribution: remote
+2023-11-02T14:25:06.080Z [Modules] Host updates: enabled
+2023-11-02T14:25:06.081Z [Modules] Module updates: enabled
+2023-11-02T14:25:06.081Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-11-02T14:25:06.081Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-11-02T14:25:06.082Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-11-02T14:25:06.357Z [Modules] No updates to install
+2023-11-02T14:25:06.358Z [Modules] Checking for host updates.
+2023-11-02T18:01:19.409Z [Modules] Modules initializing
+2023-11-02T18:01:19.409Z [Modules] Distribution: remote
+2023-11-02T18:01:19.409Z [Modules] Host updates: enabled
+2023-11-02T18:01:19.409Z [Modules] Module updates: enabled
+2023-11-02T18:01:19.409Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-11-02T18:01:19.409Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-11-02T18:01:19.410Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-11-02T18:01:19.553Z [Modules] No updates to install
+2023-11-02T18:01:19.554Z [Modules] Checking for host updates.
+2023-11-02T18:01:19.841Z [Modules] Host update is available. Manual update required!
+2023-11-04T15:23:39.586Z [Modules] Modules initializing
+2023-11-04T15:23:39.594Z [Modules] Distribution: remote
+2023-11-04T15:23:39.594Z [Modules] Host updates: enabled
+2023-11-04T15:23:39.594Z [Modules] Module updates: enabled
+2023-11-04T15:23:39.596Z [Modules] Module install path: /home/owl/.config/discord/0.0.29/modules
+2023-11-04T15:23:39.596Z [Modules] Module installed file path: /home/owl/.config/discord/0.0.29/modules/installed.json
+2023-11-04T15:23:39.596Z [Modules] Module download path: /home/owl/.config/discord/0.0.29/modules/pending
+2023-11-04T15:23:39.855Z [Modules] No updates to install
+2023-11-04T15:23:39.856Z [Modules] Checking for host updates.
+2023-11-04T15:23:40.186Z [Modules] Host update is available. Manual update required!

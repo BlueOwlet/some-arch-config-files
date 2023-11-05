@@ -1,0 +1,88 @@
+2023-11-02 09:48:25.368 [info] Test server listening.
+2023-11-02 09:48:25.368 [info] Python interpreter path: ./venv/bin/python
+2023-11-02 09:48:25.387 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 83ms, has a falsy return value, Arg 1: <Uri:/home/owl/Desktop/craigslist/main.py>, Return Value: undefined',
+  Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+      at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:100:67708)
+      at Object.get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:23379)
+      at w.activate (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:808237)
+      at /home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2386
+      at Array.map (<anonymous>)
+      at g.activateWorkspace (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2376)
+]
+2023-11-02 09:48:25.387 [error] Failure during activation. Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+    at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:100:67708)
+    at Object.get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:23379)
+    at w.activate (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:808237)
+    at /home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2386
+    at Array.map (<anonymous>)
+    at g.activateWorkspace (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2376)
+2023-11-02 09:48:25.387 [error] sendStartupTelemetry() failed. Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+    at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:100:67708)
+    at Object.get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:23379)
+    at w.activate (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:808237)
+    at /home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2386
+    at Array.map (<anonymous>)
+    at g.activateWorkspace (/home/owl/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client/extension.js:2:2376)
+2023-11-02 09:48:25.932 [info] Starting Jedi language server for craigslist.
+2023-11-02 09:48:40.590 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:48:51.167 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:53:08.544 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:53:13.456 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:53:21.538 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:53:27.235 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:54:29.973 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:54:33.511 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:55:02.429 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:57:50.840 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 09:59:04.273 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:00:44.246 [info] > ./venv/bin/python -m autopep8 --diff ./main.py
+2023-11-02 10:00:44.246 [info] cwd: .
+2023-11-02 10:00:44.275 [info] > ./venv/bin/python -c "import autopep8"
+2023-11-02 10:00:44.307 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/printEnvVariables.py
+2023-11-02 10:00:44.308 [info] shell: bash
+2023-11-02 10:00:44.341 [info] > ./venv/bin/python -c "import autopep8"
+2023-11-02 10:00:44.351 [error] 
+Please install 'autopep8' into your environment. 
+If you don't want to use it you can turn it off or use another formatter in the settings.
+2023-11-02 10:00:44.351 [error] Formatting with autopep8 failed:
+Error: Module 'autopep8' not installed.
+2023-11-02 10:01:07.316 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:01:11.036 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:01:29.304 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:05:17.711 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:07:31.469 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:07:35.673 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:08:23.713 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:10:52.113 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:12:21.015 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:12:36.651 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:12:41.663 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:13:26.893 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:15:07.382 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:17:39.678 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:18:19.059 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:21:15.956 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:22:27.803 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:22:30.700 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:24:30.300 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:28:55.048 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:29:34.037 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:29:50.783 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:30:30.959 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:30:45.727 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:32:45.328 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:33:20.821 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:33:56.853 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:34:17.854 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:34:24.659 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:34:58.610 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:36:14.229 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:36:22.089 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py
+2023-11-02 10:41:55.010 [info] Discover tests for workspace name: craigslist - uri: /home/owl/Desktop/craigslist/main.py

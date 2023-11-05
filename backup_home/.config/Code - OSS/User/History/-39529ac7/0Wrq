@@ -1,0 +1,71 @@
+#!/bin/bash
+. menu
+
+download_eww(){
+    pushd ~
+    git clone https://github.com/elkowar/eww
+    popd
+}
+
+
+install_prerequisites(){
+    sudo pacman -S --noconfirm gtk3 gtk-layer-shell pango gdk-pixbuf2 cairo glib2 gcc-libs glibc
+    mkdir -p ~/.config/eww
+    touch ~/.config/eww/eww.yuck
+}
+
+rustup_install(){
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    rustup install nightly
+    cargo +nightly install rustc
+
+}
+
+
+build_eww(){
+    pushd ~
+    cd eww
+    cargo clean
+    if [ $XDG_SESSION_TYPE = 'wayland' ];then
+        echo "RUNNING ON WAYLAND"
+        cargo build --release --no-default-features --features=wayland
+    elif [ $XDG_SESSION_TYPE = 'wayland' ];then
+        echo "RUNNING ON X11"
+        cargo build --release --no-default-features --features x11
+    else 
+        echo "UNKNOWN XDG SESSION TYPE"
+    fi
+    popd
+}
+
+run_eww(){
+
+    pushd ~
+    cd eww
+
+    cd target/release
+    chmod +x ./eww
+    ./eww daemon
+    ./eww open n.n
+    popd
+}
+
+
+install_eww(){
+    download_eww
+    install_prerequisites
+    rustup_install
+    build_eww
+    run_eww
+}
+
+delete_eww(){
+    sudo rm -r ~/eww/
+    sudo pacman -Rns gtk-layer-shell
+    rustup toolchain uninstall nightly
+
+}
+
+eww_menu(){
+    menu "eww/eww"
+}

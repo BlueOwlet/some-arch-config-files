@@ -47,3 +47,4 @@ alias sshinteract='ssh -i ~/.ssh/interact interact@interactspeakingcenter.com'
 
 # Starship startup
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"

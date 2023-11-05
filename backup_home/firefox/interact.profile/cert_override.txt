@@ -1,0 +1,3 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+vyda.mx:443:	OID.2.16.840.1.101.3.4.2.1	DC:6F:39:50:27:18:82:22:D2:8C:34:0F:90:00:66:E0:F6:31:D0:7B:DE:56:ED:39:E4:E4:38:79:8C:9D:0F:AC	

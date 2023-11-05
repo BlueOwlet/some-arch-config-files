@@ -1,0 +1,633 @@
+2023-11-04 09:03:14.665 [INFO]: No proxy settings found
+2023-11-04 09:03:15.145 [INFO]: Creating manager directory: /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager
+2023-11-04 09:03:15.469 [INFO]: Using cached LS with valid crc32: /home/owl/.vscode-oss/extensions/codeium.codeium-1.2.97-universal/dist/f3bda5b3eb4dc7c7904cb8e9a3156e9f25f1ebb9/language_server_linux_x64
+2023-11-04 09:03:15.478 [INFO]: Language server started
+2023-11-04 09:03:15.596 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.595711  3794 main.go:452] Starting language server manager with pid 3794
+2023-11-04 09:03:15.596 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.595790  3794 main.go:106] Manager acquired its lock file /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager/locks/manager.lock
+I1104 09:03:15.596157  3794 main.go:228] Waiting for random port file in /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager/child_random_port_1699110195595857216_7840091514321356600 to be created
+2023-11-04 09:03:15.696 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.695820  3809 main.go:446] Starting language server process with pid 3809
+2023-11-04 09:03:15.696 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.696646  3809 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I1104 09:03:15.696678  3809 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+2023-11-04 09:03:15.697 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.696711  3809 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2023-11-04 09:03:15.995 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.994258  3809 api_server_client.go:115] Successfully dialed proxy
+2023-11-04 09:03:15.995 [INFO]: [Language Server (stderr)]:
+I1104 09:03:15.994714  3809 server.go:387] Successfully created API server client
+I1104 09:03:15.994728  3809 api_server_client.go:115] Successfully dialed proxy
+I1104 09:03:15.994848  3809 server.go:393] Successfully created API streaming client
+2023-11-04 09:03:16.019 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.018525  3809 server.go:402] Successfully initialized tokenizer
+I1104 09:03:16.018567  3809 unleash.go:57] Initializing Unleash with production environment
+2023-11-04 09:03:16.248 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.248204  3809 unleash.go:71] Successfully initialized unleash
+2023-11-04 09:03:16.279 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.278716  3809 server.go:481] Successfully created completion provider
+I1104 09:03:16.278760  3809 server.go:513] Child process attempting to acquire lock file /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager/locks/child_lock_1699110195595888921_1486492388336537446
+2023-11-04 09:03:16.279 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.278831  3809 server.go:523] Child process acquired lock file /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager/locks/child_lock_1699110195595888921_1486492388336537446
+2023-11-04 09:03:16.280 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.279735  3809 server.go:186] Language server will attempt to listen on host 127.0.0.1
+2023-11-04 09:03:16.280 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.279935  3809 server.go:230] Language server listening on random port at 36375
+I1104 09:03:16.279949  3809 server.go:232] LSP listening on random port at 41267
+2023-11-04 09:03:16.282 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.281812  3809 web_server.go:147] Chat Web Server listening at ws://127.0.0.1:39673
+2023-11-04 09:03:16.300 [INFO]: [Language Server (stdout)]:
+41267
+2023-11-04 09:03:16.303 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.300068  3794 main.go:264] Language server manager found random server port 36375
+I1104 09:03:16.300106  3794 main.go:265] Language server manager found random lsp port 41267
+I1104 09:03:16.300125  3794 main.go:272] Language server manager attempting to connect to language server at 127.0.0.1:36375
+2023-11-04 09:03:16.320 [INFO]: [Language Server (stderr)]:
+I1104 09:03:16.320475  3794 main.go:143] Fixing language server port at 36375
+I1104 09:03:16.320494  3794 main.go:323] Language server manager successfully connected to new language server at 127.0.0.1:36375
+2023-11-04 09:03:16.381 [INFO]: Found language server running on port 36375
+2023-11-04 09:03:16.412 [INFO]: Successfully logged in
+2023-11-04 09:08:13.474 [INFO]: Completion request was cancelled by token (170.1ms)
+2023-11-04 09:08:13.623 [INFO]: Completion request was cancelled by token (79.98ms)
+2023-11-04 09:08:13.726 [INFO]: Completion request was cancelled by token (28.46ms)
+2023-11-04 09:08:13.863 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:08:14.067 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:08:15.505 [INFO]: Completion request succeeded (1007.55ms)
+2023-11-04 09:08:15.505 [INFO]: No completions were generated
+2023-11-04 09:08:15.506 [INFO]: provideInlineCompletionItems request succeeded (1008.87ms)
+2023-11-04 09:15:27.961 [INFO]: Completion request succeeded (1032.94ms)
+2023-11-04 09:15:27.962 [INFO]: No completions were generated
+2023-11-04 09:15:27.962 [INFO]: provideInlineCompletionItems request succeeded (1035.7ms)
+2023-11-04 09:15:40.617 [INFO]: Completion request succeeded (1057.42ms)
+2023-11-04 09:15:40.618 [INFO]: Generated 3 completions
+2023-11-04 09:15:40.620 [INFO]: provideInlineCompletionItems request succeeded (1061.81ms)
+2023-11-04 09:15:44.061 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:44.219 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:44.349 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:44.510 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:44.696 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:44.838 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:15:46.457 [INFO]: Completion request succeeded (836ms)
+2023-11-04 09:15:46.458 [INFO]: Generated 5 completions
+2023-11-04 09:15:46.458 [INFO]: provideInlineCompletionItems request succeeded (838.33ms)
+2023-11-04 09:15:46.959 [INFO]: Completion request was cancelled by token (128.55ms)
+2023-11-04 09:15:47.125 [INFO]: Completion request was cancelled by token (93.54ms)
+2023-11-04 09:15:47.759 [INFO]: Completion request was cancelled by token (558.75ms)
+2023-11-04 09:15:47.867 [INFO]: Completion request was cancelled by token (32.77ms)
+2023-11-04 09:15:48.036 [INFO]: Completion request was cancelled by token (94.25ms)
+2023-11-04 09:15:49.535 [INFO]: Completion request succeeded (1423.85ms)
+2023-11-04 09:15:49.536 [INFO]: Generated 8 completions
+2023-11-04 09:15:49.537 [INFO]: provideInlineCompletionItems request succeeded (1426.97ms)
+2023-11-04 09:15:51.678 [INFO]: Completion request was cancelled by token (36.5ms)
+2023-11-04 09:15:52.058 [INFO]: Completion request succeeded (305.06ms)
+2023-11-04 09:15:52.058 [INFO]: Generated 8 completions
+2023-11-04 09:15:52.060 [INFO]: provideInlineCompletionItems request succeeded (307.54ms)
+2023-11-04 09:15:52.661 [INFO]: Completion request succeeded (242.94ms)
+2023-11-04 09:15:52.661 [INFO]: No completions were generated
+2023-11-04 09:15:52.662 [INFO]: provideInlineCompletionItems request succeeded (244.24ms)
+2023-11-04 09:15:57.798 [INFO]: Completion request succeeded (225.24ms)
+2023-11-04 09:15:57.800 [INFO]: Generated 6 completions
+2023-11-04 09:15:57.801 [INFO]: provideInlineCompletionItems request succeeded (229.1ms)
+2023-11-04 09:16:01.995 [INFO]: Completion request succeeded (543.36ms)
+2023-11-04 09:16:01.995 [INFO]: Generated 1 completions
+2023-11-04 09:16:01.996 [INFO]: provideInlineCompletionItems request succeeded (545.3ms)
+2023-11-04 09:16:06.003 [INFO]: Completion request succeeded (228.45ms)
+2023-11-04 09:16:06.004 [INFO]: Generated 1 completions
+2023-11-04 09:16:06.004 [INFO]: provideInlineCompletionItems request succeeded (229.76ms)
+2023-11-04 09:16:08.044 [INFO]: Completion request succeeded (385.45ms)
+2023-11-04 09:16:08.044 [INFO]: No completions were generated
+2023-11-04 09:16:08.044 [INFO]: provideInlineCompletionItems request succeeded (386.43ms)
+2023-11-04 09:16:09.094 [INFO]: Completion request was cancelled by token (323.57ms)
+2023-11-04 09:16:09.583 [INFO]: Completion request was cancelled by token (414.26ms)
+2023-11-04 09:16:09.915 [INFO]: Completion request was cancelled by token (257.33ms)
+2023-11-04 09:16:10.237 [INFO]: Completion request succeeded (248.27ms)
+2023-11-04 09:16:10.238 [INFO]: Generated 1 completions
+2023-11-04 09:16:10.238 [INFO]: provideInlineCompletionItems request succeeded (249.5ms)
+2023-11-04 09:16:12.403 [INFO]: Completion request succeeded (441.25ms)
+2023-11-04 09:16:12.403 [INFO]: No completions were generated
+2023-11-04 09:16:12.404 [INFO]: provideInlineCompletionItems request succeeded (442.77ms)
+2023-11-04 09:16:15.623 [INFO]: Completion request succeeded (408.39ms)
+2023-11-04 09:16:15.623 [INFO]: No completions were generated
+2023-11-04 09:16:15.623 [INFO]: provideInlineCompletionItems request succeeded (409.48ms)
+2023-11-04 09:16:42.241 [INFO]: Completion request succeeded (444.39ms)
+2023-11-04 09:16:42.242 [INFO]: No completions were generated
+2023-11-04 09:16:42.242 [INFO]: provideInlineCompletionItems request succeeded (445.38ms)
+2023-11-04 09:16:48.627 [INFO]: Completion request was cancelled by token (436.81ms)
+2023-11-04 09:16:49.788 [INFO]: Completion request succeeded (1086.28ms)
+2023-11-04 09:16:49.789 [INFO]: Generated 7 completions
+2023-11-04 09:16:49.790 [INFO]: provideInlineCompletionItems request succeeded (1089.25ms)
+2023-11-04 09:16:49.941 [INFO]: Completion request was cancelled by token (13.38ms)
+2023-11-04 09:16:50.298 [INFO]: Completion request was cancelled by token (282.43ms)
+2023-11-04 09:16:50.491 [INFO]: Completion request was cancelled by token (118.09ms)
+2023-11-04 09:16:50.686 [INFO]: Completion request was cancelled by token (119.27ms)
+2023-11-04 09:16:50.789 [INFO]: Completion request was cancelled by token (28.43ms)
+2023-11-04 09:16:50.869 [INFO]: Completion request was cancelled by token (4.99ms)
+2023-11-04 09:16:51.076 [INFO]: Completion request was cancelled by token (132.64ms)
+2023-11-04 09:16:51.195 [INFO]: Completion request was cancelled by token (44.79ms)
+2023-11-04 09:16:51.300 [INFO]: Completion request was cancelled by token (30.99ms)
+2023-11-04 09:16:51.418 [INFO]: Completion request was cancelled by token (42.57ms)
+2023-11-04 09:16:52.218 [INFO]: Completion request was cancelled by token (601.2ms)
+2023-11-04 09:16:52.328 [INFO]: Completion request was cancelled by token (35.39ms)
+2023-11-04 09:16:52.438 [INFO]: Completion request was cancelled by token (35.24ms)
+2023-11-04 09:16:52.547 [INFO]: Completion request was cancelled by token (35.42ms)
+2023-11-04 09:16:52.817 [INFO]: Completion request was cancelled by token (199.19ms)
+2023-11-04 09:16:53.627 [INFO]: Completion request succeeded (735.73ms)
+2023-11-04 09:16:53.627 [INFO]: No completions were generated
+2023-11-04 09:16:53.627 [INFO]: provideInlineCompletionItems request succeeded (736.99ms)
+2023-11-04 09:17:24.943 [INFO]: Completion request was cancelled by token (136.6ms)
+2023-11-04 09:17:25.049 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:17:25.234 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:17:25.375 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:17:28.266 [INFO]: Completion request succeeded (928.83ms)
+2023-11-04 09:17:28.267 [INFO]: Generated 8 completions
+2023-11-04 09:17:28.269 [INFO]: provideInlineCompletionItems request succeeded (931.96ms)
+2023-11-04 09:17:28.455 [INFO]: Completion request was cancelled by token (108.93ms)
+2023-11-04 09:17:29.176 [INFO]: Completion request succeeded (649.09ms)
+2023-11-04 09:17:29.177 [INFO]: Generated 8 completions
+2023-11-04 09:17:29.180 [INFO]: provideInlineCompletionItems request succeeded (653.07ms)
+2023-11-04 09:17:29.504 [INFO]: Completion request was cancelled by token (138ms)
+2023-11-04 09:17:29.716 [INFO]: Completion request was cancelled by token (137.88ms)
+2023-11-04 09:17:29.862 [INFO]: Completion request was cancelled by token (73.01ms)
+2023-11-04 09:17:31.217 [INFO]: Completion request succeeded (1281.78ms)
+2023-11-04 09:17:31.217 [INFO]: Generated 5 completions
+2023-11-04 09:17:31.218 [INFO]: provideInlineCompletionItems request succeeded (1283.93ms)
+2023-11-04 09:19:32.059 [INFO]: Completion request was cancelled by token (126.83ms)
+2023-11-04 09:19:32.154 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:19:32.378 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:19:32.549 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:19:34.760 [INFO]: Completion request succeeded (1071.87ms)
+2023-11-04 09:19:34.761 [INFO]: No completions were generated
+2023-11-04 09:19:34.761 [INFO]: provideInlineCompletionItems request succeeded (1073.97ms)
+2023-11-04 09:20:01.437 [INFO]: Completion request was cancelled by token (155.49ms)
+2023-11-04 09:20:01.527 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:01.687 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:01.781 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:03.534 [INFO]: Completion request succeeded (831.94ms)
+2023-11-04 09:20:03.534 [INFO]: No completions were generated
+2023-11-04 09:20:03.534 [INFO]: provideInlineCompletionItems request succeeded (833ms)
+2023-11-04 09:20:08.759 [INFO]: Completion request succeeded (929.48ms)
+2023-11-04 09:20:08.759 [INFO]: Generated 2 completions
+2023-11-04 09:20:08.759 [INFO]: provideInlineCompletionItems request succeeded (930.8ms)
+2023-11-04 09:20:10.199 [INFO]: Completion request was cancelled by token (394.01ms)
+2023-11-04 09:20:11.698 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:11.879 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:12.035 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:12.162 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:13.792 [INFO]: Completion request succeeded (776.6ms)
+2023-11-04 09:20:13.792 [INFO]: No completions were generated
+2023-11-04 09:20:13.793 [INFO]: provideInlineCompletionItems request succeeded (778.02ms)
+2023-11-04 09:20:19.503 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:19.984 [INFO]: Completion request was cancelled by token (37.93ms)
+2023-11-04 09:20:20.106 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:20.238 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:20.348 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:20:20.475 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:24:53.848 [INFO]: Completion request was cancelled by token (42ms)
+2023-11-04 09:24:53.934 [INFO]: Completion request was cancelled by token (6.11ms)
+2023-11-04 09:24:54.074 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:24:54.153 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:24:54.364 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:24:56.061 [INFO]: Completion request succeeded (1001.45ms)
+2023-11-04 09:24:56.061 [INFO]: No completions were generated
+2023-11-04 09:24:56.062 [INFO]: provideInlineCompletionItems request succeeded (1002.51ms)
+2023-11-04 09:25:15.872 [INFO]: Completion request was cancelled by token (52.88ms)
+2023-11-04 09:25:15.997 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:16.082 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:16.204 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:16.438 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:17.556 [INFO]: Completion request succeeded (792.73ms)
+2023-11-04 09:25:17.556 [INFO]: No completions were generated
+2023-11-04 09:25:17.556 [INFO]: provideInlineCompletionItems request succeeded (794.02ms)
+2023-11-04 09:25:37.894 [INFO]: Completion request was cancelled by token (116.62ms)
+2023-11-04 09:25:37.969 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:38.057 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:38.236 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:38.550 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:38.786 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 09:25:40.605 [INFO]: Completion request succeeded (851.61ms)
+2023-11-04 09:25:40.606 [INFO]: Generated 3 completions
+2023-11-04 09:25:40.608 [INFO]: provideInlineCompletionItems request succeeded (856.03ms)
+2023-11-04 09:25:40.950 [INFO]: Completion request was cancelled by token (108.35ms)
+2023-11-04 09:25:41.577 [INFO]: Completion request was cancelled by token (555.1ms)
+2023-11-04 09:25:41.752 [INFO]: Completion request was cancelled by token (100.99ms)
+2023-11-04 09:25:41.839 [INFO]: Completion request was cancelled by token (15.79ms)
+2023-11-04 09:25:42.043 [INFO]: Completion request was cancelled by token (130.9ms)
+2023-11-04 09:25:42.149 [INFO]: Completion request was cancelled by token (32.29ms)
+2023-11-04 09:25:42.269 [INFO]: Completion request was cancelled by token (46.53ms)
+2023-11-04 09:25:42.500 [INFO]: Completion request was cancelled by token (157.89ms)
+2023-11-04 09:25:42.616 [INFO]: Completion request was cancelled by token (42.37ms)
+2023-11-04 09:25:42.812 [INFO]: Completion request was cancelled by token (121.68ms)
+2023-11-04 09:25:43.058 [INFO]: Completion request was cancelled by token (103.56ms)
+2023-11-04 09:25:43.334 [INFO]: Completion request was cancelled by token (203.19ms)
+2023-11-04 09:25:43.822 [INFO]: Completion request was cancelled by token (390.34ms)
+2023-11-04 09:25:44.004 [INFO]: Completion request was cancelled by token (106.15ms)
+2023-11-04 09:25:44.112 [INFO]: Completion request was cancelled by token (33.31ms)
+2023-11-04 09:25:44.343 [INFO]: Completion request was cancelled by token (157.88ms)
+2023-11-04 09:25:44.996 [INFO]: Completion request was cancelled by token (578.95ms)
+2023-11-04 09:25:45.156 [INFO]: Completion request was cancelled by token (87.15ms)
+2023-11-04 09:25:45.274 [INFO]: Completion request was cancelled by token (44.38ms)
+2023-11-04 09:25:45.465 [INFO]: Completion request was cancelled by token (117.14ms)
+2023-11-04 09:25:45.877 [INFO]: Completion request was cancelled by token (337.53ms)
+2023-11-04 09:25:46.072 [INFO]: Completion request was cancelled by token (119.92ms)
+2023-11-04 09:25:46.167 [INFO]: Completion request was cancelled by token (20.93ms)
+2023-11-04 09:25:46.262 [INFO]: Completion request was cancelled by token (19.48ms)
+2023-11-04 09:25:47.679 [INFO]: Completion request succeeded (1342.55ms)
+2023-11-04 09:25:47.680 [INFO]: No completions were generated
+2023-11-04 09:25:47.680 [INFO]: provideInlineCompletionItems request succeeded (1344.03ms)
+2023-11-04 09:25:50.066 [INFO]: Completion request was cancelled by token (542.88ms)
+2023-11-04 09:25:50.246 [INFO]: Completion request was cancelled by token (105.4ms)
+2023-11-04 09:25:50.898 [INFO]: Completion request was cancelled by token (579.11ms)
+2023-11-04 09:25:51.208 [INFO]: Completion request was cancelled by token (237.45ms)
+2023-11-04 09:25:51.318 [INFO]: Completion request was cancelled by token (35.99ms)
+2023-11-04 09:25:51.539 [INFO]: Completion request was cancelled by token (146.25ms)
+2023-11-04 09:25:51.639 [INFO]: Completion request was cancelled by token (24.95ms)
+2023-11-04 09:25:51.744 [INFO]: Completion request was cancelled by token (30.28ms)
+2023-11-04 09:25:51.940 [INFO]: Completion request was cancelled by token (120.43ms)
+2023-11-04 09:25:52.057 [INFO]: Completion request was cancelled by token (42.88ms)
+2023-11-04 09:25:52.264 [INFO]: Completion request was cancelled by token (133.47ms)
+2023-11-04 09:25:52.363 [INFO]: Completion request was cancelled by token (23.5ms)
+2023-11-04 09:25:52.448 [INFO]: Completion request was cancelled by token (11.01ms)
+2023-11-04 09:25:52.581 [INFO]: Completion request was cancelled by token (58.29ms)
+2023-11-04 09:25:52.814 [INFO]: Completion request was cancelled by token (157.59ms)
+2023-11-04 09:25:52.899 [INFO]: Completion request was cancelled by token (10.64ms)
+2023-11-04 09:25:53.047 [INFO]: Completion request was cancelled by token (72.83ms)
+2023-11-04 09:25:53.239 [INFO]: Completion request was cancelled by token (117.12ms)
+2023-11-04 09:25:53.372 [INFO]: Completion request was cancelled by token (58.11ms)
+2023-11-04 09:25:53.708 [INFO]: Completion request was cancelled by token (260.92ms)
+2023-11-04 09:25:53.809 [INFO]: Completion request was cancelled by token (27.11ms)
+2023-11-04 09:25:53.910 [INFO]: Completion request was cancelled by token (26.69ms)
+2023-11-04 09:25:54.089 [INFO]: Completion request was cancelled by token (105.4ms)
+2023-11-04 09:25:54.191 [INFO]: Completion request was cancelled by token (27.81ms)
+2023-11-04 09:25:54.734 [INFO]: Completion request was cancelled by token (467.76ms)
+2023-11-04 09:25:55.550 [INFO]: Completion request was cancelled by token (475.5ms)
+2023-11-04 09:25:55.732 [INFO]: Completion request was cancelled by token (109.29ms)
+2023-11-04 09:25:55.985 [INFO]: Completion request was cancelled by token (177.98ms)
+2023-11-04 09:25:57.334 [INFO]: Completion request succeeded (1275.13ms)
+2023-11-04 09:25:57.335 [INFO]: Generated 2 completions
+2023-11-04 09:25:57.338 [INFO]: provideInlineCompletionItems request succeeded (1279.79ms)
+2023-11-04 09:26:01.351 [INFO]: Completion request was cancelled by token (195.18ms)
+2023-11-04 09:26:01.563 [INFO]: Completion request was cancelled by token (138.03ms)
+2023-11-04 09:26:01.665 [INFO]: Completion request was cancelled by token (28.5ms)
+2023-11-04 09:26:01.800 [INFO]: Completion request was cancelled by token (61.51ms)
+2023-11-04 09:26:02.185 [INFO]: Completion request was cancelled by token (311.82ms)
+2023-11-04 09:26:02.283 [INFO]: Completion request was cancelled by token (23.8ms)
+2023-11-04 09:26:02.374 [INFO]: Completion request was cancelled by token (16.14ms)
+2023-11-04 09:26:02.592 [INFO]: Completion request was cancelled by token (144.08ms)
+2023-11-04 09:26:02.746 [INFO]: Completion request was cancelled by token (80.59ms)
+2023-11-04 09:26:03.027 [INFO]: Completion request was cancelled by token (207.96ms)
+2023-11-04 09:26:03.487 [INFO]: Completion request was cancelled by token (387.31ms)
+2023-11-04 09:26:03.614 [INFO]: Completion request was cancelled by token (51.75ms)
+2023-11-04 09:26:03.776 [INFO]: Completion request was cancelled by token (86.88ms)
+2023-11-04 09:26:03.920 [INFO]: Completion request was cancelled by token (69.91ms)
+2023-11-04 09:26:04.012 [INFO]: Completion request was cancelled by token (16.73ms)
+2023-11-04 09:26:05.420 [INFO]: Completion request succeeded (1333.39ms)
+2023-11-04 09:26:05.420 [INFO]: Generated 1 completions
+2023-11-04 09:26:05.420 [INFO]: provideInlineCompletionItems request succeeded (1334.59ms)
+2023-11-04 09:26:05.561 [INFO]: Completion request was cancelled by token (58.91ms)
+2023-11-04 09:26:05.770 [INFO]: Completion request was cancelled by token (134.49ms)
+2023-11-04 09:26:06.600 [INFO]: Completion request succeeded (755.01ms)
+2023-11-04 09:26:06.601 [INFO]: Generated 1 completions
+2023-11-04 09:26:06.601 [INFO]: provideInlineCompletionItems request succeeded (756.81ms)
+2023-11-04 09:26:07.654 [INFO]: Completion request succeeded (776.58ms)
+2023-11-04 09:26:07.654 [INFO]: No completions were generated
+2023-11-04 09:26:07.654 [INFO]: provideInlineCompletionItems request succeeded (778.27ms)
+2023-11-04 09:26:29.423 [INFO]: Completion request was cancelled by token (249.15ms)
+2023-11-04 09:26:29.558 [INFO]: Completion request was cancelled by token (60.73ms)
+2023-11-04 09:26:29.760 [INFO]: Completion request was cancelled by token (128.19ms)
+2023-11-04 09:26:29.859 [INFO]: Completion request was cancelled by token (25.01ms)
+2023-11-04 09:26:30.056 [INFO]: Completion request was cancelled by token (124.08ms)
+2023-11-04 09:26:30.170 [INFO]: Completion request was cancelled by token (40.89ms)
+2023-11-04 09:26:30.298 [INFO]: Completion request was cancelled by token (53.33ms)
+2023-11-04 09:26:30.625 [INFO]: Completion request was cancelled by token (253.48ms)
+2023-11-04 09:26:31.432 [INFO]: Completion request was cancelled by token (733.22ms)
+2023-11-04 09:26:31.534 [INFO]: Completion request was cancelled by token (28.06ms)
+2023-11-04 09:26:31.674 [INFO]: Completion request was cancelled by token (65.4ms)
+2023-11-04 09:26:32.904 [INFO]: Completion request succeeded (1157.32ms)
+2023-11-04 09:26:32.904 [INFO]: No completions were generated
+2023-11-04 09:26:32.904 [INFO]: provideInlineCompletionItems request succeeded (1158.46ms)
+2023-11-04 09:30:54.832 [INFO]: [Language Server (stderr)]:
+I1104 09:30:54.832117  3809 lsp.go:191] Analyzing workspace files for /home/owl/vyda/
+2023-11-04 12:43:33.286 [INFO]: Completion request succeeded (1176.71ms)
+2023-11-04 12:43:33.286 [INFO]: Generated 4 completions
+2023-11-04 12:43:33.287 [INFO]: provideInlineCompletionItems request succeeded (1178.64ms)
+2023-11-04 12:44:50.023 [INFO]: Completion request was cancelled by token (233.31ms)
+2023-11-04 12:44:50.112 [INFO]: Completion request was cancelled by token (16.98ms)
+2023-11-04 12:44:50.299 [INFO]: Completion request was cancelled by token (112.21ms)
+2023-11-04 12:44:51.038 [INFO]: Completion request was cancelled by token (664.43ms)
+2023-11-04 12:44:51.886 [INFO]: Completion request was cancelled by token (772.74ms)
+2023-11-04 12:44:52.166 [INFO]: Completion request was cancelled by token (204.43ms)
+2023-11-04 12:44:52.371 [INFO]: Completion request was cancelled by token (131ms)
+2023-11-04 12:44:52.750 [INFO]: Completion request was cancelled by token (304.4ms)
+2023-11-04 12:44:53.286 [INFO]: Completion request was cancelled by token (460.42ms)
+2023-11-04 12:44:53.391 [INFO]: Completion request was cancelled by token (29.99ms)
+2023-11-04 12:44:53.624 [INFO]: Completion request was cancelled by token (158.34ms)
+2023-11-04 12:44:54.278 [INFO]: Completion request was cancelled by token (580.18ms)
+2023-11-04 12:44:54.569 [INFO]: Completion request was cancelled by token (216.19ms)
+2023-11-04 12:44:55.771 [INFO]: Completion request succeeded (1127.5ms)
+2023-11-04 12:44:55.771 [INFO]: No completions were generated
+2023-11-04 12:44:55.772 [INFO]: provideInlineCompletionItems request succeeded (1128.49ms)
+2023-11-04 12:48:27.297 [INFO]: Completion request succeeded (852.9ms)
+2023-11-04 12:48:27.298 [INFO]: Generated 4 completions
+2023-11-04 12:48:27.301 [INFO]: provideInlineCompletionItems request succeeded (859.14ms)
+2023-11-04 12:48:28.065 [INFO]: Completion request was cancelled by token (617.19ms)
+2023-11-04 12:48:29.098 [INFO]: Completion request was cancelled by token (746.41ms)
+2023-11-04 12:48:29.248 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:48:29.371 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:48:30.061 [INFO]: Completion request was cancelled by token (243.21ms)
+2023-11-04 12:48:47.044 [INFO]: Completion request was cancelled by token (430.03ms)
+2023-11-04 12:48:47.739 [INFO]: Completion request succeeded (620.04ms)
+2023-11-04 12:48:47.739 [INFO]: No completions were generated
+2023-11-04 12:48:47.740 [INFO]: provideInlineCompletionItems request succeeded (623.06ms)
+2023-11-04 12:48:50.742 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:48:52.923 [INFO]: Completion request was cancelled by token (307.77ms)
+2023-11-04 12:48:53.094 [INFO]: Completion request was cancelled by token (24.46ms)
+2023-11-04 12:48:53.262 [INFO]: Completion request was cancelled by token (93.78ms)
+2023-11-04 12:48:53.409 [INFO]: Completion request was cancelled by token (71.9ms)
+2023-11-04 12:48:54.513 [INFO]: Completion request succeeded (1028.06ms)
+2023-11-04 12:48:54.513 [INFO]: No completions were generated
+2023-11-04 12:48:54.513 [INFO]: provideInlineCompletionItems request succeeded (1029.39ms)
+2023-11-04 12:48:56.325 [INFO]: Completion request succeeded (532.93ms)
+2023-11-04 12:48:56.325 [INFO]: Generated 2 completions
+2023-11-04 12:48:56.326 [INFO]: provideInlineCompletionItems request succeeded (535.6ms)
+2023-11-04 12:49:01.504 [INFO]: Completion request was cancelled by token (187.39ms)
+2023-11-04 12:49:02.056 [INFO]: Completion request succeeded (477.79ms)
+2023-11-04 12:49:02.056 [INFO]: No completions were generated
+2023-11-04 12:49:02.056 [INFO]: provideInlineCompletionItems request succeeded (479.46ms)
+2023-11-04 12:49:04.204 [INFO]: Completion request was cancelled by token (493.68ms)
+2023-11-04 12:49:09.150 [INFO]: Completion request succeeded (717.69ms)
+2023-11-04 12:49:09.150 [INFO]: No completions were generated
+2023-11-04 12:49:09.151 [INFO]: provideInlineCompletionItems request succeeded (719.35ms)
+2023-11-04 12:49:11.356 [INFO]: Completion request was cancelled by token (218.02ms)
+2023-11-04 12:49:12.059 [INFO]: Completion request succeeded (482.85ms)
+2023-11-04 12:49:12.060 [INFO]: Generated 3 completions
+2023-11-04 12:49:12.061 [INFO]: provideInlineCompletionItems request succeeded (485.87ms)
+2023-11-04 12:49:23.107 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:49:23.259 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:49:23.614 [INFO]: Completion request succeeded (242.14ms)
+2023-11-04 12:49:23.616 [INFO]: Generated 3 completions
+2023-11-04 12:49:23.616 [INFO]: provideInlineCompletionItems request succeeded (245.6ms)
+2023-11-04 12:49:25.181 [INFO]: Completion request was cancelled by token (16.32ms)
+2023-11-04 12:49:25.865 [INFO]: Completion request succeeded (612.19ms)
+2023-11-04 12:49:25.866 [INFO]: No completions were generated
+2023-11-04 12:49:25.866 [INFO]: provideInlineCompletionItems request succeeded (614.37ms)
+2023-11-04 12:49:26.726 [INFO]: Completion request succeeded (500.95ms)
+2023-11-04 12:49:26.726 [INFO]: No completions were generated
+2023-11-04 12:49:26.727 [INFO]: provideInlineCompletionItems request succeeded (502.66ms)
+2023-11-04 12:49:27.327 [INFO]: Completion request succeeded (446.44ms)
+2023-11-04 12:49:27.327 [INFO]: Generated 1 completions
+2023-11-04 12:49:27.328 [INFO]: provideInlineCompletionItems request succeeded (448.42ms)
+2023-11-04 12:49:28.651 [INFO]: Completion request succeeded (596.57ms)
+2023-11-04 12:49:28.652 [INFO]: No completions were generated
+2023-11-04 12:49:28.652 [INFO]: provideInlineCompletionItems request succeeded (598.06ms)
+2023-11-04 12:49:31.078 [INFO]: Completion request succeeded (773.28ms)
+2023-11-04 12:49:31.079 [INFO]: Generated 3 completions
+2023-11-04 12:49:31.080 [INFO]: provideInlineCompletionItems request succeeded (776.11ms)
+2023-11-04 12:49:31.355 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:49:31.474 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:49:31.963 [INFO]: Completion request was cancelled by token (104.49ms)
+2023-11-04 12:49:32.530 [INFO]: Completion request succeeded (492.65ms)
+2023-11-04 12:49:32.530 [INFO]: No completions were generated
+2023-11-04 12:49:32.530 [INFO]: provideInlineCompletionItems request succeeded (494.9ms)
+2023-11-04 12:49:34.431 [INFO]: Completion request succeeded (660.79ms)
+2023-11-04 12:49:34.432 [INFO]: Generated 3 completions
+2023-11-04 12:49:34.434 [INFO]: provideInlineCompletionItems request succeeded (664.22ms)
+2023-11-04 12:49:41.961 [INFO]: Completion request succeeded (641.8ms)
+2023-11-04 12:49:41.962 [INFO]: No completions were generated
+2023-11-04 12:49:41.962 [INFO]: provideInlineCompletionItems request succeeded (643.25ms)
+2023-11-04 12:49:42.436 [INFO]: Completion request was cancelled by token (229.56ms)
+2023-11-04 12:49:42.695 [INFO]: Completion request was cancelled by token (186.23ms)
+2023-11-04 12:49:42.778 [INFO]: Completion request was cancelled by token (10.28ms)
+2023-11-04 12:49:42.940 [INFO]: Completion request was cancelled by token (85.61ms)
+2023-11-04 12:49:43.177 [INFO]: Completion request was cancelled by token (162.36ms)
+2023-11-04 12:49:43.594 [INFO]: Completion request was cancelled by token (343.19ms)
+2023-11-04 12:49:43.933 [INFO]: Completion request was cancelled by token (264.31ms)
+2023-11-04 12:49:44.038 [INFO]: Completion request was cancelled by token (28.97ms)
+2023-11-04 12:49:44.279 [INFO]: Completion request was cancelled by token (172.44ms)
+2023-11-04 12:49:45.068 [INFO]: Completion request succeeded (713.91ms)
+2023-11-04 12:49:45.069 [INFO]: No completions were generated
+2023-11-04 12:49:45.069 [INFO]: provideInlineCompletionItems request succeeded (716.55ms)
+2023-11-04 12:51:44.701 [INFO]: Completion request was cancelled by token (329.84ms)
+2023-11-04 12:51:45.039 [INFO]: [Language Server (stderr)]:
+E1104 12:51:45.038606  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:45.315 [INFO]: [Language Server (stderr)]:
+E1104 12:51:45.315016  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:45.342 [INFO]: Completion request was cancelled by token (568.71ms)
+2023-11-04 12:51:46.595 [INFO]: [Language Server (stderr)]:
+E1104 12:51:46.595124  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:46.792 [INFO]: Completion request succeeded (633.65ms)
+2023-11-04 12:51:46.793 [INFO]: No completions were generated
+2023-11-04 12:51:46.794 [INFO]: provideInlineCompletionItems request succeeded (635.55ms)
+2023-11-04 12:51:49.463 [INFO]: Completion request was cancelled by token (407.59ms)
+2023-11-04 12:51:49.589 [INFO]: [Language Server (stderr)]:
+E1104 12:51:49.588939  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:49.961 [INFO]: Completion request was cancelled by token (423.1ms)
+2023-11-04 12:51:50.000 [INFO]: [Language Server (stderr)]:
+E1104 12:51:49.999401  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:50.421 [INFO]: Completion request was cancelled by token (386.03ms)
+2023-11-04 12:51:51.300 [INFO]: Completion request succeeded (803.89ms)
+2023-11-04 12:51:51.300 [INFO]: No completions were generated
+2023-11-04 12:51:51.301 [INFO]: provideInlineCompletionItems request succeeded (806.62ms)
+2023-11-04 12:51:52.628 [INFO]: [Language Server (stderr)]:
+E1104 12:51:52.628219  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:52.745 [INFO]: Completion request was cancelled by token (632.41ms)
+2023-11-04 12:51:52.924 [INFO]: Completion request was cancelled by token (102.34ms)
+2023-11-04 12:51:53.308 [INFO]: [Language Server (stderr)]:
+E1104 12:51:53.308071  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:51:53.781 [INFO]: Completion request was cancelled by token (750.97ms)
+2023-11-04 12:51:56.597 [INFO]: Completion request succeeded (1314.95ms)
+2023-11-04 12:51:56.598 [INFO]: Generated 2 completions
+2023-11-04 12:51:56.598 [INFO]: provideInlineCompletionItems request succeeded (1317.17ms)
+2023-11-04 12:52:02.453 [INFO]: Completion request succeeded (652.66ms)
+2023-11-04 12:52:02.454 [INFO]: No completions were generated
+2023-11-04 12:52:02.454 [INFO]: provideInlineCompletionItems request succeeded (655.03ms)
+2023-11-04 12:52:06.795 [INFO]: Completion request was cancelled by token (572.44ms)
+2023-11-04 12:52:06.872 [INFO]: [Language Server (stderr)]:
+E1104 12:52:06.872078  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:52:06.906 [INFO]: Completion request was cancelled by token (36.11ms)
+2023-11-04 12:52:07.050 [INFO]: Completion request was cancelled by token (68.55ms)
+2023-11-04 12:52:07.158 [INFO]: Completion request was cancelled by token (33.6ms)
+2023-11-04 12:52:07.271 [INFO]: Completion request was cancelled by token (38.57ms)
+2023-11-04 12:52:07.420 [INFO]: Completion request was cancelled by token (74.79ms)
+2023-11-04 12:52:07.560 [INFO]: Completion request was cancelled by token (65.49ms)
+2023-11-04 12:52:08.210 [INFO]: Completion request was cancelled by token (576.44ms)
+2023-11-04 12:52:08.441 [INFO]: Completion request was cancelled by token (156.86ms)
+2023-11-04 12:52:08.628 [INFO]: Completion request was cancelled by token (112.76ms)
+2023-11-04 12:52:08.764 [INFO]: Completion request was cancelled by token (59.45ms)
+2023-11-04 12:52:10.538 [INFO]: Completion request succeeded (1700.1ms)
+2023-11-04 12:52:10.538 [INFO]: No completions were generated
+2023-11-04 12:52:10.539 [INFO]: provideInlineCompletionItems request succeeded (1701.87ms)
+2023-11-04 12:52:15.040 [INFO]: [Language Server (stderr)]:
+E1104 12:52:15.039917  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:52:15.070 [INFO]: Completion request succeeded (615.24ms)
+2023-11-04 12:52:15.070 [INFO]: No completions were generated
+2023-11-04 12:52:15.070 [INFO]: provideInlineCompletionItems request succeeded (616.44ms)
+2023-11-04 12:52:17.866 [INFO]: [Language Server (stderr)]:
+E1104 12:52:17.866465  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:52:17.943 [INFO]: Completion request succeeded (605.59ms)
+2023-11-04 12:52:17.943 [INFO]: Generated 1 completions
+2023-11-04 12:52:17.943 [INFO]: provideInlineCompletionItems request succeeded (607.7ms)
+2023-11-04 12:52:18.774 [INFO]: Completion request was cancelled by token (463.91ms)
+2023-11-04 12:52:19.942 [INFO]: Completion request succeeded (857.25ms)
+2023-11-04 12:52:19.943 [INFO]: No completions were generated
+2023-11-04 12:52:19.943 [INFO]: provideInlineCompletionItems request succeeded (860.29ms)
+2023-11-04 12:52:38.582 [INFO]: Completion request was cancelled by token (160.14ms)
+2023-11-04 12:52:39.024 [INFO]: [Language Server (stderr)]:
+E1104 12:52:39.023825  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:52:39.079 [INFO]: Completion request was cancelled by token (420.66ms)
+2023-11-04 12:53:01.987 [INFO]: Completion request was cancelled by token (289.09ms)
+2023-11-04 12:53:02.083 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:53:02.180 [INFO]: [Language Server (stderr)]:
+E1104 12:53:02.179459  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:53:02.395 [INFO]: Completion request was cancelled by token (6.85ms)
+2023-11-04 12:53:02.902 [INFO]: Completion request was cancelled by token (432.84ms)
+2023-11-04 12:53:03.080 [INFO]: Completion request was cancelled by token (103.71ms)
+2023-11-04 12:53:03.164 [INFO]: [Language Server (stderr)]:
+E1104 12:53:03.163497  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+E1104 12:53:03.163548  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:53:03.395 [INFO]: Completion request was cancelled by token (240.37ms)
+2023-11-04 12:53:04.199 [INFO]: Completion request succeeded (728.46ms)
+2023-11-04 12:53:04.199 [INFO]: Generated 1 completions
+2023-11-04 12:53:04.200 [INFO]: provideInlineCompletionItems request succeeded (731.72ms)
+2023-11-04 12:53:05.149 [INFO]: Completion request succeeded (402.73ms)
+2023-11-04 12:53:05.149 [INFO]: Generated 1 completions
+2023-11-04 12:53:05.150 [INFO]: provideInlineCompletionItems request succeeded (405.6ms)
+2023-11-04 12:53:09.736 [INFO]: Completion request was cancelled by token (480.67ms)
+2023-11-04 12:53:09.825 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:53:10.020 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:53:10.183 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:53:47.284 [INFO]: Completion request was cancelled by token (357.85ms)
+2023-11-04 12:53:47.411 [INFO]: [Language Server (stderr)]:
+E1104 12:53:47.410463  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:58:44.650 [INFO]: Completion request was cancelled by token (27.54ms)
+2023-11-04 12:58:44.815 [INFO]: Completion request was cancelled by token (88.83ms)
+2023-11-04 12:58:45.018 [INFO]: [Language Server (stderr)]:
+E1104 12:58:45.017774  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:58:45.813 [INFO]: Completion request was cancelled by token (921.41ms)
+2023-11-04 12:59:00.128 [INFO]: [Language Server (stderr)]:
+E1104 12:59:00.127101  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:59:00.199 [INFO]: Completion request was cancelled by token (384.68ms)
+2023-11-04 12:59:00.301 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:59:00.430 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:59:00.595 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:59:00.707 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 12:59:00.928 [INFO]: Completion request was cancelled by token (111.86ms)
+2023-11-04 12:59:01.028 [INFO]: Completion request was cancelled by token (26.53ms)
+2023-11-04 12:59:01.132 [INFO]: Completion request was cancelled by token (29.26ms)
+2023-11-04 12:59:01.173 [INFO]: [Language Server (stderr)]:
+E1104 12:59:01.172619  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 12:59:02.336 [INFO]: Completion request succeeded (1127.75ms)
+2023-11-04 12:59:02.337 [INFO]: Generated 2 completions
+2023-11-04 12:59:02.338 [INFO]: provideInlineCompletionItems request succeeded (1132.13ms)
+2023-11-04 12:59:02.901 [INFO]: Completion request was cancelled by token (59.63ms)
+2023-11-04 12:59:03.037 [INFO]: Completion request was cancelled by token (62.32ms)
+2023-11-04 12:59:03.554 [INFO]: Completion request succeeded (442ms)
+2023-11-04 12:59:03.555 [INFO]: Generated 2 completions
+2023-11-04 12:59:03.556 [INFO]: provideInlineCompletionItems request succeeded (445.49ms)
+2023-11-04 12:59:08.454 [INFO]: Completion request succeeded (282.63ms)
+2023-11-04 12:59:08.455 [INFO]: Generated 2 completions
+2023-11-04 12:59:08.456 [INFO]: provideInlineCompletionItems request succeeded (285.81ms)
+2023-11-04 12:59:09.268 [INFO]: Completion request succeeded (261.85ms)
+2023-11-04 12:59:09.268 [INFO]: Generated 2 completions
+2023-11-04 12:59:09.269 [INFO]: provideInlineCompletionItems request succeeded (264.38ms)
+2023-11-04 12:59:10.378 [INFO]: Completion request was cancelled by token (56.04ms)
+2023-11-04 12:59:10.544 [INFO]: Completion request was cancelled by token (92.31ms)
+2023-11-04 12:59:11.207 [INFO]: Completion request was cancelled by token (587.07ms)
+2023-11-04 12:59:11.584 [INFO]: Completion request was cancelled by token (302.61ms)
+2023-11-04 12:59:12.002 [INFO]: Completion request was cancelled by token (343.22ms)
+2023-11-04 12:59:12.671 [INFO]: Completion request succeeded (593.75ms)
+2023-11-04 12:59:12.672 [INFO]: Generated 1 completions
+2023-11-04 12:59:12.673 [INFO]: provideInlineCompletionItems request succeeded (596.78ms)
+2023-11-04 12:59:13.812 [INFO]: Completion request succeeded (477.31ms)
+2023-11-04 12:59:13.812 [INFO]: No completions were generated
+2023-11-04 12:59:13.813 [INFO]: provideInlineCompletionItems request succeeded (479.86ms)
+2023-11-04 12:59:14.679 [INFO]: Completion request succeeded (643.75ms)
+2023-11-04 12:59:14.680 [INFO]: Generated 1 completions
+2023-11-04 12:59:14.681 [INFO]: provideInlineCompletionItems request succeeded (647.72ms)
+2023-11-04 13:12:06.587 [INFO]: Completion request was cancelled by token (386.7ms)
+2023-11-04 13:12:06.870 [INFO]: [Language Server (stderr)]:
+E1104 13:12:06.869249  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:12:07.483 [INFO]: [Language Server (stderr)]:
+E1104 13:12:07.482706  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:12:07.893 [INFO]: Completion request succeeded (1228.02ms)
+2023-11-04 13:12:07.893 [INFO]: No completions were generated
+2023-11-04 13:12:07.894 [INFO]: provideInlineCompletionItems request succeeded (1232.14ms)
+2023-11-04 13:12:20.300 [INFO]: Completion request was cancelled by token (277.25ms)
+2023-11-04 13:12:20.335 [INFO]: [Language Server (stderr)]:
+E1104 13:12:20.334798  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:12:20.642 [INFO]: [Language Server (stderr)]:
+E1104 13:12:20.641628  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:12:21.003 [INFO]: Completion request was cancelled by token (631.07ms)
+2023-11-04 13:13:54.724 [INFO]: [Language Server (stderr)]:
+E1104 13:13:54.723325  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:13:54.957 [INFO]: Completion request was cancelled by token (682.57ms)
+2023-11-04 13:13:55.733 [INFO]: Completion request succeeded (702.15ms)
+2023-11-04 13:13:55.733 [INFO]: No completions were generated
+2023-11-04 13:13:55.733 [INFO]: provideInlineCompletionItems request succeeded (703.94ms)
+2023-11-04 13:13:59.918 [INFO]: Completion request succeeded (814.23ms)
+2023-11-04 13:13:59.918 [INFO]: No completions were generated
+2023-11-04 13:13:59.918 [INFO]: provideInlineCompletionItems request succeeded (815.43ms)
+2023-11-04 13:14:10.807 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:14:10.968 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:14:11.167 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:14:11.354 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:14:11.983 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:14:12.472 [INFO]: Completion request was cancelled by token (99.95ms)
+2023-11-04 13:14:12.585 [INFO]: Completion request was cancelled by token (37.49ms)
+2023-11-04 13:14:13.010 [INFO]: Completion request was cancelled by token (347.87ms)
+2023-11-04 13:14:13.134 [INFO]: Completion request was cancelled by token (48.86ms)
+2023-11-04 13:14:13.231 [INFO]: Completion request was cancelled by token (22.46ms)
+2023-11-04 13:14:14.111 [INFO]: Completion request was cancelled by token (732.55ms)
+2023-11-04 13:14:25.043 [INFO]: Completion request was cancelled by token (487.74ms)
+2023-11-04 13:14:25.302 [INFO]: Completion request was cancelled by token (184.06ms)
+2023-11-04 13:14:25.796 [INFO]: Completion request was cancelled by token (415.49ms)
+2023-11-04 13:14:26.437 [INFO]: Completion request was cancelled by token (565.47ms)
+2023-11-04 13:14:26.814 [INFO]: Completion request was cancelled by token (301.19ms)
+2023-11-04 13:14:27.296 [INFO]: Completion request was cancelled by token (407.75ms)
+2023-11-04 13:14:27.481 [INFO]: Completion request was cancelled by token (110.34ms)
+2023-11-04 13:14:27.667 [INFO]: Completion request was cancelled by token (111.53ms)
+2023-11-04 13:14:27.698 [INFO]: [Language Server (stderr)]:
+E1104 13:14:27.698301  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:14:27.934 [INFO]: [Language Server (stderr)]:
+E1104 13:14:27.933973  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:14:32.455 [INFO]: Completion request was cancelled by token (478.97ms)
+2023-11-04 13:14:32.789 [INFO]: [Language Server (stderr)]:
+E1104 13:14:32.788701  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:14:33.814 [INFO]: Completion request succeeded (1283.71ms)
+2023-11-04 13:14:33.814 [INFO]: No completions were generated
+2023-11-04 13:14:33.814 [INFO]: provideInlineCompletionItems request succeeded (1286.36ms)
+2023-11-04 13:14:35.564 [INFO]: Completion request was cancelled by token (105.12ms)
+2023-11-04 13:14:35.735 [INFO]: [Language Server (stderr)]:
+E1104 13:14:35.734726  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:14:36.283 [INFO]: Completion request was cancelled by token (650.71ms)
+2023-11-04 13:14:37.043 [INFO]: Completion request succeeded (684.75ms)
+2023-11-04 13:14:37.044 [INFO]: No completions were generated
+2023-11-04 13:14:37.045 [INFO]: provideInlineCompletionItems request succeeded (687.37ms)
+2023-11-04 13:15:02.055 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:02.203 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:02.379 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:02.468 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:02.578 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:02.888 [INFO]: Completion request was cancelled by token (77.85ms)
+2023-11-04 13:15:03.046 [INFO]: Completion request was cancelled by token (82.02ms)
+2023-11-04 13:15:03.576 [INFO]: Completion request was cancelled by token (456.26ms)
+2023-11-04 13:15:03.758 [INFO]: Completion request was cancelled by token (108.25ms)
+2023-11-04 13:15:03.930 [INFO]: Completion request was cancelled by token (97.03ms)
+2023-11-04 13:15:04.306 [INFO]: Completion request was cancelled by token (302.75ms)
+2023-11-04 13:15:04.360 [INFO]: [Language Server (stderr)]:
+E1104 13:15:04.360261  3809 open_document_context_provider.go:78] error getting items for open doc /home/owl/vyda/backup/jitsi/env.example: unable to get language from file: /home/owl/vyda/backup/jitsi/env.example
+2023-11-04 13:15:04.406 [INFO]: Skipping completions because autocomplete is open
+2023-11-04 13:15:04.802 [INFO]: Completion request was cancelled by token (23.14ms)
+2023-11-04 13:15:04.882 [INFO]: Completion request was cancelled by token (4.48ms)
+2023-11-04 13:15:05.057 [INFO]: Completion request was cancelled by token (50.73ms)
+2023-11-04 13:15:05.209 [INFO]: Completion request was cancelled by token (76.52ms)
+2023-11-04 13:15:05.380 [INFO]: Completion request was cancelled by token (97.14ms)
+2023-11-04 13:15:05.475 [INFO]: Completion request was cancelled by token (21.01ms)
+2023-11-04 13:15:05.622 [INFO]: Completion request was cancelled by token (71.36ms)
+2023-11-04 13:15:05.717 [INFO]: Completion request was cancelled by token (20.91ms)
+2023-11-04 13:15:06.807 [INFO]: Completion request was cancelled by token (1015.65ms)
+2023-11-04 13:21:01.173 [INFO]: Disposing language server process
+2023-11-04 13:21:01.173 [INFO]: Deleting manager directory: /tmp/b28309ed-d417-4c09-8c43-4812b7b0a4be/codeium/manager
+2023-11-04 13:21:01.174 [INFO]: Successfully disposed language server
+2023-11-04 13:21:01.217 [INFO]: [Language Server (stderr)]:
+W1104 13:21:01.173455  3794 main.go:110] Language server manager got signal terminated, shutting down

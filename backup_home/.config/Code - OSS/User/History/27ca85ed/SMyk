@@ -1,0 +1,12 @@
+#!/bin/bash
+
+uninstall_rust(){
+rustup toolchain uninstall nightly
+
+}
+
+install_rust(){
+
+    
+
+}

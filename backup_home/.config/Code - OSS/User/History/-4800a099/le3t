@@ -1,0 +1,33 @@
+#!/bin/bash
+
+. system/backup
+. system/post
+
+main(){
+    echo """ 
+        b) Backup everything
+        r) Restore everything
+        p) Post archinstall
+        eww) Eww
+    """
+
+    read option
+
+    case $option in
+        "b")
+            backup_menu
+            ;;
+        "r")
+            restore_menu
+            ;;
+        "p")
+            post_menu
+            ;;
+        "eww")
+            eww_menu
+            ;;
+    esac
+}
+
+
+main

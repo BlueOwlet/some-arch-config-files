@@ -1,0 +1,19 @@
+server {
+	listen 80;
+	listen [::]:80;
+	#root /var/www/vyda-project/frontend/dist;
+	#index index.html index.htm index.nginx-debian.html;
+
+	server_name *.vyda.mx;
+
+	
+	location / {
+		proxy_pass http://localhost:8001; 
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+
+
+	}
+
+	
+}

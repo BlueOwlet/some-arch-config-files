@@ -7,11 +7,17 @@
             "file:///home/owl/Desktop/vyda": "__default__profile__",
             "file:///home/owl/Desktop/vyda/vyda-project": "__default__profile__",
             "file:///home/owl/Desktop/container": "__default__profile__",
-            "file:///home/owl/interact": "__default__profile__",
+            "file:///home/owl/.config/eww": "__default__profile__",
+            "file:///home/owl/Desktop/local_backup": "__default__profile__",
+            "file:///home/owl": "__default__profile__",
             "file:///home/owl/config-files": "__default__profile__",
+            "file:///home/owl/Desktop/craigslist": "__default__profile__",
+            "file:///home/owl/interact": "__default__profile__",
             "file:///home/owl/vyda": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1699168398003": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -19,50 +25,27 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/owl/config-files"
-            },
-            {
-                "folderUri": "file:///home/owl/vyda"
+                "folderUri": "file:///home/owl/.config/eww"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1699168398003"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/owl/vyda",
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/38053b1434e97e5d05ec237516fc9c17",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/1699168398003",
             "uiState": {
                 "mode": 1,
-                "x": 22,
-                "y": 547,
-                "width": 931,
-                "height": 511
+                "x": 220,
+                "y": 22,
+                "width": 1235,
+                "height": 545
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/owl/config-files",
-                "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
-                "uiState": {
-                    "mode": 1,
-                    "x": 967,
-                    "y": 22,
-                    "width": 931,
-                    "height": 1036
-                }
-            },
-            {
-                "folder": "file:///home/owl/vyda",
-                "backupPath": "/home/owl/.config/Code - OSS/Backups/38053b1434e97e5d05ec237516fc9c17",
-                "uiState": {
-                    "mode": 1,
-                    "x": 22,
-                    "y": 547,
-                    "width": 931,
-                    "height": 511
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -123,6 +106,28 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/interact",
+                                        "path": "/home/owl/interact",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/interact"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Desktop/craigslist",
+                                        "path": "/home/owl/Desktop/craigslist",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/craigslist"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/owl/config-files",
                                         "path": "/home/owl/config-files",
                                         "scheme": "file"
@@ -134,12 +139,34 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/interact",
-                                        "path": "/home/owl/interact",
+                                        "external": "file:///home/owl",
+                                        "path": "/home/owl",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/interact"
+                                    "label": "/home/owl"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Desktop/local_backup",
+                                        "path": "/home/owl/Desktop/local_backup",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/local_backup"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/.config/eww",
+                                        "path": "/home/owl/.config/eww",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/eww"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -175,40 +202,7 @@
                                     "label": "~/Desktop/vyda"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/server",
-                                        "path": "/home/owl/server",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/server"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.config",
-                                        "path": "/home/owl/.config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files/vy",
-                                        "path": "/home/owl/config-files/vy",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files/vy"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -225,12 +219,56 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/.bashrc",
-                                        "path": "/home/owl/.bashrc",
+                                        "external": "file:///home/owl/Downloads/org.kde.filelight.flatpakref",
+                                        "path": "/home/owl/Downloads/org.kde.filelight.flatpakref",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.bashrc"
+                                    "label": "~/Downloads/org.kde.filelight.flatpakref"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Desktop/craigslist/ads.json",
+                                        "path": "/home/owl/Desktop/craigslist/ads.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/craigslist/ads.json"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Desktop/craigslist/main.py",
+                                        "path": "/home/owl/Desktop/craigslist/main.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/craigslist/main.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/interact/frontend/src/views/InstructorDashboardView.vue",
+                                        "path": "/home/owl/interact/frontend/src/views/InstructorDashboardView.vue",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/interact/frontend/src/views/InstructorDashboardView.vue"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/Meg.2.The.Trench.2023.1080p.AMZN.WEBRip.1400MB.DD5.1.x264-GalaxyRG%5BTGx%5D/NEW%20upcoming%20releases%20by%20Xclusive.txt",
+                                        "path": "/home/owl/Meg.2.The.Trench.2023.1080p.AMZN.WEBRip.1400MB.DD5.1.x264-GalaxyRG[TGx]/NEW upcoming releases by Xclusive.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Meg.2.The.Trench.2023.1080p.AMZN.WEBRip.1400MB.DD5.1.x264-GalaxyRG[TGx]/NEW upcoming releases by Xclusive.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -247,23 +285,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/Desktop/container/vyda",
-                                        "path": "/home/owl/Desktop/container/vyda",
+                                        "external": "file:///home/owl/vyda/backup.sh",
+                                        "path": "/home/owl/vyda/backup.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Desktop/container/vyda"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files/post",
-                                        "path": "/home/owl/config-files/post",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files/post"
+                                    "label": "~/vyda/backup.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -280,34 +307,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/Desktop/trona/container.sh",
-                                        "path": "/home/owl/Desktop/trona/container.sh",
+                                        "external": "file:///home/owl/.config/eww/eww.yuck",
+                                        "path": "/home/owl/.config/eww/eww.yuck",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Desktop/trona/container.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/Downloads/docker-jitsi-meet-stable-8922-1/base/Dockerfile",
-                                        "path": "/home/owl/Downloads/docker-jitsi-meet-stable-8922-1/base/Dockerfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/docker-jitsi-meet-stable-8922-1/base/Dockerfile"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/Desktop/vyda/vyda-project/django.sh",
-                                        "path": "/home/owl/Desktop/vyda/vyda-project/django.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/vyda/vyda-project/django.sh"
+                                    "label": "~/.config/eww/eww.yuck"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -494,10 +499,6 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -904,10 +905,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -952,8 +949,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1453,11 +1449,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
