@@ -211,3 +211,16 @@ I1105 01:13:21.420033 63403 main.go:323] Language server manager successfully co
 2023-11-05 01:49:35.407 [INFO]: Completion request succeeded (235.54ms)
 2023-11-05 01:49:35.407 [INFO]: No completions were generated
 2023-11-05 01:49:35.407 [INFO]: provideInlineCompletionItems request succeeded (236.74ms)
+2023-11-05 01:59:24.853 [INFO]: Completion request succeeded (588.89ms)
+2023-11-05 01:59:24.854 [INFO]: Generated 2 completions
+2023-11-05 01:59:24.855 [INFO]: provideInlineCompletionItems request succeeded (591.58ms)
+2023-11-05 01:59:32.328 [INFO]: Completion request succeeded (275.89ms)
+2023-11-05 01:59:32.329 [INFO]: No completions were generated
+2023-11-05 01:59:32.329 [INFO]: provideInlineCompletionItems request succeeded (276.97ms)
+2023-11-05 01:59:35.193 [INFO]: Completion request was cancelled by token (233.07ms)
+2023-11-05 01:59:36.937 [INFO]: Completion request succeeded (475.89ms)
+2023-11-05 01:59:36.937 [INFO]: No completions were generated
+2023-11-05 01:59:36.937 [INFO]: provideInlineCompletionItems request succeeded (477.33ms)
+2023-11-05 01:59:58.747 [INFO]: Completion request succeeded (307.13ms)
+2023-11-05 01:59:58.747 [INFO]: No completions were generated
+2023-11-05 01:59:58.747 [INFO]: provideInlineCompletionItems request succeeded (308.1ms)
