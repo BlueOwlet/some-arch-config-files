@@ -1,0 +1,540 @@
+2023-11-06 14:44:04.711 [INFO]: No proxy settings found
+2023-11-06 14:44:05.209 [INFO]: Creating manager directory: /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager
+2023-11-06 14:44:05.210 [INFO]: 2fa14c2a62a1ee3ebfbe9c34b20f2c01078ce4f0 not found, downloading language server
+2023-11-06 14:44:05.212 [INFO]: No proxy settings found
+2023-11-06 14:44:10.673 [INFO]: Language server started
+2023-11-06 14:44:10.773 [INFO]: [Language Server (stderr)]:
+I1106 14:44:10.772843 30421 main.go:526] Starting language server manager with pid 30421
+I1106 14:44:10.772931 30421 main.go:110] Manager acquired its lock file /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager/locks/manager.lock
+2023-11-06 14:44:10.774 [INFO]: [Language Server (stderr)]:
+I1106 14:44:10.773341 30421 main.go:248] Waiting for random port file in /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager/child_random_port_1699303450773014891_8951195052585135793 to be created
+2023-11-06 14:44:10.870 [INFO]: [Language Server (stderr)]:
+I1106 14:44:10.869383 30436 main.go:520] Starting language server process with pid 30436
+2023-11-06 14:44:10.870 [INFO]: [Language Server (stderr)]:
+I1106 14:44:10.870136 30436 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I1106 14:44:10.870157 30436 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I1106 14:44:10.870181 30436 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2023-11-06 14:44:11.109 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.109147 30436 api_server_client.go:125] Successfully dialed proxy
+2023-11-06 14:44:11.110 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.109611 30436 server.go:438] Successfully created API server client
+I1106 14:44:11.109627 30436 api_server_client.go:125] Successfully dialed proxy
+I1106 14:44:11.109940 30436 server.go:444] Successfully created API streaming client
+2023-11-06 14:44:11.164 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.163791 30436 server.go:453] Successfully initialized tokenizer
+I1106 14:44:11.163842 30436 unleash.go:73] Initializing Unleash with production environment
+2023-11-06 14:44:11.322 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.321379 30436 unleash.go:88] Successfully initialized unleash
+2023-11-06 14:44:11.354 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.353371 30436 server.go:531] Successfully created completion provider
+I1106 14:44:11.353424 30436 server.go:562] Child process attempting to acquire lock file /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager/locks/child_lock_1699303450773042269_6163844641454993
+I1106 14:44:11.353512 30436 server.go:572] Child process acquired lock file /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager/locks/child_lock_1699303450773042269_6163844641454993
+2023-11-06 14:44:11.354 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.354616 30436 server.go:218] Language server will attempt to listen on host 127.0.0.1
+2023-11-06 14:44:11.355 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.354831 30436 server.go:262] Language server listening on random port at 32889
+I1106 14:44:11.354847 30436 server.go:264] LSP listening on random port at 36865
+2023-11-06 14:44:11.355 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.355275 30436 web_server.go:155] Chat Web Server listening at ws://127.0.0.1:45437
+2023-11-06 14:44:11.376 [INFO]: [Language Server (stdout)]:
+36865
+2023-11-06 14:44:11.376 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.375555 30421 main.go:284] Language server manager found random server port 32889
+I1106 14:44:11.375581 30421 main.go:285] Language server manager found random lsp port 36865
+I1106 14:44:11.375595 30421 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:32889
+2023-11-06 14:44:11.388 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.388111 30421 main.go:163] Fixing language server port at 32889
+I1106 14:44:11.388130 30421 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:32889
+2023-11-06 14:44:11.476 [INFO]: Found language server running on port 32889
+2023-11-06 14:44:11.497 [INFO]: No proxy settings found
+2023-11-06 14:44:11.497 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.497493 30436 server.go:1627] Downloading changelog from https://codeium.com/api/changelog?version=1.4.10
+I1106 14:44:11.497566 30436 lsp.go:208] Analyzing workspace files for /home/owl/interact/
+I1106 14:44:11.497598 30436 lsp.go:262] Done analyzing workspace files for /home/owl/interact/
+I1106 14:44:11.497610 30436 lsp.go:349] Found 0 files in workspace /home/owl/interact/
+2023-11-06 14:44:11.498 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.497620 30436 lsp.go:367] Add workspace event with uid: 1
+2023-11-06 14:44:11.902 [INFO]: [Language Server (stderr)]:
+I1106 14:44:11.901746 30436 server.go:1631] No changelog found at https://codeium.com/api/changelog?version=1.4.10
+2023-11-06 14:44:11.930 [INFO]: Successfully logged in
+2023-11-06 14:44:12.715 [INFO]: Successfully downloaded ripgrep binary with valid crc
+2023-11-06 14:44:12.716 [INFO]: Downloaded binary: /home/owl/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2023-11-06 14:44:19.579 [INFO]: [Language Server (stderr)]:
+E1106 14:44:19.578724 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:44:19.580 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:44:20.620 [INFO]: [Language Server (stderr)]:
+E1106 14:44:20.619877 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:44:20.621 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:44:22.018 [INFO]: [Language Server (stderr)]:
+E1106 14:44:22.017659 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:44:22.019 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:44:22.800 [INFO]: [Language Server (stderr)]:
+E1106 14:44:22.799420 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:44:22.801 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:44:27.638 [INFO]: [Language Server (stderr)]:
+E1106 14:44:27.637765 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:44:27.639 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:44:37.817 [INFO]: [Language Server (stderr)]:
+E1106 14:44:37.816664 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:44:38.146 [INFO]: Completion request succeeded (331.86ms)
+2023-11-06 14:44:38.147 [INFO]: No completions were generated
+2023-11-06 14:44:38.148 [INFO]: provideInlineCompletionItems request succeeded (334.88ms)
+2023-11-06 14:44:38.328 [INFO]: [Language Server (stderr)]:
+E1106 14:44:38.327713 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:44:38.636 [INFO]: Completion request succeeded (310.94ms)
+2023-11-06 14:44:38.636 [INFO]: No completions were generated
+2023-11-06 14:44:38.637 [INFO]: provideInlineCompletionItems request succeeded (312.27ms)
+2023-11-06 14:44:42.091 [INFO]: Skipping completions because autocomplete is open
+2023-11-06 14:44:42.223 [INFO]: Skipping completions because autocomplete is open
+2023-11-06 14:44:42.460 [INFO]: Skipping completions because autocomplete is open
+2023-11-06 14:44:42.687 [INFO]: Skipping completions because autocomplete is open
+2023-11-06 14:45:21.839 [INFO]: [Language Server (stderr)]:
+E1106 14:45:21.839351 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:21.841 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:22.593 [INFO]: [Language Server (stderr)]:
+E1106 14:45:22.592680 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:22.594 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:25.344 [INFO]: [Language Server (stderr)]:
+E1106 14:45:25.343654 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:25.346 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:26.439 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:26.440 [INFO]: [Language Server (stderr)]:
+E1106 14:45:26.438159 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:29.765 [INFO]: [Language Server (stderr)]:
+E1106 14:45:29.765264 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:29.766 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:37.335 [INFO]: [Language Server (stderr)]:
+E1106 14:45:37.335087 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:37.336 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:38.303 [INFO]: [Language Server (stderr)]:
+E1106 14:45:38.302880 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:38.304 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:45:39.369 [INFO]: [Language Server (stderr)]:
+E1106 14:45:39.369443 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:45:39.370 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:47:24.907 [INFO]: [Language Server (stderr)]:
+E1106 14:47:24.906633 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:47:24.908 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:47:26.056 [INFO]: [Language Server (stderr)]:
+E1106 14:47:26.056334 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:47:26.057 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:47:35.080 [INFO]: [Language Server (stderr)]:
+E1106 14:47:35.079242 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:47:35.081 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:47:36.631 [INFO]: [Language Server (stderr)]:
+E1106 14:47:36.630981 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:47:36.632 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:47:54.686 [INFO]: Skipping completions because autocomplete is open
+2023-11-06 14:47:59.036 [INFO]: [Language Server (stderr)]:
+E1106 14:47:59.035725 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:47:59.037 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:48:49.110 [INFO]: [Language Server (stderr)]:
+E1106 14:48:49.109751 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:48:49.111 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:48:49.643 [INFO]: [Language Server (stderr)]:
+E1106 14:48:49.642929 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:48:49.644 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:48:59.307 [INFO]: [Language Server (stderr)]:
+E1106 14:48:59.306712 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:48:59.308 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:01.665 [INFO]: [Language Server (stderr)]:
+E1106 14:49:01.665075 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:01.666 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:05.959 [INFO]: [Language Server (stderr)]:
+E1106 14:49:05.959244 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:05.960 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:21.911 [INFO]: [Language Server (stderr)]:
+E1106 14:49:21.910775 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:21.911 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:30.126 [INFO]: [Language Server (stderr)]:
+E1106 14:49:30.126115 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:30.128 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:35.416 [INFO]: [Language Server (stderr)]:
+E1106 14:49:35.415859 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:35.417 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:47.728 [INFO]: [Language Server (stderr)]:
+E1106 14:49:47.728362 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:47.729 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:49.261 [INFO]: [Language Server (stderr)]:
+E1106 14:49:49.260331 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:49.261 [INFO]: [Language Server (stderr)]:
+E1106 14:49:49.261376 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/GetCompletions: unable to get language from file: unrecognized language
+2023-11-06 14:49:49.263 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:49.264 [INFO]: Completion request errored (17.44ms)
+2023-11-06 14:49:49.264 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:49:49.437 [INFO]: [Language Server (stderr)]:
+E1106 14:49:49.437639 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:49.878 [INFO]: Completion request succeeded (441.8ms)
+2023-11-06 14:49:49.879 [INFO]: No completions were generated
+2023-11-06 14:49:49.879 [INFO]: provideInlineCompletionItems request succeeded (443.63ms)
+2023-11-06 14:49:50.256 [INFO]: [Language Server (stderr)]:
+E1106 14:49:50.256266 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:50.578 [INFO]: Completion request succeeded (324.51ms)
+2023-11-06 14:49:50.578 [INFO]: Generated 3 completions
+2023-11-06 14:49:50.582 [INFO]: provideInlineCompletionItems request succeeded (329.25ms)
+2023-11-06 14:49:50.585 [INFO]: [Language Server (stderr)]:
+E1106 14:49:50.584773 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:51.111 [INFO]: [Language Server (stderr)]:
+E1106 14:49:51.111126 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:51.123 [INFO]: Completion request succeeded (13.07ms)
+2023-11-06 14:49:51.123 [INFO]: Generated 3 completions
+2023-11-06 14:49:51.127 [INFO]: provideInlineCompletionItems request succeeded (17.63ms)
+2023-11-06 14:49:51.129 [INFO]: [Language Server (stderr)]:
+E1106 14:49:51.129348 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:51.750 [INFO]: [Language Server (stderr)]:
+E1106 14:49:51.749853 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:51.765 [INFO]: Completion request succeeded (18.02ms)
+2023-11-06 14:49:51.766 [INFO]: Generated 3 completions
+2023-11-06 14:49:51.769 [INFO]: provideInlineCompletionItems request succeeded (22.39ms)
+2023-11-06 14:49:51.773 [INFO]: [Language Server (stderr)]:
+E1106 14:49:51.772687 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:52.197 [INFO]: [Language Server (stderr)]:
+E1106 14:49:52.197124 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:49:52.535 [INFO]: Completion request succeeded (339.33ms)
+2023-11-06 14:49:52.535 [INFO]: No completions were generated
+2023-11-06 14:49:52.536 [INFO]: provideInlineCompletionItems request succeeded (340.48ms)
+2023-11-06 14:49:57.715 [INFO]: [Language Server (stderr)]:
+E1106 14:49:57.714596 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:49:57.716 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:50:32.114 [INFO]: [Language Server (stderr)]:
+E1106 14:50:32.113849 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:50:32.115 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:50:33.761 [INFO]: [Language Server (stderr)]:
+E1106 14:50:33.760503 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:50:33.762 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:50:46.912 [INFO]: [Language Server (stderr)]:
+E1106 14:50:46.911313 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:50:46.913 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:15.767 [INFO]: [Language Server (stderr)]:
+E1106 14:51:15.767581 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:15.768 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:40.836 [INFO]: [Language Server (stderr)]:
+E1106 14:51:40.836391 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:40.837 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:44.635 [INFO]: [Language Server (stderr)]:
+E1106 14:51:44.635086 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:44.636 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:52.648 [INFO]: [Language Server (stderr)]:
+E1106 14:51:52.648175 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:52.649 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:53.932 [INFO]: [Language Server (stderr)]:
+E1106 14:51:53.932038 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:53.933 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:54.882 [INFO]: [Language Server (stderr)]:
+E1106 14:51:54.882212 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:54.883 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:57.565 [INFO]: [Language Server (stderr)]:
+E1106 14:51:57.564578 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:57.566 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:58.842 [INFO]: [Language Server (stderr)]:
+E1106 14:51:58.842383 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:58.843 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:51:59.428 [INFO]: [Language Server (stderr)]:
+E1106 14:51:59.427838 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:51:59.430 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:01.145 [INFO]: [Language Server (stderr)]:
+E1106 14:52:01.144951 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:01.146 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:01.404 [INFO]: [Language Server (stderr)]:
+E1106 14:52:01.404324 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:01.405 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:01.907 [INFO]: [Language Server (stderr)]:
+E1106 14:52:01.907462 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:01.908 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:03.547 [INFO]: [Language Server (stderr)]:
+E1106 14:52:03.546825 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:03.951 [INFO]: Completion request was cancelled by token (417.72ms)
+2023-11-06 14:52:04.027 [INFO]: [Language Server (stderr)]:
+E1106 14:52:04.027381 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:04.029 [INFO]: [Language Server (stderr)]:
+E1106 14:52:04.028901 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/GetCompletions: unable to get language from file: unrecognized language
+2023-11-06 14:52:04.030 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:04.031 [INFO]: Completion request errored (5.33ms)
+2023-11-06 14:52:04.031 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:06.108 [INFO]: [Language Server (stderr)]:
+E1106 14:52:06.108026 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:06.109 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:06.851 [INFO]: [Language Server (stderr)]:
+E1106 14:52:06.850695 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:06.852 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:11.132 [INFO]: [Language Server (stderr)]:
+E1106 14:52:11.131955 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:11.133 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:13.384 [INFO]: [Language Server (stderr)]:
+E1106 14:52:13.383237 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:13.385 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:21.415 [INFO]: [Language Server (stderr)]:
+E1106 14:52:21.415216 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:21.416 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:22.366 [INFO]: [Language Server (stderr)]:
+E1106 14:52:22.366433 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:22.367 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:24.567 [INFO]: [Language Server (stderr)]:
+E1106 14:52:24.566812 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:24.568 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:25.798 [INFO]: [Language Server (stderr)]:
+E1106 14:52:25.798182 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:25.799 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:27.052 [INFO]: [Language Server (stderr)]:
+E1106 14:52:27.051812 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:27.053 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:30.844 [INFO]: [Language Server (stderr)]:
+E1106 14:52:30.844077 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:52:30.845 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:52:32.826 [INFO]: [Language Server (stderr)]:
+E1106 14:52:32.826103 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:33.250 [INFO]: Completion request was cancelled by token (437.16ms)
+2023-11-06 14:52:33.326 [INFO]: [Language Server (stderr)]:
+E1106 14:52:33.326396 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:33.487 [INFO]: Completion request was cancelled by token (162.5ms)
+2023-11-06 14:52:33.564 [INFO]: [Language Server (stderr)]:
+E1106 14:52:33.563829 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:33.965 [INFO]: Completion request was cancelled by token (403.09ms)
+2023-11-06 14:52:34.041 [INFO]: [Language Server (stderr)]:
+E1106 14:52:34.041370 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:34.349 [INFO]: Completion request was cancelled by token (309.4ms)
+2023-11-06 14:52:34.426 [INFO]: [Language Server (stderr)]:
+E1106 14:52:34.426293 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:34.458 [INFO]: Completion request was cancelled by token (33.25ms)
+2023-11-06 14:52:34.535 [INFO]: [Language Server (stderr)]:
+E1106 14:52:34.535592 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:34.646 [INFO]: Completion request was cancelled by token (111.62ms)
+2023-11-06 14:52:34.722 [INFO]: [Language Server (stderr)]:
+E1106 14:52:34.722478 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.008 [INFO]: Completion request succeeded (287.29ms)
+2023-11-06 14:52:35.009 [INFO]: Generated 1 completions
+2023-11-06 14:52:35.009 [INFO]: provideInlineCompletionItems request succeeded (288.81ms)
+2023-11-06 14:52:35.011 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.011483 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.289 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.288911 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.370 [INFO]: Completion request was cancelled by token (84.4ms)
+2023-11-06 14:52:35.448 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.448084 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.473 [INFO]: Completion request was cancelled by token (27.29ms)
+2023-11-06 14:52:35.549 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.549221 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.584 [INFO]: Completion request was cancelled by token (36.28ms)
+2023-11-06 14:52:35.661 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.661153 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:35.832 [INFO]: Completion request was cancelled by token (172.06ms)
+2023-11-06 14:52:35.909 [INFO]: [Language Server (stderr)]:
+E1106 14:52:35.908853 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:36.207 [INFO]: Completion request succeeded (300.43ms)
+2023-11-06 14:52:36.208 [INFO]: No completions were generated
+2023-11-06 14:52:36.208 [INFO]: provideInlineCompletionItems request succeeded (301.39ms)
+2023-11-06 14:52:37.481 [INFO]: [Language Server (stderr)]:
+E1106 14:52:37.480491 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:37.796 [INFO]: Completion request succeeded (318.55ms)
+2023-11-06 14:52:37.797 [INFO]: Generated 1 completions
+2023-11-06 14:52:37.797 [INFO]: provideInlineCompletionItems request succeeded (320.24ms)
+2023-11-06 14:52:37.799 [INFO]: [Language Server (stderr)]:
+E1106 14:52:37.799306 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:38.389 [INFO]: [Language Server (stderr)]:
+E1106 14:52:38.389395 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:38.567 [INFO]: Completion request was cancelled by token (179.17ms)
+2023-11-06 14:52:38.641 [INFO]: [Language Server (stderr)]:
+E1106 14:52:38.641669 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:38.779 [INFO]: Completion request was cancelled by token (138.69ms)
+2023-11-06 14:52:38.855 [INFO]: [Language Server (stderr)]:
+E1106 14:52:38.854731 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.348 [INFO]: Completion request succeeded (494.15ms)
+2023-11-06 14:52:39.349 [INFO]: Generated 2 completions
+2023-11-06 14:52:39.350 [INFO]: provideInlineCompletionItems request succeeded (497.52ms)
+2023-11-06 14:52:39.353 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.352787 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.446 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.446087 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.458 [INFO]: Completion request was cancelled by token (14.57ms)
+2023-11-06 14:52:39.533 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.533091 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.542 [INFO]: Completion request succeeded (10.85ms)
+2023-11-06 14:52:39.543 [INFO]: Generated 1 completions
+2023-11-06 14:52:39.544 [INFO]: provideInlineCompletionItems request succeeded (13.24ms)
+2023-11-06 14:52:39.548 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.547741 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.662 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.661656 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:39.672 [INFO]: Completion request succeeded (11.16ms)
+2023-11-06 14:52:39.672 [INFO]: Generated 1 completions
+2023-11-06 14:52:39.672 [INFO]: provideInlineCompletionItems request succeeded (12.32ms)
+2023-11-06 14:52:39.674 [INFO]: [Language Server (stderr)]:
+E1106 14:52:39.674546 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:40.142 [INFO]: [Language Server (stderr)]:
+E1106 14:52:40.141819 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:40.474 [INFO]: Completion request succeeded (333.82ms)
+2023-11-06 14:52:40.474 [INFO]: No completions were generated
+2023-11-06 14:52:40.475 [INFO]: provideInlineCompletionItems request succeeded (335.09ms)
+2023-11-06 14:52:58.833 [INFO]: [Language Server (stderr)]:
+E1106 14:52:58.832986 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:52:59.211 [INFO]: Completion request succeeded (380.14ms)
+2023-11-06 14:52:59.211 [INFO]: No completions were generated
+2023-11-06 14:52:59.211 [INFO]: provideInlineCompletionItems request succeeded (381.18ms)
+2023-11-06 14:53:03.186 [INFO]: [Language Server (stderr)]:
+E1106 14:53:03.185507 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:53:03.187 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:03.772 [INFO]: [Language Server (stderr)]:
+E1106 14:53:03.772207 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:53:03.773 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:06.687 [INFO]: [Language Server (stderr)]:
+E1106 14:53:06.686879 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:53:06.688 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:07.708 [INFO]: [Language Server (stderr)]:
+E1106 14:53:07.707018 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:53:07.709 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:09.518 [INFO]: [Language Server (stderr)]:
+E1106 14:53:09.517665 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:53:09.519 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:10.701 [INFO]: [Language Server (stderr)]:
+E1106 14:53:10.701271 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:53:10.879 [INFO]: Completion request was cancelled by token (179.84ms)
+2023-11-06 14:53:10.956 [INFO]: [Language Server (stderr)]:
+E1106 14:53:10.956422 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:53:10.957 [INFO]: [Language Server (stderr)]:
+E1106 14:53:10.957190 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/GetCompletions: unable to get language from file: unrecognized language
+2023-11-06 14:53:10.958 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:10.958 [INFO]: Completion request errored (3.59ms)
+2023-11-06 14:53:10.958 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:53:15.073 [INFO]: [Language Server (stderr)]:
+E1106 14:53:15.073239 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:53:15.384 [INFO]: Completion request succeeded (312.91ms)
+2023-11-06 14:53:15.385 [INFO]: No completions were generated
+2023-11-06 14:53:15.385 [INFO]: provideInlineCompletionItems request succeeded (313.86ms)
+2023-11-06 14:53:18.149 [INFO]: [Language Server (stderr)]:
+E1106 14:53:18.149075 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:53:18.462 [INFO]: Completion request succeeded (315.08ms)
+2023-11-06 14:53:18.462 [INFO]: No completions were generated
+2023-11-06 14:53:18.462 [INFO]: provideInlineCompletionItems request succeeded (316.03ms)
+2023-11-06 14:53:18.898 [INFO]: [Language Server (stderr)]:
+E1106 14:53:18.897421 30436 unleash.go:36] Unleash error: Version string empty
+
+2023-11-06 14:53:19.282 [INFO]: Completion request succeeded (398.7ms)
+2023-11-06 14:53:19.283 [INFO]: No completions were generated
+2023-11-06 14:53:19.283 [INFO]: provideInlineCompletionItems request succeeded (399.73ms)
+2023-11-06 14:55:02.489 [INFO]: [Language Server (stderr)]:
+E1106 14:55:02.489251 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:55:02.490 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:55:04.104 [INFO]: [Language Server (stderr)]:
+E1106 14:55:04.103902 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:55:04.105 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:55:14.274 [INFO]: [Language Server (stderr)]:
+E1106 14:55:14.273614 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:55:14.275 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:56:09.923 [INFO]: [Language Server (stderr)]:
+E1106 14:56:09.923169 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:56:09.924 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:04.808 [INFO]: [Language Server (stderr)]:
+E1106 14:57:04.807874 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:04.809 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:06.724 [INFO]: [Language Server (stderr)]:
+E1106 14:57:06.724174 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:06.725 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:08.409 [INFO]: [Language Server (stderr)]:
+E1106 14:57:08.409059 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:08.410 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:09.808 [INFO]: [Language Server (stderr)]:
+E1106 14:57:09.807497 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:09.808 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:15.808 [INFO]: [Language Server (stderr)]:
+E1106 14:57:15.807851 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:15.809 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:21.175 [INFO]: [Language Server (stderr)]:
+E1106 14:57:21.174517 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:21.176 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:21.567 [INFO]: [Language Server (stderr)]:
+E1106 14:57:21.567191 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:21.569 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:21.871 [INFO]: [Language Server (stderr)]:
+E1106 14:57:21.871344 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:21.872 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:23.252 [INFO]: [Language Server (stderr)]:
+E1106 14:57:23.251661 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:23.252 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:23.607 [INFO]: [Language Server (stderr)]:
+E1106 14:57:23.607023 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:23.608 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:24.049 [INFO]: [Language Server (stderr)]:
+E1106 14:57:24.048637 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:24.050 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:24.280 [INFO]: [Language Server (stderr)]:
+E1106 14:57:24.279850 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:24.280 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:24.549 [INFO]: [Language Server (stderr)]:
+E1106 14:57:24.549499 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:24.550 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:26.097 [INFO]: [Language Server (stderr)]:
+E1106 14:57:26.097478 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:26.098 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:26.544 [INFO]: [Language Server (stderr)]:
+E1106 14:57:26.544051 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:26.545 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:28.491 [INFO]: [Language Server (stderr)]:
+E1106 14:57:28.491074 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:28.492 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:28.736 [INFO]: [Language Server (stderr)]:
+E1106 14:57:28.736181 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:28.738 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 14:57:32.643 [INFO]: [Language Server (stderr)]:
+E1106 14:57:32.642948 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 14:57:32.644 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:03.923 [INFO]: [Language Server (stderr)]:
+E1106 15:14:03.922061 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 15:14:03.924 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:05.251 [INFO]: [Language Server (stderr)]:
+E1106 15:14:05.250234 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 15:14:05.252 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:06.117 [INFO]: [Language Server (stderr)]:
+E1106 15:14:06.116563 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 15:14:06.117 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:06.584 [INFO]: [Language Server (stderr)]:
+E1106 15:14:06.583512 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 15:14:06.585 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:10.893 [INFO]: [Language Server (stderr)]:
+E1106 15:14:10.892898 30436 interceptor.go:33] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: unable to get language from file: unrecognized language
+2023-11-06 15:14:10.893 [ERROR]: [unknown] unable to get language from file: unrecognized language
+2023-11-06 15:14:12.838 [INFO]: Disposing language server process
+2023-11-06 15:14:12.838 [INFO]: Deleting manager directory: /tmp/08126efc-1c4e-40ef-9b34-9c4e94bdd2ea/codeium/manager
+2023-11-06 15:14:12.839 [INFO]: Successfully disposed language server

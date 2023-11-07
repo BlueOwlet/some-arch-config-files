@@ -517,6 +517,11 @@
 # Normalize channels (boolean)
 #aout-remap-normalize=1
 
+[samplerate] # Secret Rabbit Code (libsamplerate) resampler
+
+# Sample rate converter type (integer)
+#src-converter-type=2
+
 [spatializer] # Audio Spatializer
 
 # Room size (float)
@@ -1297,6 +1302,29 @@
 
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
+
+[stream_out_chromecast] # Chromecast stream output
+
+# ? (string)
+#sout-chromecast-ip=
+
+# ? (integer)
+#sout-chromecast-port=8009
+
+# ? (boolean)
+#sout-chromecast-video=1
+
+# HTTP port (integer)
+#sout-chromecast-http-port=8010
+
+# Performance warning (integer)
+sout-chromecast-show-perf-warning=0
+
+# Enable Audio passthrough (boolean)
+#sout-chromecast-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-chromecast-conversion-quality=1
 
 [mosaic_bridge] # Mosaic bridge stream output
 

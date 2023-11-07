@@ -1,0 +1,78 @@
+#!/bin/bash
+
+. menu
+
+#Restore
+restore_grub(){
+
+    # GPU PASSTRHOUGH
+    #Restore GRUB
+    cp grub /etc/default/grub.
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+
+}
+
+restore_initrams(){
+    # initrams???
+    cp vfio.conf /etc/modprobe.d/vfio.conf
+    cp mkinitcpio.conf /etc/mkinitcpio.conf
+    sudo mkinitcpio -p linux
+
+}
+
+
+
+restore_qemu(){
+    # QEMU
+    cp qemu.conf /etc/libvirt/qemu.conf
+    
+}
+
+
+restore_wifi(){
+    # RESTORE WIFIS 
+    sudo cp -r system-connections/ /etc/NetworkManager/
+    
+}
+
+
+restore_config(){
+    # Copy all configuration folders and files
+    cp -ap .config ~/
+    
+}
+
+
+restore_ssh(){
+    # SSH
+    cp -ap .ssh ~/
+    chmod u+rwx,go-rwx ~/.ssh
+    chmod u+rw,go-rwx ~/.ssh/*
+    #chmod 700 ~/.ssh
+
+}
+
+
+# bashrc
+cp -ap .bashrc ~/
+# vimrc 
+cp -ap .vimrc ~/
+
+
+
+# Background and Images
+cp -ap Pictures ~/
+
+# Firefox profiles
+cp -ap ./firefox/owl.profile ~/.mozilla/firefox/
+cp -ap ./firefox/interact.profile ~/.mozilla/firefox/
+
+cd ..
+git remote set-url origin git@github.com:BlueOwlet/config-files.git
+
+
+
+restore_menu(){
+    menu "system/restore"
+}

@@ -1,0 +1,328 @@
+2023-11-05 12:35:41.789 [INFO]: No proxy settings found
+2023-11-05 12:35:42.264 [INFO]: Creating manager directory: /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager
+2023-11-05 12:35:42.554 [INFO]: Using cached LS with valid crc32: /home/owl/.vscode-oss/extensions/codeium.codeium-1.2.97-universal/dist/f3bda5b3eb4dc7c7904cb8e9a3156e9f25f1ebb9/language_server_linux_x64
+2023-11-05 12:35:42.564 [INFO]: Language server started
+2023-11-05 12:35:42.671 [INFO]: [Language Server (stderr)]:
+I1105 12:35:42.662474 75113 main.go:452] Starting language server manager with pid 75113
+I1105 12:35:42.662567 75113 main.go:106] Manager acquired its lock file /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager/locks/manager.lock
+I1105 12:35:42.662943 75113 main.go:228] Waiting for random port file in /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager/child_random_port_1699209342662626807_2720497464294121773 to be created
+2023-11-05 12:35:42.774 [INFO]: [Language Server (stderr)]:
+I1105 12:35:42.773383 75126 main.go:446] Starting language server process with pid 75126
+2023-11-05 12:35:42.774 [INFO]: [Language Server (stderr)]:
+I1105 12:35:42.774594 75126 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I1105 12:35:42.774625 75126 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+2023-11-05 12:35:42.775 [INFO]: [Language Server (stderr)]:
+I1105 12:35:42.774654 75126 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2023-11-05 12:35:43.093 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.092364 75126 api_server_client.go:115] Successfully dialed proxy
+2023-11-05 12:35:43.093 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.092672 75126 server.go:387] Successfully created API server client
+I1105 12:35:43.092689 75126 api_server_client.go:115] Successfully dialed proxy
+I1105 12:35:43.092876 75126 server.go:393] Successfully created API streaming client
+2023-11-05 12:35:43.123 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.122309 75126 server.go:402] Successfully initialized tokenizer
+I1105 12:35:43.122373 75126 unleash.go:57] Initializing Unleash with production environment
+2023-11-05 12:35:43.707 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.706929 75126 unleash.go:71] Successfully initialized unleash
+2023-11-05 12:35:43.732 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.730886 75126 server.go:481] Successfully created completion provider
+I1105 12:35:43.730939 75126 server.go:513] Child process attempting to acquire lock file /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager/locks/child_lock_1699209342662662567_8456943787734029001
+2023-11-05 12:35:43.732 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.731030 75126 server.go:523] Child process acquired lock file /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager/locks/child_lock_1699209342662662567_8456943787734029001
+2023-11-05 12:35:43.733 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.732814 75126 server.go:186] Language server will attempt to listen on host 127.0.0.1
+I1105 12:35:43.733082 75126 server.go:230] Language server listening on random port at 35895
+I1105 12:35:43.733105 75126 server.go:232] LSP listening on random port at 44637
+2023-11-05 12:35:43.735 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.734475 75126 web_server.go:147] Chat Web Server listening at ws://127.0.0.1:40341
+2023-11-05 12:35:43.768 [INFO]: [Language Server (stdout)]:
+44637
+2023-11-05 12:35:43.795 [INFO]: [Language Server (stderr)]:
+I1105 12:35:43.767809 75113 main.go:264] Language server manager found random server port 35895
+I1105 12:35:43.767848 75113 main.go:265] Language server manager found random lsp port 44637
+I1105 12:35:43.767866 75113 main.go:272] Language server manager attempting to connect to language server at 127.0.0.1:35895
+I1105 12:35:43.780165 75113 main.go:143] Fixing language server port at 35895
+I1105 12:35:43.780182 75113 main.go:323] Language server manager successfully connected to new language server at 127.0.0.1:35895
+2023-11-05 12:35:43.797 [INFO]: Found language server running on port 35895
+2023-11-05 12:35:43.846 [INFO]: Successfully logged in
+2023-11-05 12:36:46.073 [INFO]: Completion request was cancelled by token (107.98ms)
+2023-11-05 12:36:46.232 [INFO]: Completion request was cancelled by token (90.28ms)
+2023-11-05 12:36:46.399 [INFO]: Completion request was cancelled by token (91.32ms)
+2023-11-05 12:36:46.553 [INFO]: Completion request was cancelled by token (77.53ms)
+2023-11-05 12:36:46.958 [INFO]: Completion request was cancelled by token (328ms)
+2023-11-05 12:36:50.390 [INFO]: Completion request was cancelled by token (149.64ms)
+2023-11-05 12:36:50.587 [INFO]: Completion request was cancelled by token (124.04ms)
+2023-11-05 12:36:50.797 [INFO]: Completion request was cancelled by token (134.79ms)
+2023-11-05 12:36:51.314 [INFO]: Completion request succeeded (443.16ms)
+2023-11-05 12:36:51.317 [INFO]: Generated 1 completions
+2023-11-05 12:36:51.321 [INFO]: provideInlineCompletionItems request succeeded (450.32ms)
+2023-11-05 12:37:01.775 [INFO]: Completion request was cancelled by token (465.2ms)
+2023-11-05 12:37:02.455 [INFO]: Completion request succeeded (607.02ms)
+2023-11-05 12:37:02.456 [INFO]: Generated 4 completions
+2023-11-05 12:37:02.460 [INFO]: provideInlineCompletionItems request succeeded (612.24ms)
+2023-11-05 12:37:03.476 [INFO]: Completion request succeeded (286.92ms)
+2023-11-05 12:37:03.476 [INFO]: Generated 3 completions
+2023-11-05 12:37:03.477 [INFO]: provideInlineCompletionItems request succeeded (288.68ms)
+2023-11-05 12:37:03.910 [INFO]: Completion request succeeded (279.68ms)
+2023-11-05 12:37:03.911 [INFO]: Generated 1 completions
+2023-11-05 12:37:03.911 [INFO]: provideInlineCompletionItems request succeeded (281.67ms)
+2023-11-05 12:37:05.027 [INFO]: Completion request succeeded (258.58ms)
+2023-11-05 12:37:05.027 [INFO]: No completions were generated
+2023-11-05 12:37:05.027 [INFO]: provideInlineCompletionItems request succeeded (259.88ms)
+2023-11-05 12:37:06.365 [INFO]: Completion request was cancelled by token (190.35ms)
+2023-11-05 12:37:06.875 [INFO]: Completion request succeeded (437.34ms)
+2023-11-05 12:37:06.875 [INFO]: No completions were generated
+2023-11-05 12:37:06.875 [INFO]: provideInlineCompletionItems request succeeded (438.55ms)
+2023-11-05 12:37:08.392 [INFO]: Completion request succeeded (341.21ms)
+2023-11-05 12:37:08.393 [INFO]: No completions were generated
+2023-11-05 12:37:08.393 [INFO]: provideInlineCompletionItems request succeeded (342.04ms)
+2023-11-05 12:37:13.186 [INFO]: Completion request was cancelled by token (179.59ms)
+2023-11-05 12:37:13.460 [INFO]: Completion request was cancelled by token (202.28ms)
+2023-11-05 12:37:14.953 [INFO]: Completion request succeeded (468.64ms)
+2023-11-05 12:37:14.954 [INFO]: Generated 5 completions
+2023-11-05 12:37:14.956 [INFO]: provideInlineCompletionItems request succeeded (472.5ms)
+2023-11-05 12:37:15.907 [INFO]: Completion request succeeded (17.02ms)
+2023-11-05 12:37:15.907 [INFO]: Generated 5 completions
+2023-11-05 12:37:15.908 [INFO]: provideInlineCompletionItems request succeeded (18.53ms)
+2023-11-05 12:37:18.006 [INFO]: Completion request was cancelled by token (182.54ms)
+2023-11-05 12:37:18.212 [INFO]: Completion request was cancelled by token (131.51ms)
+2023-11-05 12:37:18.680 [INFO]: Completion request was cancelled by token (392.58ms)
+2023-11-05 12:37:18.858 [INFO]: Completion request was cancelled by token (102.07ms)
+2023-11-05 12:37:19.297 [INFO]: Completion request was cancelled by token (364.77ms)
+2023-11-05 12:37:19.481 [INFO]: Completion request was cancelled by token (107.92ms)
+2023-11-05 12:37:19.637 [INFO]: Completion request was cancelled by token (80.6ms)
+2023-11-05 12:37:19.798 [INFO]: Completion request was cancelled by token (86.94ms)
+2023-11-05 12:37:19.921 [INFO]: Completion request was cancelled by token (49.18ms)
+2023-11-05 12:37:20.032 [INFO]: Completion request was cancelled by token (36.51ms)
+2023-11-05 12:37:20.218 [INFO]: Completion request was cancelled by token (113.13ms)
+2023-11-05 12:37:20.321 [INFO]: Completion request was cancelled by token (28.48ms)
+2023-11-05 12:37:20.436 [INFO]: Completion request was cancelled by token (39.39ms)
+2023-11-05 12:37:20.548 [INFO]: Completion request was cancelled by token (38.77ms)
+2023-11-05 12:37:20.654 [INFO]: Completion request was cancelled by token (33.57ms)
+2023-11-05 12:37:21.150 [INFO]: Completion request succeeded (421.83ms)
+2023-11-05 12:37:21.150 [INFO]: No completions were generated
+2023-11-05 12:37:21.151 [INFO]: provideInlineCompletionItems request succeeded (423.24ms)
+2023-11-05 12:37:24.880 [INFO]: Completion request succeeded (414.1ms)
+2023-11-05 12:37:24.880 [INFO]: No completions were generated
+2023-11-05 12:37:24.880 [INFO]: provideInlineCompletionItems request succeeded (415.4ms)
+2023-11-05 12:37:26.108 [INFO]: Completion request succeeded (339.22ms)
+2023-11-05 12:37:26.109 [INFO]: No completions were generated
+2023-11-05 12:37:26.109 [INFO]: provideInlineCompletionItems request succeeded (340.69ms)
+2023-11-05 12:37:27.396 [INFO]: Completion request succeeded (281.22ms)
+2023-11-05 12:37:27.397 [INFO]: Generated 4 completions
+2023-11-05 12:37:27.399 [INFO]: provideInlineCompletionItems request succeeded (285.21ms)
+2023-11-05 12:37:27.773 [INFO]: Completion request was cancelled by token (148.27ms)
+2023-11-05 12:37:27.996 [INFO]: Completion request was cancelled by token (148.39ms)
+2023-11-05 12:37:28.520 [INFO]: Completion request succeeded (448.45ms)
+2023-11-05 12:37:28.521 [INFO]: Generated 1 completions
+2023-11-05 12:37:28.521 [INFO]: provideInlineCompletionItems request succeeded (449.53ms)
+2023-11-05 12:37:29.951 [INFO]: Completion request was cancelled by token (102.46ms)
+2023-11-05 12:37:30.523 [INFO]: Completion request succeeded (499.09ms)
+2023-11-05 12:37:30.524 [INFO]: Generated 5 completions
+2023-11-05 12:37:30.525 [INFO]: provideInlineCompletionItems request succeeded (500.94ms)
+2023-11-05 12:37:30.836 [INFO]: Completion request was cancelled by token (18.82ms)
+2023-11-05 12:37:30.930 [INFO]: Completion request succeeded (19.59ms)
+2023-11-05 12:37:30.930 [INFO]: Generated 1 completions
+2023-11-05 12:37:30.931 [INFO]: provideInlineCompletionItems request succeeded (20.9ms)
+2023-11-05 12:37:31.046 [INFO]: Completion request succeeded (10.72ms)
+2023-11-05 12:37:31.047 [INFO]: Generated 1 completions
+2023-11-05 12:37:31.048 [INFO]: provideInlineCompletionItems request succeeded (12.8ms)
+2023-11-05 12:37:31.162 [INFO]: Completion request succeeded (21.23ms)
+2023-11-05 12:37:31.162 [INFO]: Generated 1 completions
+2023-11-05 12:37:31.162 [INFO]: provideInlineCompletionItems request succeeded (22.15ms)
+2023-11-05 12:37:31.510 [INFO]: Completion request was cancelled by token (247.98ms)
+2023-11-05 12:37:31.626 [INFO]: Completion request was cancelled by token (42.9ms)
+2023-11-05 12:37:31.728 [INFO]: Completion request was cancelled by token (27.86ms)
+2023-11-05 12:37:31.837 [INFO]: Completion request was cancelled by token (33.76ms)
+2023-11-05 12:37:31.964 [INFO]: Completion request was cancelled by token (52.39ms)
+2023-11-05 12:37:32.153 [INFO]: Completion request was cancelled by token (114.15ms)
+2023-11-05 12:37:32.334 [INFO]: Completion request was cancelled by token (106.54ms)
+2023-11-05 12:37:32.454 [INFO]: Completion request was cancelled by token (46.54ms)
+2023-11-05 12:37:32.583 [INFO]: Completion request was cancelled by token (55.62ms)
+2023-11-05 12:37:32.703 [INFO]: Completion request was cancelled by token (45.86ms)
+2023-11-05 12:37:32.833 [INFO]: Completion request was cancelled by token (56.75ms)
+2023-11-05 12:37:33.235 [INFO]: Completion request succeeded (327.98ms)
+2023-11-05 12:37:33.236 [INFO]: No completions were generated
+2023-11-05 12:37:33.236 [INFO]: provideInlineCompletionItems request succeeded (329.48ms)
+2023-11-05 12:37:45.634 [INFO]: Completion request was cancelled by token (93.61ms)
+2023-11-05 12:37:45.833 [INFO]: Completion request was cancelled by token (126.59ms)
+2023-11-05 12:37:46.250 [INFO]: Completion request was cancelled by token (342.1ms)
+2023-11-05 12:37:46.435 [INFO]: Completion request was cancelled by token (111.53ms)
+2023-11-05 12:37:46.619 [INFO]: Completion request was cancelled by token (109.6ms)
+2023-11-05 12:37:47.305 [INFO]: Completion request succeeded (612.3ms)
+2023-11-05 12:37:47.306 [INFO]: Generated 4 completions
+2023-11-05 12:37:47.306 [INFO]: provideInlineCompletionItems request succeeded (613.66ms)
+2023-11-05 12:37:47.568 [INFO]: Completion request was cancelled by token (11.4ms)
+2023-11-05 12:37:47.651 [INFO]: Completion request succeeded (10.58ms)
+2023-11-05 12:37:47.652 [INFO]: Generated 3 completions
+2023-11-05 12:37:47.653 [INFO]: provideInlineCompletionItems request succeeded (13.02ms)
+2023-11-05 12:37:47.757 [INFO]: Completion request was cancelled by token (14.63ms)
+2023-11-05 12:37:47.841 [INFO]: Completion request succeeded (10.31ms)
+2023-11-05 12:37:47.842 [INFO]: Generated 3 completions
+2023-11-05 12:37:47.843 [INFO]: provideInlineCompletionItems request succeeded (13.09ms)
+2023-11-05 12:37:47.968 [INFO]: Completion request was cancelled by token (18.11ms)
+2023-11-05 12:37:48.143 [INFO]: Completion request was cancelled by token (101.6ms)
+2023-11-05 12:37:48.235 [INFO]: Completion request succeeded (19.39ms)
+2023-11-05 12:37:48.237 [INFO]: Generated 3 completions
+2023-11-05 12:37:48.238 [INFO]: provideInlineCompletionItems request succeeded (22.55ms)
+2023-11-05 12:37:48.497 [INFO]: Completion request was cancelled by token (83.89ms)
+2023-11-05 12:37:48.706 [INFO]: Completion request was cancelled by token (135.56ms)
+2023-11-05 12:37:48.817 [INFO]: Completion request was cancelled by token (36.77ms)
+2023-11-05 12:37:48.948 [INFO]: Completion request was cancelled by token (56.41ms)
+2023-11-05 12:37:49.426 [INFO]: Completion request succeeded (402.87ms)
+2023-11-05 12:37:49.427 [INFO]: No completions were generated
+2023-11-05 12:37:49.428 [INFO]: provideInlineCompletionItems request succeeded (404.37ms)
+2023-11-05 12:38:02.973 [INFO]: Completion request succeeded (574.75ms)
+2023-11-05 12:38:02.973 [INFO]: Generated 4 completions
+2023-11-05 12:38:02.974 [INFO]: provideInlineCompletionItems request succeeded (576.95ms)
+2023-11-05 12:38:04.161 [INFO]: Completion request was cancelled by token (699.23ms)
+2023-11-05 12:38:04.816 [INFO]: Completion request succeeded (582.36ms)
+2023-11-05 12:38:04.816 [INFO]: Generated 1 completions
+2023-11-05 12:38:04.817 [INFO]: provideInlineCompletionItems request succeeded (583.42ms)
+2023-11-05 12:38:05.405 [INFO]: Completion request was cancelled by token (359.73ms)
+2023-11-05 12:38:05.466 [INFO]: Completion request succeeded (19.98ms)
+2023-11-05 12:38:05.467 [INFO]: Generated 1 completions
+2023-11-05 12:38:05.469 [INFO]: provideInlineCompletionItems request succeeded (22.92ms)
+2023-11-05 12:38:06.867 [INFO]: Completion request succeeded (22.07ms)
+2023-11-05 12:38:06.868 [INFO]: Generated 1 completions
+2023-11-05 12:38:06.869 [INFO]: provideInlineCompletionItems request succeeded (24.52ms)
+2023-11-05 12:38:07.552 [INFO]: Completion request succeeded (25.23ms)
+2023-11-05 12:38:07.552 [INFO]: Generated 1 completions
+2023-11-05 12:38:07.553 [INFO]: provideInlineCompletionItems request succeeded (27.13ms)
+2023-11-05 12:38:08.242 [INFO]: Completion request was cancelled by token (62.56ms)
+2023-11-05 12:38:08.325 [INFO]: Completion request was cancelled by token (8.25ms)
+2023-11-05 12:38:08.476 [INFO]: Completion request was cancelled by token (76.19ms)
+2023-11-05 12:38:09.072 [INFO]: Completion request was cancelled by token (522.21ms)
+2023-11-05 12:38:09.271 [INFO]: Completion request was cancelled by token (125.18ms)
+2023-11-05 12:38:09.451 [INFO]: Completion request was cancelled by token (106.38ms)
+2023-11-05 12:38:09.626 [INFO]: Completion request was cancelled by token (100.34ms)
+2023-11-05 12:38:09.710 [INFO]: Completion request succeeded (10.31ms)
+2023-11-05 12:38:09.710 [INFO]: Generated 1 completions
+2023-11-05 12:38:09.710 [INFO]: provideInlineCompletionItems request succeeded (11.19ms)
+2023-11-05 12:38:10.815 [INFO]: Completion request succeeded (22.44ms)
+2023-11-05 12:38:10.815 [INFO]: Generated 1 completions
+2023-11-05 12:38:10.816 [INFO]: provideInlineCompletionItems request succeeded (23.52ms)
+2023-11-05 12:38:11.012 [INFO]: Completion request succeeded (20.7ms)
+2023-11-05 12:38:11.013 [INFO]: Generated 1 completions
+2023-11-05 12:38:11.013 [INFO]: provideInlineCompletionItems request succeeded (22.88ms)
+2023-11-05 12:38:11.189 [INFO]: Completion request succeeded (15.57ms)
+2023-11-05 12:38:11.189 [INFO]: Generated 1 completions
+2023-11-05 12:38:11.190 [INFO]: provideInlineCompletionItems request succeeded (17.48ms)
+2023-11-05 12:38:11.453 [INFO]: Completion request was cancelled by token (103.81ms)
+2023-11-05 12:38:11.711 [INFO]: Completion request was cancelled by token (182.68ms)
+2023-11-05 12:38:11.837 [INFO]: Completion request was cancelled by token (51.2ms)
+2023-11-05 12:38:11.921 [INFO]: Completion request was cancelled by token (9ms)
+2023-11-05 12:38:12.057 [INFO]: Completion request was cancelled by token (60.45ms)
+2023-11-05 12:38:12.279 [INFO]: Completion request was cancelled by token (146.71ms)
+2023-11-05 12:38:13.008 [INFO]: Completion request succeeded (655.43ms)
+2023-11-05 12:38:13.008 [INFO]: Generated 1 completions
+2023-11-05 12:38:13.009 [INFO]: provideInlineCompletionItems request succeeded (657.32ms)
+2023-11-05 12:38:14.263 [INFO]: Completion request succeeded (296.53ms)
+2023-11-05 12:38:14.264 [INFO]: No completions were generated
+2023-11-05 12:38:14.264 [INFO]: provideInlineCompletionItems request succeeded (297.81ms)
+2023-11-05 12:39:00.934 [INFO]: Completion request succeeded (453.04ms)
+2023-11-05 12:39:00.935 [INFO]: Generated 4 completions
+2023-11-05 12:39:00.936 [INFO]: provideInlineCompletionItems request succeeded (455.87ms)
+2023-11-05 12:39:01.616 [INFO]: Completion request succeeded (440.64ms)
+2023-11-05 12:39:01.616 [INFO]: Generated 6 completions
+2023-11-05 12:39:01.619 [INFO]: provideInlineCompletionItems request succeeded (444.56ms)
+2023-11-05 12:39:02.121 [INFO]: Completion request succeeded (22.26ms)
+2023-11-05 12:39:02.121 [INFO]: Generated 3 completions
+2023-11-05 12:39:02.122 [INFO]: provideInlineCompletionItems request succeeded (23.81ms)
+2023-11-05 12:39:02.870 [INFO]: Completion request was cancelled by token (11.33ms)
+2023-11-05 12:39:02.961 [INFO]: Completion request was cancelled by token (16.31ms)
+2023-11-05 12:39:03.055 [INFO]: Completion request was cancelled by token (21.71ms)
+2023-11-05 12:39:03.428 [INFO]: Completion request succeeded (299.27ms)
+2023-11-05 12:39:03.428 [INFO]: Generated 4 completions
+2023-11-05 12:39:03.429 [INFO]: provideInlineCompletionItems request succeeded (300.73ms)
+2023-11-05 12:39:03.662 [INFO]: Completion request was cancelled by token (115.16ms)
+2023-11-05 12:39:03.849 [INFO]: Completion request was cancelled by token (112.87ms)
+2023-11-05 12:39:04.002 [INFO]: Completion request was cancelled by token (79.92ms)
+2023-11-05 12:39:04.089 [INFO]: Completion request succeeded (13.06ms)
+2023-11-05 12:39:04.090 [INFO]: Generated 3 completions
+2023-11-05 12:39:04.093 [INFO]: provideInlineCompletionItems request succeeded (17.38ms)
+2023-11-05 12:39:04.193 [INFO]: Completion request succeeded (16.12ms)
+2023-11-05 12:39:04.193 [INFO]: Generated 3 completions
+2023-11-05 12:39:04.194 [INFO]: provideInlineCompletionItems request succeeded (17.89ms)
+2023-11-05 12:39:04.782 [INFO]: Completion request succeeded (24.45ms)
+2023-11-05 12:39:04.783 [INFO]: Generated 3 completions
+2023-11-05 12:39:04.785 [INFO]: provideInlineCompletionItems request succeeded (28.06ms)
+2023-11-05 12:39:04.902 [INFO]: Completion request was cancelled by token (6.63ms)
+2023-11-05 12:39:05.000 [INFO]: Completion request succeeded (24.6ms)
+2023-11-05 12:39:05.000 [INFO]: Generated 3 completions
+2023-11-05 12:39:05.002 [INFO]: provideInlineCompletionItems request succeeded (27.34ms)
+2023-11-05 12:39:05.123 [INFO]: Completion request succeeded (10.73ms)
+2023-11-05 12:39:05.124 [INFO]: Generated 3 completions
+2023-11-05 12:39:05.125 [INFO]: provideInlineCompletionItems request succeeded (13.6ms)
+2023-11-05 12:39:05.231 [INFO]: Completion request succeeded (25.23ms)
+2023-11-05 12:39:05.232 [INFO]: Generated 3 completions
+2023-11-05 12:39:05.233 [INFO]: provideInlineCompletionItems request succeeded (28.27ms)
+2023-11-05 12:39:05.335 [INFO]: Completion request succeeded (11.29ms)
+2023-11-05 12:39:05.335 [INFO]: Generated 3 completions
+2023-11-05 12:39:05.336 [INFO]: provideInlineCompletionItems request succeeded (13.18ms)
+2023-11-05 12:39:05.493 [INFO]: Completion request succeeded (11.91ms)
+2023-11-05 12:39:05.493 [INFO]: Generated 3 completions
+2023-11-05 12:39:05.494 [INFO]: provideInlineCompletionItems request succeeded (14.12ms)
+2023-11-05 12:39:05.976 [INFO]: Completion request was cancelled by token (42.15ms)
+2023-11-05 12:39:06.106 [INFO]: Completion request was cancelled by token (56.48ms)
+2023-11-05 12:39:06.269 [INFO]: Completion request was cancelled by token (87.11ms)
+2023-11-05 12:39:06.619 [INFO]: Completion request was cancelled by token (275.36ms)
+2023-11-05 12:39:06.739 [INFO]: Completion request was cancelled by token (43.18ms)
+2023-11-05 12:39:06.822 [INFO]: Completion request was cancelled by token (8.23ms)
+2023-11-05 12:39:07.376 [INFO]: Completion request succeeded (479.15ms)
+2023-11-05 12:39:07.376 [INFO]: No completions were generated
+2023-11-05 12:39:07.377 [INFO]: provideInlineCompletionItems request succeeded (480.1ms)
+2023-11-05 12:40:55.605 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:40:56.704 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:40:57.383 [INFO]: Completion request was cancelled by token (513.71ms)
+2023-11-05 12:40:57.761 [INFO]: Completion request was cancelled by token (306.59ms)
+2023-11-05 12:40:58.392 [INFO]: Completion request succeeded (555.37ms)
+2023-11-05 12:40:58.392 [INFO]: No completions were generated
+2023-11-05 12:40:58.393 [INFO]: provideInlineCompletionItems request succeeded (556.87ms)
+2023-11-05 12:50:36.399 [INFO]: Completion request succeeded (643.43ms)
+2023-11-05 12:50:36.400 [INFO]: Generated 3 completions
+2023-11-05 12:50:36.402 [INFO]: provideInlineCompletionItems request succeeded (646.61ms)
+2023-11-05 12:50:44.833 [INFO]: Completion request succeeded (349.14ms)
+2023-11-05 12:50:44.834 [INFO]: No completions were generated
+2023-11-05 12:50:44.834 [INFO]: provideInlineCompletionItems request succeeded (350.6ms)
+2023-11-05 12:50:46.799 [INFO]: Completion request succeeded (325.17ms)
+2023-11-05 12:50:46.800 [INFO]: Generated 3 completions
+2023-11-05 12:50:46.802 [INFO]: provideInlineCompletionItems request succeeded (328.15ms)
+2023-11-05 12:50:47.410 [INFO]: Completion request succeeded (277.82ms)
+2023-11-05 12:50:47.410 [INFO]: No completions were generated
+2023-11-05 12:50:47.410 [INFO]: provideInlineCompletionItems request succeeded (278.61ms)
+2023-11-05 12:50:48.796 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:48.887 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:49.095 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:49.672 [INFO]: Completion request was cancelled by token (318.27ms)
+2023-11-05 12:50:49.808 [INFO]: Completion request was cancelled by token (60.98ms)
+2023-11-05 12:50:50.473 [INFO]: Completion request was cancelled by token (591.06ms)
+2023-11-05 12:50:50.582 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:51.082 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:51.959 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:53.129 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:53.438 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 12:50:54.815 [INFO]: Completion request succeeded (699.62ms)
+2023-11-05 12:50:54.817 [INFO]: Generated 7 completions
+2023-11-05 12:50:54.820 [INFO]: provideInlineCompletionItems request succeeded (704.18ms)
+2023-11-05 12:50:56.716 [INFO]: Completion request succeeded (563.78ms)
+2023-11-05 12:50:56.717 [INFO]: Generated 7 completions
+2023-11-05 12:50:56.721 [INFO]: provideInlineCompletionItems request succeeded (569.66ms)
+2023-11-05 12:59:51.550 [INFO]: Completion request succeeded (557.3ms)
+2023-11-05 12:59:51.550 [INFO]: No completions were generated
+2023-11-05 12:59:51.550 [INFO]: provideInlineCompletionItems request succeeded (558.38ms)
+2023-11-05 12:59:59.855 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 13:00:00.291 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 13:00:00.896 [INFO]: Skipping completions because autocomplete is open
+2023-11-05 13:00:03.358 [INFO]: Completion request was cancelled by token (143.73ms)
+2023-11-05 13:00:03.941 [INFO]: Completion request succeeded (510.25ms)
+2023-11-05 13:00:03.941 [INFO]: No completions were generated
+2023-11-05 13:00:03.942 [INFO]: provideInlineCompletionItems request succeeded (511.64ms)
+2023-11-05 13:39:24.819 [INFO]: Completion request succeeded (9.54ms)
+2023-11-05 13:39:24.819 [INFO]: Generated 3 completions
+2023-11-05 13:39:24.820 [INFO]: provideInlineCompletionItems request succeeded (10.89ms)
+2023-11-05 13:53:16.218 [INFO]: Disposing language server process
+2023-11-05 13:53:16.218 [INFO]: Deleting manager directory: /tmp/099c9b99-a061-4f33-8305-76aa9f6a2cd4/codeium/manager
+2023-11-05 13:53:16.220 [INFO]: Successfully disposed language server
+2023-11-05 13:53:16.246 [INFO]: [Language Server (stderr)]:
+W1105 13:53:16.218588 75113 main.go:110] Language server manager got signal terminated, shutting down

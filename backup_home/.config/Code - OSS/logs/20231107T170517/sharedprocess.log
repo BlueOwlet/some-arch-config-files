@@ -1,0 +1,8 @@
+2023-11-07 17:05:22.835 [info] Getting Manifest... codeium.codeium
+2023-11-07 17:05:23.876 [info] Installing extension: codeium.codeium
+2023-11-07 17:05:29.956 [info] Extension signature verification is not done: codeium.codeium
+2023-11-07 17:05:30.090 [info] Extracted extension to file:///home/owl/.vscode-oss/extensions/codeium.codeium-1.4.11-universal: codeium.codeium
+2023-11-07 17:05:30.102 [info] Renamed to /home/owl/.vscode-oss/extensions/codeium.codeium-1.4.11-universal
+2023-11-07 17:05:30.103 [info] Extracting extension completed. codeium.codeium
+2023-11-07 17:05:30.112 [info] Extension installed successfully: codeium.codeium
+2023-11-07 17:05:30.115 [info] Marked extension as uninstalled codeium.codeium-1.4.10-universal

@@ -1,0 +1,4 @@
+{"timestamp":21689958,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"relay-integration-into-firefox-118-release-for-all-fxa-and-autofill-users"}}
+{"timestamp":21690007,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"accessibilityCache","experiment":"next-generation-accessibility-engine-powering-screen-readers","reason":"invalid-feature"}}
+{"timestamp":21690007,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy","reason":"invalid-feature","feature":"accessibilityCache"}}
+{"timestamp":22066598,"category":"serp","name":"abandonment","extra":{"impression_id":"1b7cffe4-c141-4b21-bf56-301de3b8ffbd","reason":"tab_close"}}

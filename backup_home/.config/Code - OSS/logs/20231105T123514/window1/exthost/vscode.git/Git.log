@@ -1,0 +1,18 @@
+2023-11-05 12:35:16.707 [info] Log level: Info
+2023-11-05 12:35:16.707 [info] Validating found git in: "git"
+2023-11-05 12:35:16.707 [info] Using git "2.42.0" from "git"
+2023-11-05 12:35:16.707 [info] > git rev-parse --show-toplevel [14ms]
+2023-11-05 12:35:16.707 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-11-05 12:35:16.707 [info] Open repository: /home/owl/config-files
+2023-11-05 12:35:16.707 [info] > git config --get commit.template [8ms]
+2023-11-05 12:35:16.708 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-05 12:35:16.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-11-05 12:35:16.735 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-05 12:35:16.742 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-05 12:35:16.749 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-05 12:35:16.757 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-05 12:35:16.774 [info] > git status -z -uall [49ms]
+2023-11-05 12:35:17.099 [info] > git config --get commit.template [305ms]
+2023-11-05 12:35:17.248 [info] > git check-ignore -v -z --stdin [17ms]
+2023-11-05 12:35:17.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-11-05 12:35:17.342 [info] > git status -z -uall [85ms]

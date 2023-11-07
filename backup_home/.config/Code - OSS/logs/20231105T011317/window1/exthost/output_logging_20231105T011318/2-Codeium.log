@@ -224,3 +224,11 @@ I1105 01:13:21.420033 63403 main.go:323] Language server manager successfully co
 2023-11-05 01:59:58.747 [INFO]: Completion request succeeded (307.13ms)
 2023-11-05 01:59:58.747 [INFO]: No completions were generated
 2023-11-05 01:59:58.747 [INFO]: provideInlineCompletionItems request succeeded (308.1ms)
+2023-11-05 02:05:54.042 [INFO]: Disposing language server process
+2023-11-05 02:05:54.042 [INFO]: Deleting manager directory: /tmp/48acf887-1166-452b-80ee-9569e0b7029e/codeium/manager
+2023-11-05 02:05:54.043 [INFO]: Successfully disposed language server
+2023-11-05 02:05:54.067 [INFO]: [Language Server (stderr)]:
+W1105 02:05:54.042394 63403 main.go:110] Language server manager got signal terminated, shutting down
+E1105 02:05:54.064160 63403 main.go:337] Failed to acquire lock on /tmp/48acf887-1166-452b-80ee-9569e0b7029e/codeium/manager/locks/child_lock_1699168400604616672_3179857475138687995: open /tmp/48acf887-1166-452b-80ee-9569e0b7029e/codeium/manager/locks/child_lock_1699168400604616672_3179857475138687995: no such file or directory
+I1105 02:05:54.064923 63419 server.go:817] Exit requested on language server process 63419
+I1105 02:05:54.065056 63419 server.go:600] Language server shutting down

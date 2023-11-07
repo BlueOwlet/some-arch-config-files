@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="723.825664370079"
+         height="1284.59841750738" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -562,7 +564,8 @@
     </group>
   </group>
   <group
-     id="dialogs">
+     id="dialogs"
+     traceliveUpdate="1">
     <group
        id="toolbox" />
     <group
@@ -576,7 +579,8 @@
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -642,7 +646,8 @@
        id="clonetiler"
        dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       SpacingType="20" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -690,7 +695,8 @@
   <group
      id="options"
      rotationlock="1"
-     onungroup="0">
+     onungroup="0"
+     onimport="0">
     <group
        id="renderingcache"
        size="512" />
@@ -946,7 +952,8 @@
        partialdynamic="0" />
     <group
        id="font"
-       unitType="2" />
+       unitType="2"
+       scaleLineHeightFromFontSIze="1" />
     <group
        id="boot"
        theme="compacted">
@@ -968,14 +975,14 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#800000;font-size:33.33333333px">
+     style="fill:#ffffff;font-size:32px;-inkscape-font-specification:'Universalis ADF Std, Bold Condensed';font-family:'Universalis ADF Std';font-weight:bold;font-stretch:condensed">
     <group
        width="931"
-       height="511"
+       height="1036"
        x="0"
        y="0"
        maximized="1"
-       fullscreen="1"
+       fullscreen="0"
        id="geometry" />
     <group
        id="XYfront" />
@@ -1107,4 +1114,7 @@
        symbolicWarningColor="2155905279"
        symbolicErrorColor="2155905279" />
   </group>
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>

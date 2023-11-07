@@ -1,0 +1,4 @@
+[2023-11-06 20:44:04.843] [GIT  ] [/home/owl/interact] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [26ms]
+
+[2023-11-06 20:44:19.690] [GIT  ] [/home/owl/.config/hypr] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [15ms]
+

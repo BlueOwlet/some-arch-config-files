@@ -1,0 +1,9 @@
+[2023-11-05 02:08:44.400] Starting Git Graph ...
+[2023-11-05 02:08:44.413] Using git (version: 2.42.0)
+[2023-11-05 02:08:44.423] Started Git Graph - Ready to use!
+[2023-11-05 02:08:44.423] Searching workspace for new repos ...
+[2023-11-05 02:08:44.431] > git rev-parse --show-toplevel
+[2023-11-05 02:08:44.456] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2023-11-05 02:08:44.505] Added new repo: /home/owl/config-files
+[2023-11-05 02:08:44.515] Completed searching workspace for new repos
+[2023-11-05 02:08:44.515] Showing "Git Graph" Status Bar Item

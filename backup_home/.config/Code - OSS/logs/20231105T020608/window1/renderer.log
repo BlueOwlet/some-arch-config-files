@@ -1,0 +1,13 @@
+2023-11-05 02:06:09.248 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/owl/config-files/system/backup","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-11-05 02:06:09.604 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-11-05 02:06:09.616 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-11-05 02:06:09.660 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-11-05 02:06:12.872 [info] [perf] Render performance baseline is 158ms
+2023-11-05 02:08:43.951 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-11-05 02:08:43.961 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-11-05 02:08:44.006 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-11-05 02:08:47.343 [info] [perf] Render performance baseline is 154ms
+2023-11-05 02:10:54.782 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-11-05 02:10:54.796 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-11-05 02:10:54.852 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-11-05 02:10:58.158 [info] [perf] Render performance baseline is 170ms

@@ -1,0 +1,399 @@
+2023-11-07 17:05:19.647 [INFO]: No proxy settings found
+2023-11-07 17:05:20.365 [INFO]: Creating manager directory: /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager
+2023-11-07 17:05:20.647 [INFO]: Using cached LS with valid crc32: /home/owl/.vscode-oss/extensions/codeium.codeium-1.4.10-universal/dist/2fa14c2a62a1ee3ebfbe9c34b20f2c01078ce4f0/language_server_linux_x64
+2023-11-07 17:05:20.656 [INFO]: Language server started
+2023-11-07 17:05:20.770 [INFO]: [Language Server (stderr)]:
+I1107 17:05:20.769997 68195 main.go:526] Starting language server manager with pid 68195
+2023-11-07 17:05:20.771 [INFO]: [Language Server (stderr)]:
+I1107 17:05:20.770097 68195 main.go:110] Manager acquired its lock file /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager/locks/manager.lock
+I1107 17:05:20.770471 68195 main.go:248] Waiting for random port file in /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager/child_random_port_1699398320770171045_7792490824563723504 to be created
+2023-11-07 17:05:20.867 [INFO]: [Language Server (stderr)]:
+I1107 17:05:20.867078 68210 main.go:520] Starting language server process with pid 68210
+2023-11-07 17:05:20.868 [INFO]: [Language Server (stderr)]:
+I1107 17:05:20.868154 68210 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I1107 17:05:20.868174 68210 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I1107 17:05:20.868208 68210 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2023-11-07 17:05:21.168 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.167935 68210 api_server_client.go:125] Successfully dialed proxy
+2023-11-07 17:05:21.169 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.168322 68210 server.go:438] Successfully created API server client
+I1107 17:05:21.168340 68210 api_server_client.go:125] Successfully dialed proxy
+I1107 17:05:21.168546 68210 server.go:444] Successfully created API streaming client
+2023-11-07 17:05:21.216 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.215209 68210 server.go:453] Successfully initialized tokenizer
+I1107 17:05:21.215250 68210 unleash.go:73] Initializing Unleash with production environment
+2023-11-07 17:05:21.436 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.435518 68210 unleash.go:88] Successfully initialized unleash
+2023-11-07 17:05:21.464 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.464380 68210 server.go:531] Successfully created completion provider
+I1107 17:05:21.464406 68210 server.go:562] Child process attempting to acquire lock file /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager/locks/child_lock_1699398320770206246_8827853915866770121
+I1107 17:05:21.464448 68210 server.go:572] Child process acquired lock file /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager/locks/child_lock_1699398320770206246_8827853915866770121
+2023-11-07 17:05:21.465 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.464855 68210 server.go:218] Language server will attempt to listen on host 127.0.0.1
+I1107 17:05:21.464990 68210 server.go:262] Language server listening on random port at 32953
+I1107 17:05:21.464999 68210 server.go:264] LSP listening on random port at 40797
+2023-11-07 17:05:21.466 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.465532 68210 web_server.go:155] Chat Web Server listening at ws://127.0.0.1:33851
+2023-11-07 17:05:21.474 [INFO]: [Language Server (stdout)]:
+40797
+2023-11-07 17:05:21.474 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.473773 68195 main.go:284] Language server manager found random server port 32953
+I1107 17:05:21.473800 68195 main.go:285] Language server manager found random lsp port 40797
+I1107 17:05:21.473814 68195 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:32953
+2023-11-07 17:05:21.486 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.485932 68195 main.go:163] Fixing language server port at 32953
+I1107 17:05:21.485949 68195 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:32953
+2023-11-07 17:05:21.563 [INFO]: Found language server running on port 32953
+2023-11-07 17:05:21.583 [INFO]: Downloaded binary: /home/owl/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2023-11-07 17:05:21.601 [INFO]: [Language Server (stderr)]:
+I1107 17:05:21.596448 68210 server.go:1646] Skipped changelog download for version 1.4.10
+2023-11-07 17:05:21.658 [INFO]: Successfully logged in
+2023-11-07 17:05:21.767 [INFO]: [Language Server (stderr)]:
+E1107 17:05:21.766580 68210 lsp.go:460] Initialize: open /home/owl/config-files/backup_home/iwd: permission denied
+2023-11-07 17:06:00.003 [INFO]: [Language Server (stderr)]:
+E1107 17:06:00.002983 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:00.074 [INFO]: Completion request was cancelled by token (74.44ms)
+2023-11-07 17:06:00.145 [INFO]: [Language Server (stderr)]:
+E1107 17:06:00.144732 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:00.254 [INFO]: Completion request was cancelled by token (111.69ms)
+2023-11-07 17:06:00.330 [INFO]: [Language Server (stderr)]:
+E1107 17:06:00.329764 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:00.416 [INFO]: Completion request was cancelled by token (89.25ms)
+2023-11-07 17:06:00.492 [INFO]: [Language Server (stderr)]:
+E1107 17:06:00.491343 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:00.736 [INFO]: Completion request succeeded (246.57ms)
+2023-11-07 17:06:00.737 [INFO]: No completions were generated
+2023-11-07 17:06:00.738 [INFO]: provideInlineCompletionItems request succeeded (248.98ms)
+2023-11-07 17:06:01.368 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:01.537 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:01.652 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:01.792 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:02.352 [INFO]: [Language Server (stderr)]:
+E1107 17:06:02.352045 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:02.597 [INFO]: Completion request succeeded (247.87ms)
+2023-11-07 17:06:02.598 [INFO]: No completions were generated
+2023-11-07 17:06:02.599 [INFO]: provideInlineCompletionItems request succeeded (250.29ms)
+2023-11-07 17:06:03.422 [INFO]: [Language Server (stderr)]:
+E1107 17:06:03.422135 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:03.663 [INFO]: Completion request succeeded (243.88ms)
+2023-11-07 17:06:03.664 [INFO]: No completions were generated
+2023-11-07 17:06:03.665 [INFO]: provideInlineCompletionItems request succeeded (246.37ms)
+2023-11-07 17:06:04.130 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:04.357 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:04.521 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:04.696 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:05.313 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:05.621 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:05.716 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:05.876 [INFO]: Skipping completions because autocomplete is open
+2023-11-07 17:06:06.225 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.225328 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:06.375 [INFO]: Completion request was cancelled by token (152.02ms)
+2023-11-07 17:06:06.450 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.450107 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:06.473 [INFO]: Completion request was cancelled by token (26.34ms)
+2023-11-07 17:06:06.549 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.548514 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:06.602 [INFO]: Completion request was cancelled by token (56.78ms)
+2023-11-07 17:06:06.679 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.679182 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:06.701 [INFO]: Completion request was cancelled by token (25.53ms)
+2023-11-07 17:06:06.776 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.776187 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:06.823 [INFO]: Completion request was cancelled by token (49.37ms)
+2023-11-07 17:06:06.900 [INFO]: [Language Server (stderr)]:
+E1107 17:06:06.899551 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:07.002 [INFO]: Completion request was cancelled by token (105.36ms)
+2023-11-07 17:06:07.078 [INFO]: [Language Server (stderr)]:
+E1107 17:06:07.078425 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:07.083 [INFO]: Completion request was cancelled by token (7.63ms)
+2023-11-07 17:06:07.159 [INFO]: [Language Server (stderr)]:
+E1107 17:06:07.158952 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:07.344 [INFO]: Completion request was cancelled by token (188.2ms)
+2023-11-07 17:06:07.476 [INFO]: [Language Server (stderr)]:
+E1107 17:06:07.476028 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:07.695 [INFO]: Completion request was cancelled by token (220.84ms)
+2023-11-07 17:06:07.778 [INFO]: [Language Server (stderr)]:
+E1107 17:06:07.773001 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:07.935 [INFO]: Completion request was cancelled by token (165.28ms)
+2023-11-07 17:06:08.012 [INFO]: [Language Server (stderr)]:
+E1107 17:06:08.012204 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:08.308 [INFO]: Completion request succeeded (298.85ms)
+2023-11-07 17:06:08.309 [INFO]: No completions were generated
+2023-11-07 17:06:08.309 [INFO]: provideInlineCompletionItems request succeeded (300.05ms)
+2023-11-07 17:06:08.720 [INFO]: [Language Server (stderr)]:
+E1107 17:06:08.719610 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:08.769 [INFO]: Completion request was cancelled by token (53.09ms)
+2023-11-07 17:06:08.846 [INFO]: [Language Server (stderr)]:
+E1107 17:06:08.845680 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:08.873 [INFO]: Completion request was cancelled by token (28.75ms)
+2023-11-07 17:06:08.948 [INFO]: [Language Server (stderr)]:
+E1107 17:06:08.948035 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.015 [INFO]: Completion request was cancelled by token (68.8ms)
+2023-11-07 17:06:09.093 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.092522 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.243 [INFO]: Completion request was cancelled by token (154.03ms)
+2023-11-07 17:06:09.364 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.364366 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.516 [INFO]: Completion request was cancelled by token (153.49ms)
+2023-11-07 17:06:09.596 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.595581 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.706 [INFO]: Completion request was cancelled by token (113.94ms)
+2023-11-07 17:06:09.783 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.783491 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.807 [INFO]: Completion request was cancelled by token (25.38ms)
+2023-11-07 17:06:09.881 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.881327 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:09.918 [INFO]: Completion request was cancelled by token (39.01ms)
+2023-11-07 17:06:09.994 [INFO]: [Language Server (stderr)]:
+E1107 17:06:09.994292 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:10.215 [INFO]: Completion request was cancelled by token (223.28ms)
+2023-11-07 17:06:10.293 [INFO]: [Language Server (stderr)]:
+E1107 17:06:10.292417 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:10.744 [INFO]: Completion request succeeded (454.22ms)
+2023-11-07 17:06:10.745 [INFO]: Generated 3 completions
+2023-11-07 17:06:10.747 [INFO]: provideInlineCompletionItems request succeeded (457.68ms)
+2023-11-07 17:06:10.752 [INFO]: [Language Server (stderr)]:
+E1107 17:06:10.751707 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:10.911 [INFO]: [Language Server (stderr)]:
+E1107 17:06:10.911538 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:11.187 [INFO]: Completion request was cancelled by token (278.48ms)
+2023-11-07 17:06:11.262 [INFO]: [Language Server (stderr)]:
+E1107 17:06:11.262369 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:11.268 [INFO]: Completion request succeeded (7.48ms)
+2023-11-07 17:06:11.269 [INFO]: Generated 3 completions
+2023-11-07 17:06:11.271 [INFO]: provideInlineCompletionItems request succeeded (10.74ms)
+2023-11-07 17:06:11.275 [INFO]: [Language Server (stderr)]:
+E1107 17:06:11.274296 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:11.611 [INFO]: [Language Server (stderr)]:
+E1107 17:06:11.611036 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:11.618 [INFO]: Completion request succeeded (9.5ms)
+2023-11-07 17:06:11.618 [INFO]: Generated 3 completions
+2023-11-07 17:06:11.619 [INFO]: provideInlineCompletionItems request succeeded (11.79ms)
+2023-11-07 17:06:11.623 [INFO]: [Language Server (stderr)]:
+E1107 17:06:11.622987 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:12.982 [INFO]: [Language Server (stderr)]:
+E1107 17:06:12.982197 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:12.988 [INFO]: Completion request succeeded (9.08ms)
+2023-11-07 17:06:12.988 [INFO]: Generated 3 completions
+2023-11-07 17:06:12.989 [INFO]: provideInlineCompletionItems request succeeded (10.29ms)
+2023-11-07 17:06:12.991 [INFO]: [Language Server (stderr)]:
+E1107 17:06:12.990731 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:13.160 [INFO]: [Language Server (stderr)]:
+E1107 17:06:13.159951 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:13.274 [INFO]: Completion request was cancelled by token (116.31ms)
+2023-11-07 17:06:13.350 [INFO]: [Language Server (stderr)]:
+E1107 17:06:13.349616 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:13.671 [INFO]: Completion request succeeded (323.29ms)
+2023-11-07 17:06:13.672 [INFO]: Generated 3 completions
+2023-11-07 17:06:13.673 [INFO]: provideInlineCompletionItems request succeeded (326.1ms)
+2023-11-07 17:06:13.677 [INFO]: [Language Server (stderr)]:
+E1107 17:06:13.677065 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:13.806 [INFO]: [Language Server (stderr)]:
+E1107 17:06:13.806241 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:13.942 [INFO]: Completion request was cancelled by token (138.17ms)
+2023-11-07 17:06:14.018 [INFO]: [Language Server (stderr)]:
+E1107 17:06:14.017847 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:14.047 [INFO]: Completion request was cancelled by token (31.73ms)
+2023-11-07 17:06:14.123 [INFO]: [Language Server (stderr)]:
+E1107 17:06:14.123444 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:14.241 [INFO]: Completion request was cancelled by token (120.18ms)
+2023-11-07 17:06:14.318 [INFO]: [Language Server (stderr)]:
+E1107 17:06:14.317590 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:14.719 [INFO]: Completion request succeeded (405.11ms)
+2023-11-07 17:06:14.721 [INFO]: Generated 5 completions
+2023-11-07 17:06:14.722 [INFO]: provideInlineCompletionItems request succeeded (408.67ms)
+2023-11-07 17:06:14.742 [INFO]: [Language Server (stderr)]:
+E1107 17:06:14.726212 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:15.006 [INFO]: [Language Server (stderr)]:
+E1107 17:06:15.006087 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:15.396 [INFO]: Completion request succeeded (392.11ms)
+2023-11-07 17:06:15.397 [INFO]: Generated 4 completions
+2023-11-07 17:06:15.398 [INFO]: provideInlineCompletionItems request succeeded (395.8ms)
+2023-11-07 17:06:15.403 [INFO]: [Language Server (stderr)]:
+E1107 17:06:15.402727 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:16.759 [INFO]: [Language Server (stderr)]:
+E1107 17:06:16.758512 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:16.986 [INFO]: Completion request succeeded (229.76ms)
+2023-11-07 17:06:16.986 [INFO]: No completions were generated
+2023-11-07 17:06:16.987 [INFO]: provideInlineCompletionItems request succeeded (231.89ms)
+2023-11-07 17:06:19.421 [INFO]: [Language Server (stderr)]:
+E1107 17:06:19.420767 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:19.698 [INFO]: Completion request succeeded (318.23ms)
+2023-11-07 17:06:19.700 [INFO]: Generated 1 completions
+2023-11-07 17:06:19.701 [INFO]: provideInlineCompletionItems request succeeded (321.3ms)
+2023-11-07 17:06:19.705 [INFO]: [Language Server (stderr)]:
+E1107 17:06:19.704744 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:20.064 [INFO]: [Language Server (stderr)]:
+E1107 17:06:20.063681 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:20.290 [INFO]: Completion request was cancelled by token (229.53ms)
+2023-11-07 17:06:20.348 [INFO]: [Language Server (stderr)]:
+E1107 17:06:20.348200 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:20.498 [INFO]: Completion request was cancelled by token (152.94ms)
+2023-11-07 17:06:20.574 [INFO]: [Language Server (stderr)]:
+E1107 17:06:20.574002 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:20.723 [INFO]: Completion request was cancelled by token (152.18ms)
+2023-11-07 17:06:20.804 [INFO]: [Language Server (stderr)]:
+E1107 17:06:20.803228 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:20.994 [INFO]: Completion request was cancelled by token (194.62ms)
+2023-11-07 17:06:21.071 [INFO]: [Language Server (stderr)]:
+E1107 17:06:21.071528 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:21.399 [INFO]: Completion request succeeded (330.85ms)
+2023-11-07 17:06:21.401 [INFO]: Generated 1 completions
+2023-11-07 17:06:21.402 [INFO]: provideInlineCompletionItems request succeeded (334.32ms)
+2023-11-07 17:06:21.408 [INFO]: [Language Server (stderr)]:
+E1107 17:06:21.406385 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:21.895 [INFO]: [Language Server (stderr)]:
+E1107 17:06:21.895055 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:22.135 [INFO]: Completion request was cancelled by token (243.36ms)
+2023-11-07 17:06:22.216 [INFO]: [Language Server (stderr)]:
+E1107 17:06:22.214985 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:22.451 [INFO]: Completion request was cancelled by token (238.55ms)
+2023-11-07 17:06:22.526 [INFO]: [Language Server (stderr)]:
+E1107 17:06:22.525685 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:22.730 [INFO]: Completion request was cancelled by token (207.14ms)
+2023-11-07 17:06:22.807 [INFO]: [Language Server (stderr)]:
+E1107 17:06:22.806759 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.109 [INFO]: Completion request was cancelled by token (304.25ms)
+2023-11-07 17:06:23.185 [INFO]: [Language Server (stderr)]:
+E1107 17:06:23.184924 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.453 [INFO]: Completion request succeeded (270.1ms)
+2023-11-07 17:06:23.454 [INFO]: Generated 2 completions
+2023-11-07 17:06:23.454 [INFO]: provideInlineCompletionItems request succeeded (272.31ms)
+2023-11-07 17:06:23.456 [INFO]: [Language Server (stderr)]:
+E1107 17:06:23.456264 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.587 [INFO]: [Language Server (stderr)]:
+E1107 17:06:23.586218 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.683 [INFO]: Completion request was cancelled by token (98.32ms)
+2023-11-07 17:06:23.759 [INFO]: [Language Server (stderr)]:
+E1107 17:06:23.758635 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.841 [INFO]: Completion request was cancelled by token (84.7ms)
+2023-11-07 17:06:23.918 [INFO]: [Language Server (stderr)]:
+E1107 17:06:23.917156 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:23.936 [INFO]: Completion request was cancelled by token (22.27ms)
+2023-11-07 17:06:24.013 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.012357 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.258 [INFO]: Completion request succeeded (247.53ms)
+2023-11-07 17:06:24.259 [INFO]: Generated 2 completions
+2023-11-07 17:06:24.260 [INFO]: provideInlineCompletionItems request succeeded (250.15ms)
+2023-11-07 17:06:24.265 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.264410 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.410 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.409471 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.413 [INFO]: Completion request succeeded (7.11ms)
+2023-11-07 17:06:24.414 [INFO]: Generated 1 completions
+2023-11-07 17:06:24.414 [INFO]: provideInlineCompletionItems request succeeded (9.21ms)
+2023-11-07 17:06:24.425 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.424358 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.697 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.696605 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.701 [INFO]: Completion request succeeded (7.76ms)
+2023-11-07 17:06:24.702 [INFO]: Generated 1 completions
+2023-11-07 17:06:24.703 [INFO]: provideInlineCompletionItems request succeeded (9.85ms)
+2023-11-07 17:06:24.707 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.706944 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.833 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.832663 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.838 [INFO]: Completion request succeeded (8.42ms)
+2023-11-07 17:06:24.839 [INFO]: Generated 1 completions
+2023-11-07 17:06:24.839 [INFO]: provideInlineCompletionItems request succeeded (10.41ms)
+2023-11-07 17:06:24.844 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.843876 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.944 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.944121 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:24.949 [INFO]: Completion request succeeded (8.56ms)
+2023-11-07 17:06:24.950 [INFO]: Generated 1 completions
+2023-11-07 17:06:24.950 [INFO]: provideInlineCompletionItems request succeeded (10.43ms)
+2023-11-07 17:06:24.954 [INFO]: [Language Server (stderr)]:
+E1107 17:06:24.953982 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:25.054 [INFO]: [Language Server (stderr)]:
+E1107 17:06:25.054036 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:25.057 [INFO]: Completion request succeeded (5.16ms)
+2023-11-07 17:06:25.058 [INFO]: Generated 1 completions
+2023-11-07 17:06:25.058 [INFO]: provideInlineCompletionItems request succeeded (5.97ms)
+2023-11-07 17:06:25.060 [INFO]: [Language Server (stderr)]:
+E1107 17:06:25.059879 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:25.309 [INFO]: [Language Server (stderr)]:
+E1107 17:06:25.309243 68210 unleash.go:36] Unleash error: Version string empty
+
+2023-11-07 17:06:25.537 [INFO]: Completion request succeeded (230.36ms)
+2023-11-07 17:06:25.538 [INFO]: No completions were generated
+2023-11-07 17:06:25.538 [INFO]: provideInlineCompletionItems request succeeded (232.45ms)
+2023-11-07 17:06:59.791 [INFO]: Disposing language server process
+2023-11-07 17:06:59.792 [INFO]: Deleting manager directory: /tmp/485c5149-a899-42cb-bea2-7317e09c5079/codeium/manager
+2023-11-07 17:06:59.793 [INFO]: Successfully disposed language server

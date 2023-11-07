@@ -1,0 +1,54 @@
+1699301226834	Sync.LogManager	DEBUG	Flushing file log
+1699301226883	Sync.LogManager	DEBUG	Log cleanup threshold time: 1698437226883
+1699301226923	Sync.LogManager	DEBUG	Done deleting files.
+1699301575634	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1699301577229	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1699301578067	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1699301580697	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.sync.failed, sync: error.login.reason.network>
+1699301720758	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1699301720770	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1699301722685	Sync.RemoteTabs	INFO	Generating tab list with filter
+1699301722690	Sync.RemoteTabs	DEBUG	Processing client: {"id":"4ae8fe694b46c0abb2f32f96c42ba5a0","type":"client","name":"Firefox on samsung SM-S916U","clientType":"phone","lastModified":1699295515860,"tabs":[]}
+1699301722690	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 6 tabs.
+1699301725811	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.sync.failed, sync: error.login.reason.network>
+1699301726075	Sync.RemoteTabs	INFO	Doing a tab sync.
+1699301726075	Sync.Service	DEBUG	User-Agent: Firefox/119.0 (Linux x86_64) FxSync/1.121.0.20231023160744.desktop
+1699301726076	Sync.Service	INFO	Starting sync at 2023-11-06 14:15:26 in browser session mDCa76O0maZ8
+1699301726076	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1699301726078	Sync.Status	INFO	Resetting Status.
+1699301726078	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1699301726079	Sync.RemoteTabs	INFO	Generating tab list with filter
+1699301726086	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1699301726086	FirefoxAccounts	DEBUG	getOAuthToken enter
+1699301726086	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1699301726086	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1699301726086	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1699301726087	Sync.SyncAuthManager	INFO	Getting sync key
+1699301726087	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1699301726087	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1699301726088	FirefoxAccounts	DEBUG	getOAuthToken enter
+1699301726088	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1699301726088	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1699301726088	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1699301726088	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1699301726097	Sync.RemoteTabs	DEBUG	Processing client: {"id":"4ae8fe694b46c0abb2f32f96c42ba5a0","type":"client","name":"Firefox on samsung SM-S916U","clientType":"phone","lastModified":1699295515860,"tabs":[]}
+1699301726097	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 6 tabs.
+1699301726105	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1699301726105	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1699301726106	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1699301726106	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1699301726106	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1699301726106	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1699301726107	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1699301726107	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1699301726119	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/147255507/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1699301726120	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1699301726120	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1699301726120	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1699301726120	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1699301726120	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 6345265 ms.
+1699301726120	Sync.SyncScheduler	DEBUG	Next sync in 6345265 ms. (why=client-backoff-schedule)
+1699301726121	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1699301726124	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

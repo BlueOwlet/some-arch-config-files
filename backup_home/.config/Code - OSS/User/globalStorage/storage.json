@@ -10,14 +10,13 @@
             "file:///home/owl/.config/eww": "__default__profile__",
             "file:///home/owl/Desktop/local_backup": "__default__profile__",
             "file:///home/owl": "__default__profile__",
-            "file:///home/owl/config-files": "__default__profile__",
             "file:///home/owl/Desktop/craigslist": "__default__profile__",
+            "file:///home/owl/vyda": "__default__profile__",
+            "file:///home/owl/config-files/system": "__default__profile__",
             "file:///home/owl/interact": "__default__profile__",
-            "file:///home/owl/vyda": "__default__profile__"
+            "file:///home/owl/config-files": "__default__profile__"
         },
-        "emptyWindows": {
-            "1699168398003": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "bec237179e9d22f8e4ec270b20795520340e96ce473e6f39e306de78e18a4b67",
@@ -26,23 +25,23 @@
         "folders": [
             {
                 "folderUri": "file:///home/owl/.config/eww"
+            },
+            {
+                "folderUri": "file:///home/owl/config-files"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1699168398003"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/owl/.config/Code - OSS/Backups/1699168398003",
+            "folder": "file:///home/owl/config-files",
+            "backupPath": "/home/owl/.config/Code - OSS/Backups/d98eefa6498fb8b0dacdc3928d33a226",
             "uiState": {
                 "mode": 1,
-                "x": 112,
+                "x": 22,
                 "y": 22,
-                "width": 827,
-                "height": 511
+                "width": 1876,
+                "height": 1036
             }
         },
         "openedWindows": []
@@ -95,12 +94,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/owl/vyda",
-                                        "path": "/home/owl/vyda",
+                                        "external": "file:///home/owl/config-files",
+                                        "path": "/home/owl/config-files",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/vyda"
+                                    "label": "~/config-files"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -117,23 +116,34 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/owl/config-files/system",
+                                        "path": "/home/owl/config-files/system",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files/system"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/vyda",
+                                        "path": "/home/owl/vyda",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/vyda"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/owl/Desktop/craigslist",
                                         "path": "/home/owl/Desktop/craigslist",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Desktop/craigslist"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/config-files",
-                                        "path": "/home/owl/config-files",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config-files"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -191,17 +201,6 @@
                                     "label": "~/Desktop/vyda/vyda-project"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/Desktop/vyda",
-                                        "path": "/home/owl/Desktop/vyda",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/vyda"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -214,6 +213,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/hypr/hyprland.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/In",
+                                        "path": "/home/owl/In",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/In"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owl/config-files/system/backup",
+                                        "path": "/home/owl/config-files/system/backup",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/config-files/system/backup"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -293,28 +314,6 @@
                                     "label": "~/vyda/backup.sh"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.config/starship.toml",
-                                        "path": "/home/owl/.config/starship.toml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/starship.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/owl/.config/eww/eww.yuck",
-                                        "path": "/home/owl/.config/eww/eww.yuck",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/eww/eww.yuck"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -370,6 +369,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -501,6 +507,10 @@
                         "label": "&&Close Editor"
                     },
                     {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
+                    },
+                    {
                         "id": "workbench.action.closeWindow",
                         "label": "Clos&&e Window"
                     },
@@ -533,6 +543,22 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
+                    },
+                    {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File URL"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File URL From..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -1450,6 +1476,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1615,8 +1646,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",

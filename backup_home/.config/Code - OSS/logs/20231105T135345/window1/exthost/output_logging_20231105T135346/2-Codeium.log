@@ -1,0 +1,44 @@
+2023-11-05 13:53:47.416 [INFO]: No proxy settings found
+2023-11-05 13:53:47.892 [INFO]: Creating manager directory: /tmp/c41ef254-6b37-4fb7-b36b-dda90c8cb699/codeium/manager
+2023-11-05 13:53:48.179 [INFO]: Using cached LS with valid crc32: /home/owl/.vscode-oss/extensions/codeium.codeium-1.2.97-universal/dist/f3bda5b3eb4dc7c7904cb8e9a3156e9f25f1ebb9/language_server_linux_x64
+2023-11-05 13:53:48.190 [INFO]: Language server started
+2023-11-05 13:53:48.289 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.288748 84613 main.go:452] Starting language server manager with pid 84613
+I1105 13:53:48.288844 84613 main.go:106] Manager acquired its lock file /tmp/c41ef254-6b37-4fb7-b36b-dda90c8cb699/codeium/manager/locks/manager.lock
+2023-11-05 13:53:48.290 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.289247 84613 main.go:228] Waiting for random port file in /tmp/c41ef254-6b37-4fb7-b36b-dda90c8cb699/codeium/manager/child_random_port_1699214028288914631_2896266029248461267 to be created
+2023-11-05 13:53:48.392 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.391447 84628 main.go:446] Starting language server process with pid 84628
+2023-11-05 13:53:48.392 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.392167 84628 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I1105 13:53:48.392184 84628 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I1105 13:53:48.392207 84628 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2023-11-05 13:53:48.633 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.632361 84628 api_server_client.go:115] Successfully dialed proxy
+2023-11-05 13:53:48.633 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.632606 84628 server.go:387] Successfully created API server client
+I1105 13:53:48.632620 84628 api_server_client.go:115] Successfully dialed proxy
+I1105 13:53:48.632775 84628 server.go:393] Successfully created API streaming client
+2023-11-05 13:53:48.659 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.658164 84628 server.go:402] Successfully initialized tokenizer
+I1105 13:53:48.658210 84628 unleash.go:57] Initializing Unleash with production environment
+2023-11-05 13:53:48.875 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.875042 84628 unleash.go:71] Successfully initialized unleash
+2023-11-05 13:53:48.889 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.888381 84628 server.go:481] Successfully created completion provider
+I1105 13:53:48.888409 84628 server.go:513] Child process attempting to acquire lock file /tmp/c41ef254-6b37-4fb7-b36b-dda90c8cb699/codeium/manager/locks/child_lock_1699214028288948994_8859010932479614197
+I1105 13:53:48.888455 84628 server.go:523] Child process acquired lock file /tmp/c41ef254-6b37-4fb7-b36b-dda90c8cb699/codeium/manager/locks/child_lock_1699214028288948994_8859010932479614197
+2023-11-05 13:53:48.889 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.888848 84628 server.go:186] Language server will attempt to listen on host 127.0.0.1
+I1105 13:53:48.888964 84628 server.go:230] Language server listening on random port at 37483
+I1105 13:53:48.888973 84628 server.go:232] LSP listening on random port at 42595
+2023-11-05 13:53:48.889 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.889792 84628 web_server.go:147] Chat Web Server listening at ws://127.0.0.1:43627
+2023-11-05 13:53:48.892 [INFO]: [Language Server (stdout)]:
+42595
+2023-11-05 13:53:48.904 [INFO]: [Language Server (stderr)]:
+I1105 13:53:48.892007 84613 main.go:264] Language server manager found random server port 37483
+I1105 13:53:48.892025 84613 main.go:265] Language server manager found random lsp port 42595
+I1105 13:53:48.892035 84613 main.go:272] Language server manager attempting to connect to language server at 127.0.0.1:37483
+I1105 13:53:48.904153 84613 main.go:143] Fixing language server port at 37483
+I1105 13:53:48.904171 84613 main.go:323] Language server manager successfully connected to new language server at 127.0.0.1:37483

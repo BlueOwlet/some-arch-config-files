@@ -1,0 +1,8 @@
+[2023-11-05 19:54:02.763] [GIT  ] [/home/owl/interact] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • detected dubious ownership in repository at '/home/owl/interact' • To add an exception for this directory, call: •  • 	git config --global --add safe.directory /home/owl/interact [841ms] (slow)
+
+[2023-11-05 19:54:03.103] [GIT  ] [/home/owl/interact] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • detected dubious ownership in repository at '/home/owl/interact' • To add an exception for this directory, call: •  • 	git config --global --add safe.directory /home/owl/interact [159ms]
+
+[2023-11-05 19:54:03.528] [GIT  ] [/home/owl/interact/frontend/src/views] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • detected dubious ownership in repository at '/home/owl/interact' • To add an exception for this directory, call: •  • 	git config --global --add safe.directory /home/owl/interact [411ms]
+
+[2023-11-05 19:59:31.916] [GIT  ] [/home/owl/interact/InterAct/operation] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • detected dubious ownership in repository at '/home/owl/interact' • To add an exception for this directory, call: •  • 	git config --global --add safe.directory /home/owl/interact [321ms]
+
